@@ -1,0 +1,1632 @@
+{
+  "request": {
+    "origin": "Москва",
+    "departure": "2027-04-16T08:00:00+03:00",
+    "return_by": "2027-04-19T22:00:00+03:00",
+    "budget_rub": 45000.0,
+    "interests": {
+      "culture": 0.45,
+      "history": 0.3,
+      "nature": 0.15,
+      "food": 0.1
+    },
+    "weights": {
+      "interests": 0.45,
+      "economy": 0.25,
+      "weather": 0.15,
+      "convenience": 0.15
+    },
+    "temperature_min_c": 10.0,
+    "temperature_max_c": 25.0,
+    "max_rain_mm": 2.0,
+    "max_wind_kmh": 30.0,
+    "max_walk_km_day": 10.0,
+    "active_minutes_day": 360,
+    "meal_minutes": 30,
+    "event_buffer_minutes": 10,
+    "min_success_rate": 0.9,
+    "good_cost_rub": 25000.0,
+    "required_poi_ids": [],
+    "excluded_poi_ids": []
+  },
+  "plans": [
+    {
+      "id": "27b96ba60dc31ca2",
+      "destination_id": "yaroslavl",
+      "destination_name": "Ярославль",
+      "mode": "demo",
+      "transport_id": "yaroslavl_spring_transport_0",
+      "stay_id": "yaroslavl_spring_stay_0",
+      "days": [
+        {
+          "day": "2027-04-16",
+          "start": "2027-04-16T14:00:00+03:00",
+          "end": "2027-04-16T14:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-16T14:00:00+03:00",
+              "end": "2027-04-16T14:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 0,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-17",
+          "start": "2027-04-17T09:00:00+03:00",
+          "end": "2027-04-17T12:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "osm_node_9797469218",
+              "name": "Дом Кудасова",
+              "start": "2027-04-17T09:25:00+03:00",
+              "end": "2027-04-17T09:55:00+03:00",
+              "walk_before_m": 1623,
+              "travel_before_minutes": 25,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_9797461818",
+              "name": "Дом вице-губернатора",
+              "start": "2027-04-17T10:12:00+03:00",
+              "end": "2027-04-17T10:42:00+03:00",
+              "walk_before_m": 1230,
+              "travel_before_minutes": 17,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_9797469217",
+              "name": "Дом Салтыкова",
+              "start": "2027-04-17T10:51:00+03:00",
+              "end": "2027-04-17T11:21:00+03:00",
+              "walk_before_m": 632,
+              "travel_before_minutes": 9,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-17T12:00:00+03:00",
+              "end": "2027-04-17T12:30:00+03:00",
+              "walk_before_m": 1246,
+              "travel_before_minutes": 19,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 4731,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-18",
+          "start": "2027-04-18T09:00:00+03:00",
+          "end": "2027-04-18T13:36:00+03:00",
+          "visits": [
+            {
+              "poi_id": "osm_node_3691243291",
+              "name": "Музей зарубежного искусства",
+              "start": "2027-04-18T10:00:00+03:00",
+              "end": "2027-04-18T11:00:00+03:00",
+              "walk_before_m": 1945,
+              "travel_before_minutes": 30,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_13899150801",
+              "name": "Дом винного пристава",
+              "start": "2027-04-18T11:05:00+03:00",
+              "end": "2027-04-18T11:35:00+03:00",
+              "walk_before_m": 349,
+              "travel_before_minutes": 5,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_14096622701",
+              "name": "Гостиница Царьград",
+              "start": "2027-04-18T11:38:00+03:00",
+              "end": "2027-04-18T12:08:00+03:00",
+              "walk_before_m": 212,
+              "travel_before_minutes": 3,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_13899227601",
+              "name": "Гостиница Бристоль 1910 г.",
+              "start": "2027-04-18T12:13:00+03:00",
+              "end": "2027-04-18T12:43:00+03:00",
+              "walk_before_m": 320,
+              "travel_before_minutes": 5,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-18T13:06:00+03:00",
+              "end": "2027-04-18T13:36:00+03:00",
+              "walk_before_m": 1502,
+              "travel_before_minutes": 23,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 4328,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-19",
+          "start": "2027-04-19T09:00:00+03:00",
+          "end": "2027-04-19T14:38:00+03:00",
+          "visits": [
+            {
+              "poi_id": "osm_node_13899156601",
+              "name": "Дом Рожкова",
+              "start": "2027-04-19T09:14:00+03:00",
+              "end": "2027-04-19T09:44:00+03:00",
+              "walk_before_m": 892,
+              "travel_before_minutes": 14,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_181714144",
+              "name": "Сад Дружбы",
+              "start": "2027-04-19T09:56:00+03:00",
+              "end": "2027-04-19T10:26:00+03:00",
+              "walk_before_m": 873,
+              "travel_before_minutes": 12,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_1068267335",
+              "name": "Рождественский сад",
+              "start": "2027-04-19T10:33:00+03:00",
+              "end": "2027-04-19T11:03:00+03:00",
+              "walk_before_m": 491,
+              "travel_before_minutes": 7,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_14096612601",
+              "name": "Ансамбль зданий казенных палат",
+              "start": "2027-04-19T11:12:00+03:00",
+              "end": "2027-04-19T11:42:00+03:00",
+              "walk_before_m": 675,
+              "travel_before_minutes": 9,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_31106566",
+              "name": "о. Даманский",
+              "start": "2027-04-19T11:57:00+03:00",
+              "end": "2027-04-19T12:27:00+03:00",
+              "walk_before_m": 1077,
+              "travel_before_minutes": 15,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_13899075402",
+              "name": "Дом Донцовых-Лопатиных",
+              "start": "2027-04-19T12:48:00+03:00",
+              "end": "2027-04-19T13:18:00+03:00",
+              "walk_before_m": 1500,
+              "travel_before_minutes": 21,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-19T13:38:00+03:00",
+              "end": "2027-04-19T14:08:00+03:00",
+              "walk_before_m": 1309,
+              "travel_before_minutes": 20,
+              "kind": "meal"
+            },
+            {
+              "poi_id": "osm_way_75839775",
+              "name": "Бутусовский парк",
+              "start": "2027-04-19T14:08:00+03:00",
+              "end": "2027-04-19T14:38:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "visit"
+            }
+          ],
+          "walk_m": 6817,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        }
+      ],
+      "criteria": {
+        "interests": 0.9,
+        "economy": 1.0,
+        "weather": 0.5625,
+        "convenience": 0.6022507019847997
+      },
+      "score": 0.82971260529772,
+      "nominal_cost_rub": 23890.0,
+      "expected_cost_rub": 24369.528778497883,
+      "cost_breakdown": {
+        "transport": 5500.0,
+        "stay": 9240.0,
+        "food": 7200.0,
+        "transfers": 1600.0,
+        "admissions": 350.0
+      },
+      "solver": {
+        "status": "FEASIBLE",
+        "objective": 0.82963323,
+        "best_bound": 0.85496633,
+        "relative_gap": 0.03053530052068912,
+        "elapsed_seconds": 1.820819667000002,
+        "time_limit_seconds": 1.7898460416666666,
+        "objective_mode": "utility",
+        "scenario_constraints": 0,
+        "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+      },
+      "planning_success_rate": 0.97,
+      "scenario_seed": 10059286,
+      "risk": {
+        "sample_count": 1000,
+        "seed": 11059289,
+        "success_rate": 0.971,
+        "wilson_lower": 0.9586616416633058,
+        "wilson_upper": 0.9797335518433012,
+        "required_rate": 0.9,
+        "robust_by_model": true,
+        "cost_c50_rub": 24579.860667556466,
+        "cost_c90_rub": 27387.598775985836,
+        "budget_failure_rate": 0.0,
+        "interpretation": "Доля совместно успешных сценариев при принятых предположениях; закрытия проверяются отдельно",
+        "independent_from_planning": true
+      },
+      "stress_tests": [
+        {
+          "closed_poi_id": "osm_node_9797469218",
+          "status": "BACKUP_VALIDATED",
+          "score_difference": -0.05530363455331999,
+          "cost_difference_rub": 4549.018487694979,
+          "backup": {
+            "id": "8626a01b3f35b7d5",
+            "destination_id": "yaroslavl",
+            "destination_name": "Ярославль",
+            "mode": "demo",
+            "transport_id": "yaroslavl_spring_transport_0",
+            "stay_id": "yaroslavl_spring_stay_0",
+            "days": [
+              {
+                "day": "2027-04-16",
+                "start": "2027-04-16T14:00:00+03:00",
+                "end": "2027-04-16T19:38:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-16T14:00:00+03:00",
+                    "end": "2027-04-16T14:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "meal"
+                  },
+                  {
+                    "poi_id": "osm_node_13899156601",
+                    "name": "Дом Рожкова",
+                    "start": "2027-04-16T14:44:00+03:00",
+                    "end": "2027-04-16T15:14:00+03:00",
+                    "walk_before_m": 892,
+                    "travel_before_minutes": 14,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_3691243291",
+                    "name": "Музей зарубежного искусства",
+                    "start": "2027-04-16T15:33:00+03:00",
+                    "end": "2027-04-16T16:33:00+03:00",
+                    "walk_before_m": 1365,
+                    "travel_before_minutes": 19,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_8446053517",
+                    "name": "Музей имени В. И. Орлова",
+                    "start": "2027-04-16T16:38:00+03:00",
+                    "end": "2027-04-16T17:38:00+03:00",
+                    "walk_before_m": 365,
+                    "travel_before_minutes": 5,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_way_31106566",
+                    "name": "о. Даманский",
+                    "start": "2027-04-16T17:54:00+03:00",
+                    "end": "2027-04-16T18:24:00+03:00",
+                    "walk_before_m": 1187,
+                    "travel_before_minutes": 16,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_14096612601",
+                    "name": "Ансамбль зданий казенных палат",
+                    "start": "2027-04-16T18:39:00+03:00",
+                    "end": "2027-04-16T19:09:00+03:00",
+                    "walk_before_m": 1077,
+                    "travel_before_minutes": 15,
+                    "kind": "visit"
+                  }
+                ],
+                "walk_m": 6766,
+                "return_minutes": 29,
+                "return_walk_m": 1880
+              },
+              {
+                "day": "2027-04-17",
+                "start": "2027-04-17T09:00:00+03:00",
+                "end": "2027-04-17T14:45:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "osm_node_9797469217",
+                    "name": "Дом Салтыкова",
+                    "start": "2027-04-17T09:19:00+03:00",
+                    "end": "2027-04-17T09:49:00+03:00",
+                    "walk_before_m": 1246,
+                    "travel_before_minutes": 19,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_14096683501",
+                    "name": "Алёшино подворье",
+                    "start": "2027-04-17T10:00:00+03:00",
+                    "end": "2027-04-17T11:00:00+03:00",
+                    "walk_before_m": 502,
+                    "travel_before_minutes": 7,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_14096632601",
+                    "name": "Галерея актёрской славы Леонида Куравлёва",
+                    "start": "2027-04-17T11:01:00+03:00",
+                    "end": "2027-04-17T11:31:00+03:00",
+                    "walk_before_m": 69,
+                    "travel_before_minutes": 1,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_9797461818",
+                    "name": "Дом вице-губернатора",
+                    "start": "2027-04-17T11:34:00+03:00",
+                    "end": "2027-04-17T12:04:00+03:00",
+                    "walk_before_m": 196,
+                    "travel_before_minutes": 3,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_way_1068267335",
+                    "name": "Рождественский сад",
+                    "start": "2027-04-17T12:16:00+03:00",
+                    "end": "2027-04-17T12:46:00+03:00",
+                    "walk_before_m": 829,
+                    "travel_before_minutes": 12,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_8639804184",
+                    "name": "Мемориальный Дом-музей Л.В. Собинова",
+                    "start": "2027-04-17T13:01:00+03:00",
+                    "end": "2027-04-17T14:01:00+03:00",
+                    "walk_before_m": 1050,
+                    "travel_before_minutes": 15,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-17T14:15:00+03:00",
+                    "end": "2027-04-17T14:45:00+03:00",
+                    "walk_before_m": 908,
+                    "travel_before_minutes": 14,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 4800,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              },
+              {
+                "day": "2027-04-18",
+                "start": "2027-04-18T09:00:00+03:00",
+                "end": "2027-04-18T14:49:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "osm_node_4178546094",
+                    "name": "Музей Эйнштейна",
+                    "start": "2027-04-18T10:00:00+03:00",
+                    "end": "2027-04-18T11:00:00+03:00",
+                    "walk_before_m": 1283,
+                    "travel_before_minutes": 20,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_13899150801",
+                    "name": "Дом винного пристава",
+                    "start": "2027-04-18T11:13:00+03:00",
+                    "end": "2027-04-18T11:43:00+03:00",
+                    "walk_before_m": 936,
+                    "travel_before_minutes": 13,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_9276674225",
+                    "name": "Интерактивный музей здоровья",
+                    "start": "2027-04-18T11:48:00+03:00",
+                    "end": "2027-04-18T12:48:00+03:00",
+                    "walk_before_m": 306,
+                    "travel_before_minutes": 5,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_14096622701",
+                    "name": "Гостиница Царьград",
+                    "start": "2027-04-18T12:51:00+03:00",
+                    "end": "2027-04-18T13:21:00+03:00",
+                    "walk_before_m": 208,
+                    "travel_before_minutes": 3,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_13899227601",
+                    "name": "Гостиница Бристоль 1910 г.",
+                    "start": "2027-04-18T13:26:00+03:00",
+                    "end": "2027-04-18T13:56:00+03:00",
+                    "walk_before_m": 320,
+                    "travel_before_minutes": 5,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-18T14:19:00+03:00",
+                    "end": "2027-04-18T14:49:00+03:00",
+                    "walk_before_m": 1502,
+                    "travel_before_minutes": 23,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 4555,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              },
+              {
+                "day": "2027-04-19",
+                "start": "2027-04-19T09:00:00+03:00",
+                "end": "2027-04-19T12:42:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "osm_way_75839775",
+                    "name": "Бутусовский парк",
+                    "start": "2027-04-19T09:00:00+03:00",
+                    "end": "2027-04-19T09:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_9799028117",
+                    "name": "Дом Иванова 17в",
+                    "start": "2027-04-19T09:45:00+03:00",
+                    "end": "2027-04-19T10:15:00+03:00",
+                    "walk_before_m": 1101,
+                    "travel_before_minutes": 15,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_13899075402",
+                    "name": "Дом Донцовых-Лопатиных",
+                    "start": "2027-04-19T10:25:00+03:00",
+                    "end": "2027-04-19T10:55:00+03:00",
+                    "walk_before_m": 702,
+                    "travel_before_minutes": 10,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_way_181714144",
+                    "name": "Сад Дружбы",
+                    "start": "2027-04-19T11:17:00+03:00",
+                    "end": "2027-04-19T11:47:00+03:00",
+                    "walk_before_m": 1598,
+                    "travel_before_minutes": 22,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-19T12:12:00+03:00",
+                    "end": "2027-04-19T12:42:00+03:00",
+                    "walk_before_m": 1649,
+                    "travel_before_minutes": 25,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 5050,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              }
+            ],
+            "criteria": {
+              "interests": 0.9,
+              "economy": 0.8040726366903569,
+              "weather": 0.5875,
+              "convenience": 0.5351054104787378
+            },
+            "score": 0.7744089707444,
+            "nominal_cost_rub": 27940.0,
+            "expected_cost_rub": 28918.54726619286,
+            "cost_breakdown": {
+              "transport": 5500.0,
+              "stay": 9240.0,
+              "food": 7200.0,
+              "transfers": 1600.0,
+              "admissions": 4400.0
+            },
+            "solver": {
+              "status": "FEASIBLE",
+              "objective": 0.7744089707444001,
+              "best_bound": null,
+              "relative_gap": null,
+              "elapsed_seconds": 6.324489750000005,
+              "time_limit_seconds": 2.0,
+              "objective_mode": "utility",
+              "scenario_constraints": 85,
+              "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+            },
+            "planning_success_rate": 1.0,
+            "scenario_seed": 10060285,
+            "risk": {
+              "sample_count": 1000,
+              "seed": 11060288,
+              "success_rate": 1.0,
+              "wilson_lower": 0.996173241514445,
+              "wilson_upper": 1,
+              "required_rate": 0.9,
+              "robust_by_model": true,
+              "cost_c50_rub": 28782.35723677825,
+              "cost_c90_rub": 31745.90174613741,
+              "budget_failure_rate": 0.0,
+              "interpretation": "Доля совместно успешных сценариев при принятых предположениях; закрытия проверяются отдельно",
+              "independent_from_planning": true
+            },
+            "stress_tests": []
+          },
+          "explanation": "Новый маршрут повторно проверен; частота закрытий не оценивалась"
+        }
+      ]
+    },
+    {
+      "id": "8e803dcbe8c019de",
+      "destination_id": "saint_petersburg",
+      "destination_name": "Санкт-Петербург",
+      "mode": "demo",
+      "transport_id": "saint_petersburg_spring_transport_1",
+      "stay_id": "saint_petersburg_spring_stay_1",
+      "days": [
+        {
+          "day": "2027-04-16",
+          "start": "2027-04-16T14:00:00+03:00",
+          "end": "2027-04-16T16:12:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-16T14:00:00+03:00",
+              "end": "2027-04-16T14:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            },
+            {
+              "poi_id": "osm_node_4889041320",
+              "name": "Alex Show",
+              "start": "2027-04-16T14:51:00+03:00",
+              "end": "2027-04-16T15:51:00+03:00",
+              "walk_before_m": 1337,
+              "travel_before_minutes": 21,
+              "kind": "visit"
+            }
+          ],
+          "walk_m": 2674,
+          "return_minutes": 21,
+          "return_walk_m": 1337
+        },
+        {
+          "day": "2027-04-17",
+          "start": "2027-04-17T09:00:00+03:00",
+          "end": "2027-04-17T12:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-17T12:00:00+03:00",
+              "end": "2027-04-17T12:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 0,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-18",
+          "start": "2027-04-18T09:00:00+03:00",
+          "end": "2027-04-18T12:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-18T12:00:00+03:00",
+              "end": "2027-04-18T12:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 0,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-19",
+          "start": "2027-04-19T09:00:00+03:00",
+          "end": "2027-04-19T12:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-19T12:00:00+03:00",
+              "end": "2027-04-19T12:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 0,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        }
+      ],
+      "criteria": {
+        "interests": 0.0975,
+        "economy": 0.19330232524346247,
+        "weather": 0.3525,
+        "convenience": 0.8500751992062914
+      },
+      "score": 0.2725868611918093,
+      "nominal_cost_rub": 39980.0,
+      "expected_cost_rub": 41133.95349513075,
+      "cost_breakdown": {
+        "transport": 13750.0,
+        "stay": 18480.0,
+        "food": 6000.0,
+        "transfers": 1000.0,
+        "admissions": 750.0
+      },
+      "solver": {
+        "status": "FEASIBLE",
+        "objective": 0.2725868611918093,
+        "best_bound": null,
+        "relative_gap": null,
+        "elapsed_seconds": 1.990866542000001,
+        "time_limit_seconds": 1.9935751865238094,
+        "objective_mode": "utility",
+        "scenario_constraints": 11,
+        "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+      },
+      "planning_success_rate": 0.9,
+      "scenario_seed": 10423193,
+      "risk": {
+        "sample_count": 1000,
+        "seed": 11423196,
+        "success_rate": 0.883,
+        "wilson_lower": 0.8615970906192936,
+        "wilson_upper": 0.9014716123807713,
+        "required_rate": 0.9,
+        "robust_by_model": false,
+        "cost_c50_rub": 41023.449459308475,
+        "cost_c90_rub": 45225.6518930774,
+        "budget_failure_rate": 0.117,
+        "interpretation": "Доля совместно успешных сценариев при принятых предположениях; закрытия проверяются отдельно",
+        "independent_from_planning": true
+      },
+      "stress_tests": [
+        {
+          "closed_poi_id": "osm_node_4889041320",
+          "status": "BACKUP_VALIDATED",
+          "score_difference": 0.01479405387537197,
+          "cost_difference_rub": -70.36917829167214,
+          "backup": {
+            "id": "18d22046a4fa822c",
+            "destination_id": "saint_petersburg",
+            "destination_name": "Санкт-Петербург",
+            "mode": "demo",
+            "transport_id": "saint_petersburg_spring_transport_1",
+            "stay_id": "saint_petersburg_spring_stay_1",
+            "days": [
+              {
+                "day": "2027-04-16",
+                "start": "2027-04-16T14:00:00+03:00",
+                "end": "2027-04-16T16:10:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-16T14:00:00+03:00",
+                    "end": "2027-04-16T14:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "meal"
+                  },
+                  {
+                    "poi_id": "osm_node_5259677323",
+                    "name": "Art of Foto",
+                    "start": "2027-04-16T14:50:00+03:00",
+                    "end": "2027-04-16T15:50:00+03:00",
+                    "walk_before_m": 1307,
+                    "travel_before_minutes": 20,
+                    "kind": "visit"
+                  }
+                ],
+                "walk_m": 2614,
+                "return_minutes": 20,
+                "return_walk_m": 1307
+              },
+              {
+                "day": "2027-04-17",
+                "start": "2027-04-17T09:00:00+03:00",
+                "end": "2027-04-17T12:30:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-17T12:00:00+03:00",
+                    "end": "2027-04-17T12:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 0,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              },
+              {
+                "day": "2027-04-18",
+                "start": "2027-04-18T09:00:00+03:00",
+                "end": "2027-04-18T12:30:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-18T12:00:00+03:00",
+                    "end": "2027-04-18T12:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 0,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              },
+              {
+                "day": "2027-04-19",
+                "start": "2027-04-19T09:00:00+03:00",
+                "end": "2027-04-19T12:30:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-19T12:00:00+03:00",
+                    "end": "2027-04-19T12:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 0,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              }
+            ],
+            "criteria": {
+              "interests": 0.0975,
+              "economy": 0.19682078415804607,
+              "weather": 0.445,
+              "convenience": 0.8503381268511315
+            },
+            "score": 0.2873809150671813,
+            "nominal_cost_rub": 40080.0,
+            "expected_cost_rub": 41063.58431683908,
+            "cost_breakdown": {
+              "transport": 13750.0,
+              "stay": 18480.0,
+              "food": 6000.0,
+              "transfers": 1000.0,
+              "admissions": 850.0
+            },
+            "solver": {
+              "status": "FEASIBLE",
+              "objective": 0.2873809150671813,
+              "best_bound": null,
+              "relative_gap": null,
+              "elapsed_seconds": 5.9643379580000015,
+              "time_limit_seconds": 2.0,
+              "objective_mode": "utility",
+              "scenario_constraints": 78,
+              "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+            },
+            "planning_success_rate": 0.92,
+            "scenario_seed": 10424192,
+            "risk": {
+              "sample_count": 1000,
+              "seed": 11424195,
+              "success_rate": 0.908,
+              "wilson_lower": 0.8884912646437558,
+              "wilson_upper": 0.9243861004320312,
+              "required_rate": 0.9,
+              "robust_by_model": false,
+              "cost_c50_rub": 40749.12516177626,
+              "cost_c90_rub": 44857.95464222642,
+              "budget_failure_rate": 0.092,
+              "interpretation": "Доля совместно успешных сценариев при принятых предположениях; закрытия проверяются отдельно",
+              "independent_from_planning": true
+            },
+            "stress_tests": []
+          },
+          "explanation": "Новый маршрут повторно проверен; частота закрытий не оценивалась"
+        }
+      ]
+    },
+    {
+      "id": "b7701b002fcec321",
+      "destination_id": "yaroslavl",
+      "destination_name": "Ярославль",
+      "mode": "demo",
+      "transport_id": "yaroslavl_spring_transport_0",
+      "stay_id": "yaroslavl_spring_stay_0",
+      "days": [
+        {
+          "day": "2027-04-16",
+          "start": "2027-04-16T14:00:00+03:00",
+          "end": "2027-04-16T18:35:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-16T14:00:00+03:00",
+              "end": "2027-04-16T14:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            },
+            {
+              "poi_id": "osm_node_9797469217",
+              "name": "Дом Салтыкова",
+              "start": "2027-04-16T14:49:00+03:00",
+              "end": "2027-04-16T15:19:00+03:00",
+              "walk_before_m": 1246,
+              "travel_before_minutes": 19,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_13899075402",
+              "name": "Дом Донцовых-Лопатиных",
+              "start": "2027-04-16T15:27:00+03:00",
+              "end": "2027-04-16T15:57:00+03:00",
+              "walk_before_m": 569,
+              "travel_before_minutes": 8,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_9799028117",
+              "name": "Дом Иванова 17в",
+              "start": "2027-04-16T16:07:00+03:00",
+              "end": "2027-04-16T16:37:00+03:00",
+              "walk_before_m": 702,
+              "travel_before_minutes": 10,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_4178546094",
+              "name": "Музей Эйнштейна",
+              "start": "2027-04-16T16:48:00+03:00",
+              "end": "2027-04-16T17:48:00+03:00",
+              "walk_before_m": 783,
+              "travel_before_minutes": 11,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_75839775",
+              "name": "Бутусовский парк",
+              "start": "2027-04-16T18:05:00+03:00",
+              "end": "2027-04-16T18:35:00+03:00",
+              "walk_before_m": 1268,
+              "travel_before_minutes": 17,
+              "kind": "visit"
+            }
+          ],
+          "walk_m": 4568,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-17",
+          "start": "2027-04-17T09:00:00+03:00",
+          "end": "2027-04-17T12:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-17T12:00:00+03:00",
+              "end": "2027-04-17T12:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 0,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-18",
+          "start": "2027-04-18T09:00:00+03:00",
+          "end": "2027-04-18T12:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-18T12:00:00+03:00",
+              "end": "2027-04-18T12:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 0,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-19",
+          "start": "2027-04-19T09:00:00+03:00",
+          "end": "2027-04-19T14:04:00+03:00",
+          "visits": [
+            {
+              "poi_id": "osm_way_181714144",
+              "name": "Сад Дружбы",
+              "start": "2027-04-19T09:25:00+03:00",
+              "end": "2027-04-19T09:55:00+03:00",
+              "walk_before_m": 1649,
+              "travel_before_minutes": 25,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_13899227601",
+              "name": "Гостиница Бристоль 1910 г.",
+              "start": "2027-04-19T10:08:00+03:00",
+              "end": "2027-04-19T10:38:00+03:00",
+              "walk_before_m": 956,
+              "travel_before_minutes": 13,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_1068267335",
+              "name": "Рождественский сад",
+              "start": "2027-04-19T10:48:00+03:00",
+              "end": "2027-04-19T11:18:00+03:00",
+              "walk_before_m": 718,
+              "travel_before_minutes": 10,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_14096622701",
+              "name": "Гостиница Царьград",
+              "start": "2027-04-19T11:30:00+03:00",
+              "end": "2027-04-19T12:00:00+03:00",
+              "walk_before_m": 895,
+              "travel_before_minutes": 12,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_14096632601",
+              "name": "Галерея актёрской славы Леонида Куравлёва",
+              "start": "2027-04-19T12:03:00+03:00",
+              "end": "2027-04-19T12:33:00+03:00",
+              "walk_before_m": 216,
+              "travel_before_minutes": 3,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_9797461818",
+              "name": "Дом вице-губернатора",
+              "start": "2027-04-19T12:36:00+03:00",
+              "end": "2027-04-19T13:06:00+03:00",
+              "walk_before_m": 196,
+              "travel_before_minutes": 3,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-19T13:34:00+03:00",
+              "end": "2027-04-19T14:04:00+03:00",
+              "walk_before_m": 1819,
+              "travel_before_minutes": 28,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 6449,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        }
+      ],
+      "criteria": {
+        "interests": 0.8025,
+        "economy": 0.9946794177622196,
+        "weather": 0.5625,
+        "convenience": 0.6629882019847997
+      },
+      "score": 0.7936180847382749,
+      "nominal_cost_rub": 24590.0,
+      "expected_cost_rub": 25106.411644755608,
+      "cost_breakdown": {
+        "transport": 5500.0,
+        "stay": 9240.0,
+        "food": 7200.0,
+        "transfers": 1600.0,
+        "admissions": 1050.0
+      },
+      "solver": {
+        "status": "FEASIBLE",
+        "objective": 11017.0,
+        "best_bound": 1166.0,
+        "relative_gap": 0.8941635653989289,
+        "elapsed_seconds": 2.0074413329999956,
+        "time_limit_seconds": 2.0,
+        "objective_mode": "convenience",
+        "scenario_constraints": 0,
+        "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+      },
+      "planning_success_rate": 1.0,
+      "scenario_seed": 10059286,
+      "risk": {
+        "sample_count": 1000,
+        "seed": 11059289,
+        "success_rate": 0.997,
+        "wilson_lower": 0.9912169859464969,
+        "wilson_upper": 0.9989792161188614,
+        "required_rate": 0.9,
+        "robust_by_model": true,
+        "cost_c50_rub": 25314.035262789217,
+        "cost_c90_rub": 28123.684726967378,
+        "budget_failure_rate": 0.0,
+        "interpretation": "Доля совместно успешных сценариев при принятых предположениях; закрытия проверяются отдельно",
+        "independent_from_planning": true
+      },
+      "stress_tests": [
+        {
+          "closed_poi_id": "osm_node_9797469217",
+          "status": "BACKUP_VALIDATED",
+          "score_difference": 0.016004601833535803,
+          "cost_difference_rub": -436.46385592293154,
+          "backup": {
+            "id": "0f20697378d4682f",
+            "destination_id": "yaroslavl",
+            "destination_name": "Ярославль",
+            "mode": "demo",
+            "transport_id": "yaroslavl_spring_transport_0",
+            "stay_id": "yaroslavl_spring_stay_0",
+            "days": [
+              {
+                "day": "2027-04-16",
+                "start": "2027-04-16T14:00:00+03:00",
+                "end": "2027-04-16T17:37:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-16T14:00:00+03:00",
+                    "end": "2027-04-16T14:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "meal"
+                  },
+                  {
+                    "poi_id": "osm_way_31106566",
+                    "name": "о. Даманский",
+                    "start": "2027-04-16T15:12:00+03:00",
+                    "end": "2027-04-16T15:42:00+03:00",
+                    "walk_before_m": 2747,
+                    "travel_before_minutes": 42,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_14096612601",
+                    "name": "Ансамбль зданий казенных палат",
+                    "start": "2027-04-16T15:57:00+03:00",
+                    "end": "2027-04-16T16:27:00+03:00",
+                    "walk_before_m": 1077,
+                    "travel_before_minutes": 15,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_9797469218",
+                    "name": "Дом Кудасова",
+                    "start": "2027-04-16T16:42:00+03:00",
+                    "end": "2027-04-16T17:12:00+03:00",
+                    "walk_before_m": 1088,
+                    "travel_before_minutes": 15,
+                    "kind": "visit"
+                  }
+                ],
+                "walk_m": 6535,
+                "return_minutes": 25,
+                "return_walk_m": 1623
+              },
+              {
+                "day": "2027-04-17",
+                "start": "2027-04-17T09:00:00+03:00",
+                "end": "2027-04-17T12:30:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "osm_node_14096632601",
+                    "name": "Галерея актёрской славы Леонида Куравлёва",
+                    "start": "2027-04-17T09:27:00+03:00",
+                    "end": "2027-04-17T09:57:00+03:00",
+                    "walk_before_m": 1758,
+                    "travel_before_minutes": 27,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-17T12:00:00+03:00",
+                    "end": "2027-04-17T12:30:00+03:00",
+                    "walk_before_m": 1758,
+                    "travel_before_minutes": 27,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 3516,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              },
+              {
+                "day": "2027-04-18",
+                "start": "2027-04-18T09:00:00+03:00",
+                "end": "2027-04-18T13:41:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "osm_way_1068267335",
+                    "name": "Рождественский сад",
+                    "start": "2027-04-18T09:27:00+03:00",
+                    "end": "2027-04-18T09:57:00+03:00",
+                    "walk_before_m": 1768,
+                    "travel_before_minutes": 27,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_3691243291",
+                    "name": "Музей зарубежного искусства",
+                    "start": "2027-04-18T10:04:00+03:00",
+                    "end": "2027-04-18T11:04:00+03:00",
+                    "walk_before_m": 514,
+                    "travel_before_minutes": 7,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_9797461818",
+                    "name": "Дом вице-губернатора",
+                    "start": "2027-04-18T11:11:00+03:00",
+                    "end": "2027-04-18T11:41:00+03:00",
+                    "walk_before_m": 495,
+                    "travel_before_minutes": 7,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_14096622701",
+                    "name": "Гостиница Царьград",
+                    "start": "2027-04-18T11:43:00+03:00",
+                    "end": "2027-04-18T12:13:00+03:00",
+                    "walk_before_m": 122,
+                    "travel_before_minutes": 2,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_13899227601",
+                    "name": "Гостиница Бристоль 1910 г.",
+                    "start": "2027-04-18T12:18:00+03:00",
+                    "end": "2027-04-18T12:48:00+03:00",
+                    "walk_before_m": 320,
+                    "travel_before_minutes": 5,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-18T13:11:00+03:00",
+                    "end": "2027-04-18T13:41:00+03:00",
+                    "walk_before_m": 1502,
+                    "travel_before_minutes": 23,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 4721,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              },
+              {
+                "day": "2027-04-19",
+                "start": "2027-04-19T09:00:00+03:00",
+                "end": "2027-04-19T12:38:00+03:00",
+                "visits": [
+                  {
+                    "poi_id": "osm_way_75839775",
+                    "name": "Бутусовский парк",
+                    "start": "2027-04-19T09:00:00+03:00",
+                    "end": "2027-04-19T09:30:00+03:00",
+                    "walk_before_m": 0,
+                    "travel_before_minutes": 0,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_13899156601",
+                    "name": "Дом Рожкова",
+                    "start": "2027-04-19T09:44:00+03:00",
+                    "end": "2027-04-19T10:14:00+03:00",
+                    "walk_before_m": 997,
+                    "travel_before_minutes": 14,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_9799028117",
+                    "name": "Дом Иванова 17в",
+                    "start": "2027-04-19T10:38:00+03:00",
+                    "end": "2027-04-19T11:08:00+03:00",
+                    "walk_before_m": 1734,
+                    "travel_before_minutes": 24,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "osm_node_13899075402",
+                    "name": "Дом Донцовых-Лопатиных",
+                    "start": "2027-04-19T11:18:00+03:00",
+                    "end": "2027-04-19T11:48:00+03:00",
+                    "walk_before_m": 702,
+                    "travel_before_minutes": 10,
+                    "kind": "visit"
+                  },
+                  {
+                    "poi_id": "__meal__",
+                    "name": "Обед около базы маршрута",
+                    "start": "2027-04-19T12:08:00+03:00",
+                    "end": "2027-04-19T12:38:00+03:00",
+                    "walk_before_m": 1309,
+                    "travel_before_minutes": 20,
+                    "kind": "meal"
+                  }
+                ],
+                "walk_m": 4742,
+                "return_minutes": 0,
+                "return_walk_m": 0
+              }
+            ],
+            "criteria": {
+              "interests": 0.8625,
+              "economy": 1.0,
+              "weather": 0.5875,
+              "convenience": 0.5558179104787377
+            },
+            "score": 0.8096226865718107,
+            "nominal_cost_rub": 23890.0,
+            "expected_cost_rub": 24669.947788832676,
+            "cost_breakdown": {
+              "transport": 5500.0,
+              "stay": 9240.0,
+              "food": 7200.0,
+              "transfers": 1600.0,
+              "admissions": 350.0
+            },
+            "solver": {
+              "status": "FEASIBLE",
+              "objective": 0.80952012,
+              "best_bound": 0.85663884,
+              "relative_gap": 0.05820574292829196,
+              "elapsed_seconds": 2.006137124999995,
+              "time_limit_seconds": 2.0,
+              "objective_mode": "utility",
+              "scenario_constraints": 0,
+              "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+            },
+            "planning_success_rate": 1.0,
+            "scenario_seed": 10060285,
+            "risk": {
+              "sample_count": 1000,
+              "seed": 11060288,
+              "success_rate": 1.0,
+              "wilson_lower": 0.996173241514445,
+              "wilson_upper": 1,
+              "required_rate": 0.9,
+              "robust_by_model": true,
+              "cost_c50_rub": 24524.3213493086,
+              "cost_c90_rub": 27359.077574089242,
+              "budget_failure_rate": 0.0,
+              "interpretation": "Доля совместно успешных сценариев при принятых предположениях; закрытия проверяются отдельно",
+              "independent_from_planning": true
+            },
+            "stress_tests": []
+          },
+          "explanation": "Новый маршрут повторно проверен; частота закрытий не оценивалась"
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "difference": 0.5571257441059106,
+      "contributions": {
+        "interests": 0.36112500000000003,
+        "economy": 0.20167441868913438,
+        "weather": 0.03149999999999999,
+        "convenience": -0.037173674583223765
+      },
+      "text": "интересы: +36.11 балла; экономичность: +20.17 балла; погода: +3.15 балла; удобство: -3.72 балла",
+      "first_id": "27b96ba60dc31ca2",
+      "second_id": "8e803dcbe8c019de"
+    },
+    {
+      "difference": 0.036094520559445106,
+      "contributions": {
+        "interests": 0.043875,
+        "economy": 0.0013301455594451062,
+        "weather": 0.0,
+        "convenience": -0.009110624999999997
+      },
+      "text": "интересы: +4.39 балла; экономичность: +0.13 балла; погода: +0.00 балла; удобство: -0.91 балла",
+      "first_id": "27b96ba60dc31ca2",
+      "second_id": "b7701b002fcec321"
+    }
+  ],
+  "diagnostics": [
+    {
+      "city": "saint_petersburg",
+      "transport": "saint_petersburg_spring_transport_0",
+      "stay": "saint_petersburg_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 2.002365708
+    },
+    {
+      "city": "saint_petersburg",
+      "transport": "saint_petersburg_spring_transport_0",
+      "stay": "saint_petersburg_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.9994711249999995
+    },
+    {
+      "city": "saint_petersburg",
+      "transport": "saint_petersburg_spring_transport_1",
+      "stay": "saint_petersburg_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.9990981669999996
+    },
+    {
+      "city": "saint_petersburg",
+      "transport": "saint_petersburg_spring_transport_1",
+      "stay": "saint_petersburg_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.990866542000001
+    },
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_0",
+      "stay": "kazan_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.9943355830000016
+    },
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_0",
+      "stay": "kazan_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.9949295409999994
+    },
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_1",
+      "stay": "kazan_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.9932343750000001
+    },
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_1",
+      "stay": "kazan_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 4.911415167000001,
+      "reason": "За лимит не найден маршрут, прошедший все проверки"
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_0",
+      "stay": "nizhny_novgorod_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.8057802920000015
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_0",
+      "stay": "nizhny_novgorod_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.8071574999999989
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_1",
+      "stay": "nizhny_novgorod_spring_stay_0",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 1.801395750000001,
+      "reason": "За лимит не найден маршрут, прошедший все проверки"
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_1",
+      "stay": "nizhny_novgorod_spring_stay_1",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 1.8009360829999999,
+      "reason": "За лимит не найден маршрут, прошедший все проверки"
+    },
+    {
+      "city": "yaroslavl",
+      "transport": "yaroslavl_spring_transport_0",
+      "stay": "yaroslavl_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.820819667000002
+    },
+    {
+      "city": "yaroslavl",
+      "transport": "yaroslavl_spring_transport_0",
+      "stay": "yaroslavl_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.7940135410000018
+    },
+    {
+      "city": "yaroslavl",
+      "transport": "yaroslavl_spring_transport_1",
+      "stay": "yaroslavl_spring_stay_0",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 1.787619625000005,
+      "reason": "За лимит не найден маршрут, прошедший все проверки"
+    },
+    {
+      "city": "yaroslavl",
+      "transport": "yaroslavl_spring_transport_1",
+      "stay": "yaroslavl_spring_stay_1",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 1.7871272080000011,
+      "reason": "За лимит не найден маршрут, прошедший все проверки"
+    },
+    {
+      "city": "kaliningrad",
+      "transport": "kaliningrad_spring_transport_0",
+      "stay": "kaliningrad_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.780315833000003
+    },
+    {
+      "city": "kaliningrad",
+      "transport": "kaliningrad_spring_transport_0",
+      "stay": "kaliningrad_spring_stay_1",
+      "status": "INFEASIBLE",
+      "elapsed_seconds": 0.0956148339999956,
+      "reason": "Ограничения несовместимы"
+    },
+    {
+      "city": "kaliningrad",
+      "transport": "kaliningrad_spring_transport_1",
+      "stay": "kaliningrad_spring_stay_0",
+      "status": "INFEASIBLE",
+      "elapsed_seconds": 0.09592204200000509,
+      "reason": "Ограничения несовместимы"
+    },
+    {
+      "city": "kaliningrad",
+      "transport": "kaliningrad_spring_transport_1",
+      "stay": "kaliningrad_spring_stay_1",
+      "status": "INFEASIBLE",
+      "elapsed_seconds": 0.07910395799999748,
+      "reason": "Ограничения несовместимы"
+    },
+    {
+      "city": "sochi",
+      "transport": "sochi_spring_transport_0",
+      "stay": "sochi_spring_stay_0",
+      "status": "INFEASIBLE",
+      "elapsed_seconds": 0.060522915999996485,
+      "reason": "Ограничения несовместимы"
+    },
+    {
+      "city": "sochi",
+      "transport": "sochi_spring_transport_0",
+      "stay": "sochi_spring_stay_1",
+      "status": "INFEASIBLE",
+      "elapsed_seconds": 0.049184457999999154,
+      "reason": "Ограничения несовместимы"
+    },
+    {
+      "city": "sochi",
+      "transport": "sochi_spring_transport_1",
+      "stay": "sochi_spring_stay_0",
+      "status": "INFEASIBLE",
+      "elapsed_seconds": 0.04666612500000156,
+      "reason": "Ограничения несовместимы"
+    },
+    {
+      "city": "sochi",
+      "transport": "sochi_spring_transport_1",
+      "stay": "sochi_spring_stay_1",
+      "status": "INFEASIBLE",
+      "elapsed_seconds": 0.04660845800000146,
+      "reason": "Ограничения несовместимы"
+    },
+    {
+      "city": "yaroslavl",
+      "objective_mode": "cost",
+      "status": "UNKNOWN"
+    },
+    {
+      "city": "yaroslavl",
+      "objective_mode": "convenience",
+      "status": "FEASIBLE"
+    }
+  ],
+  "metadata": {
+    "mode": "demo",
+    "notice": "Демонстрационный API: цены, доступность, расписания и предложения смоделированы. Названия и координаты объектов взяты из OSM. Данные не являются предложением бронирования.",
+    "as_of": "2026-11-12T00:00:00+03:00",
+    "created_at": "2026-11-12T08:13:23.743553+00:00",
+    "elapsed_seconds": 54.703646375000005,
+    "cache_hit": false,
+    "catalog_sha256": "101e9bf403332bade1393c7a39b325942b5a9c0ead69611df2f6ab9856bd46bf",
+    "code_sha256": "c5a418514ac2990f598877bfd0f1a7e569f12bec4ca7bc1b32ff0d81b3fe45eb",
+    "model_sha256": {
+      "saint_petersburg": "001408431b187775cb80cdcda6b10c7a1e711352b3f1af3aea7f3a49a8a3233f",
+      "kazan": "7147c2fe7db355ee3834f1d1781ee344f273757bced7f13e4a86a4c69490681a",
+      "nizhny_novgorod": "d8184ad14e10387e64afe5451c0cfa0b39adf9286815d66e443a69906dac7809",
+      "yaroslavl": "ebcd81f8b6b2509485f48ffad8045617464e9143c36ea21fb54cc8489fa62f16",
+      "kaliningrad": "a67c5ba173c42e537db8a5762a4a69ac180a511a64ef2d2c522b69107ee05536",
+      "sochi": "23c35e5c5d5190a27d3dfecc0c67fda21b054aa0884cf020369f07e08b3e4074"
+    },
+    "settings": {
+      "pair_seconds": 2.0,
+      "total_seconds": 60.0,
+      "planning_scenarios": 100,
+      "evaluation_scenarios": 1000,
+      "seed": 42,
+      "utility_tolerance": 0.05,
+      "alternatives": true,
+      "closure_stress": true
+    },
+    "city_count": 6,
+    "combinations_total": 24,
+    "candidate_count": 13,
+    "fewer_than_three": false,
+    "scope": "Лучшие найденные решения; Парето-отбор только среди построенных вариантов",
+    "daily_policy": "Начало не раньше 09:00, обед 12:00–15:00 около базы; ожидание входит в дневной лимит",
+    "luggage_policy": "В последний день выезд из номера перед прогулкой; багаж у путешественника, трансфер забирает у базы"
+  },
+  "suggestions": []
+}

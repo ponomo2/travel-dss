@@ -1,0 +1,30 @@
+{
+  "origin": "Москва",
+  "departure": "2027-04-16T08:00:00+03:00",
+  "return_by": "2027-04-19T22:00:00+03:00",
+  "budget_rub": 45000.0,
+  "interests": {
+    "culture": 0.45,
+    "history": 0.3,
+    "nature": 0.15,
+    "food": 0.1
+  },
+  "weights": {
+    "interests": 0.45,
+    "economy": 0.25,
+    "weather": 0.15,
+    "convenience": 0.15
+  },
+  "temperature_min_c": 10.0,
+  "temperature_max_c": 25.0,
+  "max_rain_mm": 2.0,
+  "max_wind_kmh": 30.0,
+  "max_walk_km_day": 10.0,
+  "active_minutes_day": 360,
+  "meal_minutes": 30,
+  "event_buffer_minutes": 10,
+  "min_success_rate": 0.9,
+  "good_cost_rub": 25000.0,
+  "required_poi_ids": [],
+  "excluded_poi_ids": []
+}

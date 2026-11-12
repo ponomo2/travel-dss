@@ -1,0 +1,392 @@
+{
+  "request": {
+    "origin": "Москва",
+    "departure": "2027-04-16T08:00:00+03:00",
+    "return_by": "2027-04-19T22:00:00+03:00",
+    "budget_rub": 45000.0,
+    "interests": {
+      "culture": 0.45,
+      "history": 0.3,
+      "nature": 0.15,
+      "food": 0.1
+    },
+    "weights": {
+      "interests": 0.45,
+      "economy": 0.25,
+      "weather": 0.15,
+      "convenience": 0.15
+    },
+    "temperature_min_c": 10.0,
+    "temperature_max_c": 25.0,
+    "max_rain_mm": 2.0,
+    "max_wind_kmh": 30.0,
+    "max_walk_km_day": 10.0,
+    "active_minutes_day": 360,
+    "meal_minutes": 30,
+    "event_buffer_minutes": 10,
+    "min_success_rate": 0.9,
+    "good_cost_rub": 25000.0,
+    "required_poi_ids": [],
+    "excluded_poi_ids": []
+  },
+  "plans": [
+    {
+      "id": "99d4f9812abf6b37",
+      "destination_id": "nizhny_novgorod",
+      "destination_name": "Нижний Новгород",
+      "mode": "demo",
+      "transport_id": "nizhny_novgorod_spring_transport_0",
+      "stay_id": "nizhny_novgorod_spring_stay_0",
+      "days": [
+        {
+          "day": "2027-04-16",
+          "start": "2027-04-16T14:00:00+03:00",
+          "end": "2027-04-16T19:28:00+03:00",
+          "visits": [
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-16T14:00:00+03:00",
+              "end": "2027-04-16T14:30:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            },
+            {
+              "poi_id": "osm_node_1768844072",
+              "name": "Арт-галерея «Кладовка»",
+              "start": "2027-04-16T14:43:00+03:00",
+              "end": "2027-04-16T15:43:00+03:00",
+              "walk_before_m": 845,
+              "travel_before_minutes": 13,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_11773549425",
+              "name": "Город в шоколаде",
+              "start": "2027-04-16T15:45:00+03:00",
+              "end": "2027-04-16T16:45:00+03:00",
+              "walk_before_m": 92,
+              "travel_before_minutes": 2,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_342750012",
+              "name": "Сквер на Алексеевской 24",
+              "start": "2027-04-16T16:55:00+03:00",
+              "end": "2027-04-16T17:25:00+03:00",
+              "walk_before_m": 697,
+              "travel_before_minutes": 10,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_151302805",
+              "name": "ННГУ им. Н. И. Лобачевского. Институт международных отношений и мировой истории",
+              "start": "2027-04-16T17:37:00+03:00",
+              "end": "2027-04-16T18:07:00+03:00",
+              "walk_before_m": 887,
+              "travel_before_minutes": 12,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_151905925",
+              "name": "Нижегородский острог",
+              "start": "2027-04-16T18:26:00+03:00",
+              "end": "2027-04-16T18:56:00+03:00",
+              "walk_before_m": 1353,
+              "travel_before_minutes": 19,
+              "kind": "visit"
+            }
+          ],
+          "walk_m": 5968,
+          "return_minutes": 32,
+          "return_walk_m": 2094
+        },
+        {
+          "day": "2027-04-17",
+          "start": "2027-04-17T09:00:00+03:00",
+          "end": "2027-04-17T13:23:00+03:00",
+          "visits": [
+            {
+              "poi_id": "osm_way_151302809",
+              "name": "Нижегородский хоровой колледж",
+              "start": "2027-04-17T09:08:00+03:00",
+              "end": "2027-04-17T09:38:00+03:00",
+              "walk_before_m": 496,
+              "travel_before_minutes": 8,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_9128493459",
+              "name": "Живой музей ремёсел",
+              "start": "2027-04-17T10:00:00+03:00",
+              "end": "2027-04-17T11:00:00+03:00",
+              "walk_before_m": 1038,
+              "travel_before_minutes": 14,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_5141071786",
+              "name": "Дворец вице-губернатора",
+              "start": "2027-04-17T11:12:00+03:00",
+              "end": "2027-04-17T11:42:00+03:00",
+              "walk_before_m": 898,
+              "travel_before_minutes": 12,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_91062753",
+              "name": "Ошарская площадь",
+              "start": "2027-04-17T11:59:00+03:00",
+              "end": "2027-04-17T12:29:00+03:00",
+              "walk_before_m": 1244,
+              "travel_before_minutes": 17,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-17T12:53:00+03:00",
+              "end": "2027-04-17T13:23:00+03:00",
+              "walk_before_m": 1577,
+              "travel_before_minutes": 24,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 5253,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-18",
+          "start": "2027-04-18T09:00:00+03:00",
+          "end": "2027-04-18T12:54:00+03:00",
+          "visits": [
+            {
+              "poi_id": "osm_node_12104682901",
+              "name": "Игрушечный музей",
+              "start": "2027-04-18T10:00:00+03:00",
+              "end": "2027-04-18T11:00:00+03:00",
+              "walk_before_m": 829,
+              "travel_before_minutes": 13,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_13011467301",
+              "name": "Балкон",
+              "start": "2027-04-18T11:07:00+03:00",
+              "end": "2027-04-18T11:37:00+03:00",
+              "walk_before_m": 488,
+              "travel_before_minutes": 7,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_918325991",
+              "name": "Губернаторский сад",
+              "start": "2027-04-18T11:54:00+03:00",
+              "end": "2027-04-18T12:24:00+03:00",
+              "walk_before_m": 1253,
+              "travel_before_minutes": 17,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-18T12:24:00+03:00",
+              "end": "2027-04-18T12:54:00+03:00",
+              "walk_before_m": 0,
+              "travel_before_minutes": 0,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 2570,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        },
+        {
+          "day": "2027-04-19",
+          "start": "2027-04-19T09:00:00+03:00",
+          "end": "2027-04-19T12:30:00+03:00",
+          "visits": [
+            {
+              "poi_id": "osm_way_250924922",
+              "name": "Государственный центральный банк",
+              "start": "2027-04-19T09:24:00+03:00",
+              "end": "2027-04-19T09:54:00+03:00",
+              "walk_before_m": 1572,
+              "travel_before_minutes": 24,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_node_5141071785",
+              "name": "Гарнизонная казарма",
+              "start": "2027-04-19T10:10:00+03:00",
+              "end": "2027-04-19T10:40:00+03:00",
+              "walk_before_m": 1133,
+              "travel_before_minutes": 16,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "osm_way_151302742",
+              "name": "Детский парк",
+              "start": "2027-04-19T10:50:00+03:00",
+              "end": "2027-04-19T11:20:00+03:00",
+              "walk_before_m": 740,
+              "travel_before_minutes": 10,
+              "kind": "visit"
+            },
+            {
+              "poi_id": "__meal__",
+              "name": "Обед около базы маршрута",
+              "start": "2027-04-19T12:00:00+03:00",
+              "end": "2027-04-19T12:30:00+03:00",
+              "walk_before_m": 774,
+              "travel_before_minutes": 12,
+              "kind": "meal"
+            }
+          ],
+          "walk_m": 4219,
+          "return_minutes": 0,
+          "return_walk_m": 0
+        }
+      ],
+      "criteria": {
+        "interests": 0.915,
+        "economy": 0.8077449132787163,
+        "weather": 0.61,
+        "convenience": 0.5748331653439482
+      },
+      "score": 0.7914112031212713,
+      "nominal_cost_rub": 28110.0,
+      "expected_cost_rub": 28845.101734425672,
+      "cost_breakdown": {
+        "transport": 7150.0,
+        "stay": 10560.0,
+        "food": 6800.0,
+        "transfers": 1400.0,
+        "admissions": 2200.0
+      },
+      "solver": {
+        "status": "FEASIBLE",
+        "objective": 0.79129742,
+        "best_bound": 0.82605374,
+        "relative_gap": 0.04392320652328166,
+        "elapsed_seconds": 1.504773415999999,
+        "time_limit_seconds": 1.5,
+        "objective_mode": "utility",
+        "scenario_constraints": 0,
+        "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+      },
+      "planning_success_rate": 1.0,
+      "scenario_seed": 4441145,
+      "risk": {
+        "sample_count": 1000,
+        "seed": 5441148,
+        "success_rate": 0.998,
+        "wilson_lower": 0.9927371921365079,
+        "wilson_upper": 0.9994513564118793,
+        "required_rate": 0.9,
+        "robust_by_model": true,
+        "cost_c50_rub": 28840.412630481762,
+        "cost_c90_rub": 31900.873410076154,
+        "budget_failure_rate": 0.0,
+        "interpretation": "Доля совместно успешных сценариев при принятых предположениях; закрытия проверяются отдельно",
+        "independent_from_planning": true
+      },
+      "stress_tests": []
+    }
+  ],
+  "comparisons": [],
+  "diagnostics": [
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_0",
+      "stay": "kazan_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.5063179170000005
+    },
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_0",
+      "stay": "kazan_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.5054363750000022
+    },
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_1",
+      "stay": "kazan_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.5038332499999996
+    },
+    {
+      "city": "kazan",
+      "transport": "kazan_spring_transport_1",
+      "stay": "kazan_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 6.082222499999997
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_0",
+      "stay": "nizhny_novgorod_spring_stay_0",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 1.504773415999999
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_0",
+      "stay": "nizhny_novgorod_spring_stay_1",
+      "status": "FEASIBLE",
+      "elapsed_seconds": 6.334857499999998
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_1",
+      "stay": "nizhny_novgorod_spring_stay_0",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 0.6863093750000004,
+      "reason": "За лимит не найден маршрут, прошедший все проверки"
+    },
+    {
+      "city": "nizhny_novgorod",
+      "transport": "nizhny_novgorod_spring_transport_1",
+      "stay": "nizhny_novgorod_spring_stay_1",
+      "status": "UNKNOWN",
+      "elapsed_seconds": 0.6821760000000054,
+      "reason": "За лимит не найден маршрут, прошедший все проверки"
+    }
+  ],
+  "metadata": {
+    "mode": "demo",
+    "notice": "Демонстрационный API: цены, доступность, расписания и предложения смоделированы. Названия и координаты объектов взяты из OSM. Данные не являются предложением бронирования.",
+    "as_of": "2026-11-12T00:00:00+03:00",
+    "created_at": "2026-11-12T07:15:14.377588+00:00",
+    "elapsed_seconds": 20.003047042000002,
+    "cache_hit": false,
+    "catalog_sha256": "101e9bf403332bade1393c7a39b325942b5a9c0ead69611df2f6ab9856bd46bf",
+    "code_sha256": "8de75094b302ae1f654f8399939d07be88c73a88a63a39fe218d0ada329387a4",
+    "model_sha256": {
+      "kazan": "7147c2fe7db355ee3834f1d1781ee344f273757bced7f13e4a86a4c69490681a",
+      "nizhny_novgorod": "d8184ad14e10387e64afe5451c0cfa0b39adf9286815d66e443a69906dac7809"
+    },
+    "settings": {
+      "pair_seconds": 1.5,
+      "total_seconds": 20.0,
+      "planning_scenarios": 100,
+      "evaluation_scenarios": 1000,
+      "seed": 42,
+      "utility_tolerance": 0.05,
+      "alternatives": true,
+      "closure_stress": true
+    },
+    "city_count": 2,
+    "combinations_total": 8,
+    "candidate_count": 6,
+    "fewer_than_three": true,
+    "scope": "Лучшие найденные решения; Парето-отбор только среди построенных вариантов",
+    "daily_policy": "Начало не раньше 09:00, обед 12:00–15:00 около базы; ожидание входит в дневной лимит",
+    "luggage_policy": "В последний день выезд из номера перед прогулкой; багаж у путешественника, трансфер забирает у базы"
+  },
+  "suggestions": []
+}

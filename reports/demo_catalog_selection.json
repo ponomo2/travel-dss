@@ -1,0 +1,48 @@
+{
+  "mode": "demo",
+  "as_of": "2026-11-12T00:00:00+03:00",
+  "notice": "Демонстрационный API: цены, доступность, расписания и предложения смоделированы. Названия и координаты объектов взяты из OSM. Данные не являются предложением бронирования.",
+  "city": "Казань",
+  "pois": 30,
+  "opening_intervals": 104,
+  "base_cost_estimates": [
+    {
+      "transport_id": "kazan_spring_transport_0",
+      "stay_id": "kazan_spring_stay_0",
+      "cost_without_admissions": {
+        "minimum": 26237.5,
+        "typical": 32350.0,
+        "maximum": 41100.0
+      }
+    },
+    {
+      "transport_id": "kazan_spring_transport_0",
+      "stay_id": "kazan_spring_stay_1",
+      "cost_without_admissions": {
+        "minimum": 30164.5,
+        "typical": 36970.0,
+        "maximum": 46644.0
+      }
+    },
+    {
+      "transport_id": "kazan_spring_transport_1",
+      "stay_id": "kazan_spring_stay_0",
+      "cost_without_admissions": {
+        "minimum": 29042.5,
+        "typical": 35650.0,
+        "maximum": 45060.0
+      }
+    },
+    {
+      "transport_id": "kazan_spring_transport_1",
+      "stay_id": "kazan_spring_stay_1",
+      "cost_without_admissions": {
+        "minimum": 32969.5,
+        "typical": 40270.0,
+        "maximum": 50604.0
+      }
+    }
+  ],
+  "budget_rub": 45000.0,
+  "interpretation": "Смета включает дорогу, все ночи, питание и два трансфера; билеты добавляются после выбора объектов"
+}

@@ -1,0 +1,7 @@
+      date  prediction_c   lower_c   upper_c
+2027-04-16     14.511470 12.551613 20.238351
+2027-04-17     14.648029 12.688172 20.374910
+2027-04-18     14.794265 12.834409 20.521147
+2027-04-19     14.995341 13.035484 20.722222
+{"kind": "seasonal_estimate", "model": "baseline", "test_mae_c": 2.5663569709073792, "test_interval_coverage": 0.6164383561643836, "nominal_interval_coverage": 0.8, "note": "Сезонная оценка; покрытие интервала не гарантировано"}
+{"weather_comfort": 0.765, "kind": "seasonal_estimate", "model": "baseline"}
