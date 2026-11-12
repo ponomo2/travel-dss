@@ -1,0 +1,211 @@
+{
+  "$defs": {
+    "Distribution": {
+      "additionalProperties": false,
+      "properties": {
+        "culture": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Culture",
+          "type": "number"
+        },
+        "history": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "History",
+          "type": "number"
+        },
+        "nature": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Nature",
+          "type": "number"
+        },
+        "food": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Food",
+          "type": "number"
+        }
+      },
+      "title": "Distribution",
+      "type": "object"
+    },
+    "Weights": {
+      "additionalProperties": false,
+      "properties": {
+        "interests": {
+          "default": 0.45,
+          "minimum": 0,
+          "title": "Interests",
+          "type": "number"
+        },
+        "economy": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Economy",
+          "type": "number"
+        },
+        "weather": {
+          "default": 0.15,
+          "minimum": 0,
+          "title": "Weather",
+          "type": "number"
+        },
+        "convenience": {
+          "default": 0.15,
+          "minimum": 0,
+          "title": "Convenience",
+          "type": "number"
+        }
+      },
+      "title": "Weights",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "origin": {
+      "const": "Москва",
+      "default": "Москва",
+      "title": "Origin",
+      "type": "string"
+    },
+    "departure": {
+      "format": "date-time",
+      "title": "Departure",
+      "type": "string"
+    },
+    "return_by": {
+      "format": "date-time",
+      "title": "Return By",
+      "type": "string"
+    },
+    "budget_rub": {
+      "exclusiveMinimum": 0,
+      "title": "Budget Rub",
+      "type": "number"
+    },
+    "interests": {
+      "$ref": "#/$defs/Distribution"
+    },
+    "weights": {
+      "$ref": "#/$defs/Weights"
+    },
+    "weight_method": {
+      "default": "swing",
+      "enum": [
+        "swing",
+        "ahp"
+      ],
+      "title": "Weight Method",
+      "type": "string"
+    },
+    "ahp_matrix": {
+      "anyOf": [
+        {
+          "items": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Ahp Matrix"
+    },
+    "temperature_min_c": {
+      "default": 15,
+      "title": "Temperature Min C",
+      "type": "number"
+    },
+    "temperature_max_c": {
+      "default": 28,
+      "title": "Temperature Max C",
+      "type": "number"
+    },
+    "max_rain_mm": {
+      "default": 2,
+      "minimum": 0,
+      "title": "Max Rain Mm",
+      "type": "number"
+    },
+    "max_wind_kmh": {
+      "default": 30,
+      "minimum": 0,
+      "title": "Max Wind Kmh",
+      "type": "number"
+    },
+    "max_walk_km_day": {
+      "default": 10,
+      "exclusiveMinimum": 0,
+      "title": "Max Walk Km Day",
+      "type": "number"
+    },
+    "active_minutes_day": {
+      "default": 360,
+      "exclusiveMinimum": 0,
+      "maximum": 1440,
+      "title": "Active Minutes Day",
+      "type": "integer"
+    },
+    "meal_minutes": {
+      "default": 30,
+      "exclusiveMinimum": 0,
+      "title": "Meal Minutes",
+      "type": "integer"
+    },
+    "event_buffer_minutes": {
+      "default": 10,
+      "minimum": 0,
+      "title": "Event Buffer Minutes",
+      "type": "integer"
+    },
+    "min_success_rate": {
+      "default": 0.9,
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "title": "Min Success Rate",
+      "type": "number"
+    },
+    "good_cost_rub": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Good Cost Rub"
+    },
+    "required_poi_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Required Poi Ids",
+      "type": "array"
+    },
+    "excluded_poi_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Excluded Poi Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "departure",
+    "return_by",
+    "budget_rub"
+  ],
+  "title": "TripRequest",
+  "type": "object"
+}

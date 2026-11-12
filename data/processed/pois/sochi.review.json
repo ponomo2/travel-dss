@@ -1,0 +1,140 @@
+[
+  {
+    "id": "osm_way_1326416165",
+    "name": "Комсомольский сквер",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_51161949",
+    "name": "Кооперативный сквер",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_51414271",
+    "name": "Лунапарк",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_26797620",
+    "name": "Парк культуры и отдыха «Ривьера»",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_51416849",
+    "name": "Площадь искусств",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1494969554",
+    "name": "Сад Русско-Японской дружбы",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_node_4474634991",
+    "name": "Арт-галерея \"Форт\"",
+    "_category": "museum",
+    "_website": "http://www.sochi-fort.ru"
+  },
+  {
+    "id": "osm_node_738220461",
+    "name": "Музей истории Сочи",
+    "_category": "museum",
+    "_website": "http://museumsochi.ru"
+  },
+  {
+    "id": "osm_node_4535240490",
+    "name": "ООО \"ИгорьМарин\"",
+    "_category": "attraction",
+    "_website": "http://m.vk.com/Igormarine"
+  },
+  {
+    "id": "osm_node_11891870754",
+    "name": "Вечный огонь",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_8287056717",
+    "name": "Дача Хлудова",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13731754263",
+    "name": "Деревянная свинка",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_11634232456",
+    "name": "Дольмен",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_3907120481",
+    "name": "Литературно-мемориальный музей Н. Островского",
+    "_category": "museum",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13962003301",
+    "name": "Мега музей СССР",
+    "_category": "museum",
+    "_website": null
+  },
+  {
+    "id": "osm_node_2025020791",
+    "name": "Мозаика \"Ленин\"",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_way_316504879",
+    "name": "Музей ретро автомобилей",
+    "_category": "museum",
+    "_website": null
+  },
+  {
+    "id": "osm_way_51149786",
+    "name": "Музей спортивной славы Сочи",
+    "_category": "museum",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13718435728",
+    "name": "Сочи 2014",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_way_305706193",
+    "name": "Сталагмит",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13718429798",
+    "name": "Форт Александрия (стена)",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_way_51416885",
+    "name": "Художественный музей",
+    "_category": "museum",
+    "_website": null
+  },
+  {
+    "id": "osm_node_11748874469",
+    "name": "вилла Вера",
+    "_category": "attraction",
+    "_website": null
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "saint_petersburg",
+    "name": "Санкт-Петербург",
+    "latitude": 59.9386,
+    "longitude": 30.3141,
+    "timezone": "Europe/Moscow"
+  },
+  {
+    "id": "kazan",
+    "name": "Казань",
+    "latitude": 55.7887,
+    "longitude": 49.1221,
+    "timezone": "Europe/Moscow"
+  },
+  {
+    "id": "nizhny_novgorod",
+    "name": "Нижний Новгород",
+    "latitude": 56.3269,
+    "longitude": 44.0059,
+    "timezone": "Europe/Moscow"
+  },
+  {
+    "id": "yaroslavl",
+    "name": "Ярославль",
+    "latitude": 57.6261,
+    "longitude": 39.8845,
+    "timezone": "Europe/Moscow"
+  },
+  {
+    "id": "kaliningrad",
+    "name": "Калининград",
+    "latitude": 54.7104,
+    "longitude": 20.5109,
+    "timezone": "Europe/Kaliningrad"
+  },
+  {
+    "id": "sochi",
+    "name": "Сочи",
+    "latitude": 43.5855,
+    "longitude": 39.7231,
+    "timezone": "Europe/Moscow"
+  }
+]

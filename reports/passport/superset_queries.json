@@ -1,0 +1,63 @@
+{
+  "superset_version": "4.1.4",
+  "verification": "real Flask REST API, authenticated; not a mocked database query",
+  "charts": [
+    {
+      "chart_id": 1,
+      "chart": "Направления: полезность, расходы и риск",
+      "http_status": 200,
+      "rows": 3,
+      "columns": [
+        "city",
+        "score",
+        "nominal_cost_rub",
+        "cost_c90_rub",
+        "success_rate",
+        "solver_status"
+      ],
+      "status": "success"
+    },
+    {
+      "chart_id": 2,
+      "chart": "Качество прогноза на независимом 2025 году",
+      "http_status": 200,
+      "rows": 6,
+      "columns": [
+        "city",
+        "mae_c",
+        "coverage_80",
+        "interval_width_c",
+        "model"
+      ],
+      "status": "success"
+    },
+    {
+      "chart_id": 3,
+      "chart": "Температура: факт и сезонный прогноз, Ярославль",
+      "http_status": 200,
+      "rows": 365,
+      "columns": [
+        "__timestamp",
+        "ERA5, факт",
+        "Сезонный прогноз"
+      ],
+      "status": "success"
+    },
+    {
+      "chart_id": 4,
+      "chart": "Расписание посещений",
+      "http_status": 200,
+      "rows": 40,
+      "columns": [
+        "city",
+        "date",
+        "name",
+        "start",
+        "end",
+        "walk_before_m"
+      ],
+      "status": "success"
+    }
+  ],
+  "dashboard_export_http_status": 200
+}

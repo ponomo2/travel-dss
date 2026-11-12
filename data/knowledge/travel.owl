@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:travel="https://example.org/travel-dss#"
+>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_3907120481">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Литературно-мемориальный музей Н. Островского</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_51149786">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей спортивной славы Сочи</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_250924922">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Государственный центральный банк</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_8521190125">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей чая</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#TransportOffer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Транспорт</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/travel-dss#Offer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_12153910621">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Зоологический музей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1234995463">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Ярославский музей-заповедник</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_summer_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15390.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_91062753">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Ошарская площадь</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_277633796">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Государственный музей изобразительных искусств Республики Татарстан</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_918325991">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Губернаторский сад</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13002498714">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Бизон</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_summer_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10969.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13899150801">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом винного пристава</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_997577042">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Плавучий маяк «Ирбенский»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4605191782">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Vnutri</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_101558579">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Галерея современного искусства</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_2297015499">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Выставочный зал «Зачатская башня»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_6456229789">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Мольберт</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_14096683501">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Алёшино подворье</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139262">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Буй АБС ГМ-4000</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1560588471">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сквер Мать-Россия</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139263">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Буй навигационный светащий</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_31106566">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">о. Даманский</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#locatedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdfs:range rdf:resource="https://example.org/travel-dss#Destination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_10112046571">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Минералогический музей СПбГУ</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9791272953">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом татарской книги</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_82176829">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">сад Эрмитаж</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#SyntheticPOI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Демонстрационный объект</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/travel-dss#NeedsConfirmationPOI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_60734809">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Историко-художественный музей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_8491526949">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">кутюр-шоу "Медвежий угол"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5259677323">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Art of Foto</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_152110807">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Усадьба Рукавишниковых</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4889041322">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом наоборот</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_winter_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9797469217">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом Салтыкова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_12104682901">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Игрушечный музей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#priceRub">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1453211254">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">сквер "Зилант"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_316504879">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей ретро автомобилей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_6929993786">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Казанской Иконы</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_6403146958">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Теней</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_305706193">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сталагмит</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13718429798">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Форт Александрия (стена)</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#IndoorPOI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Объект в помещении</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/travel-dss#POI"/>
+    <owl:disjointWith rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_147599581">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом-музей Добролюбова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_151302742">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Детский парк</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_12863078763">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Игра</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_winter_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21250.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13962003301">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Мега музей СССР</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#StayOffer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Жилье</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/travel-dss#Offer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_23076273">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Исаакиевский сквер</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_3691243291">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей зарубежного искусства</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#OutdoorPOI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Объект на открытом воздухе</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/travel-dss#POI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9797461818">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом вице-губернатора</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_188173828">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Мирового океана – экспозиционный корпус Глубина</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_spring_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4915750773">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом вверх дном</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_108952921">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">сад дворца Юсуповых</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_winter_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5141071785">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Гарнизонная казарма</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_10283929801">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Woo-hoo!</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13011467301">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Балкон</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_122359449">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сквер Баки Урманче</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_143954521">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Юнусовская площадь</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_81560016">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сад имени Кирова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_spring_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13200.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_309796655">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Восточное крыло Главного штаба</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_winter_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6250.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_99288846">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сквер Лобачевского</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1768844092">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Русский музей фотографии</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9273835617">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Ярославский музей фотографии</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_3302933087">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Нижегородский государственный выставочный комплекс</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_7794915044">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Movie Art</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1319011122">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сад любви</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_40371211">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">парк Чёрное озеро</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_90681702">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей изобразительных искусств</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_132325340">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сквер энергетиков</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1472706736">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">сквер Зайни Султана</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_14096632601">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Галерея актёрской славы Леонида Куравлёва</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139290">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Звездный зонтик</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_spring_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_winter_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16800.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_44898055">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей истории города Ярославля</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad">
+    <rdf:type rdf:resource="https://example.org/travel-dss#Destination"/>
+    <rdfs:label xml:lang="ru">Калининград</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13975353632">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Квестап</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_winter_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_152110849">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Нижегородский государственный историко-архитектурный музей-заповедник</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5252474255">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей чак-чака</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_summer_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16200.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_997577027">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Гидрофон</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_summer_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8438.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_spring_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23375.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_summer_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18144.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#winter">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TripWindow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1808680330">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей речного флота</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13142525343">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Клуб Шарык</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_151302805">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">ННГУ им. Н. И. Лобачевского. Институт международных отношений и мировой истории</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_winter_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8125.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_summer_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15876.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_181714144">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сад Дружбы</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_10000167221">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Гильдия парфюмеров</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139270">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Закрытая спасательная шлюпка</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na26e33fd63c0470ca39c639115dc7905">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/travel-dss#confirmationRequired"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#Offer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Предложение</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9883968512">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Геологический музей имени А. А. Штукенберга</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_151905925">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Нижегородский острог</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_51414271">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Лунапарк</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13030181876">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом Art</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_60732869">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Парк Маринеско</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_151548233">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей-квартира А.М. Горького</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11748874469">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">вилла Вера</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_spring_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4535240490">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">ООО "ИгорьМарин"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1515211295">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей В. В. Набокова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11397782853">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дверь в Хогвартс</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_173638032">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Научно-исследовательское судно "Космонавт Виктор Пацаев"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_spring_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6875.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_winter_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_8287056717">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дача Хлудова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11773549425">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Город в шоколаде</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_14096622701">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Гостиница Царьград</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_winter_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12600.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_433786485">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">сквер митрополита Андриана</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_summer_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19845.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4924914493">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Внутри человека</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1494969554">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сад Русско-Японской дружбы</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5649720576">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Route 66</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4590740289">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Эмоций</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_summer_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1564547670">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Парк Юных Натуралистов</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_26797620">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Парк культуры и отдыха «Ривьера»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4618193425">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Резиденция Государыни Главной Масленицы Страны</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_151302809">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Нижегородский хоровой колледж</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5487842936">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Галерея—мастерская Зайцева</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_winter_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_spring_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10560.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_853053301">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей мирового океана «Планета Океан»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_188173825">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Выставочный корпус «Пакгауз»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4953958351">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Зимний дворец Петра I</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_964688408">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Ярославский художественный музей (Губернаторский дом)</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139220">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Буй автономной буйковой станции АБС ГМ-2000</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13718435728">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сочи 2014</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1808680323">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей истории художественных промыслов Нижегородской области</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1768844072">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Арт-галерея «Кладовка»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1768844096">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Филиал музея-заповедника А.С. Пушкина</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4437884663">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом Великана</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9797469218">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом Кудасова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5141071786">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дворец вице-губернатора</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139309">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Альтернативная энергетическая химическая установка гоа "Мир"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_spring_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13860.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_summer_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25312.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13899075402">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом Донцовых-Лопатиных</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_173642988">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">СРТ-129</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_spring_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18700.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_winter_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_spring_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16170.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_summer_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17010.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1068267335">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Рождественский сад</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_81512367">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Лядской сад</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_997577017">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Галерея якорей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13731754263">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Деревянная свинка</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_8639804184">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Мемориальный Дом-музей Л.В. Собинова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_summer_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16875.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11891870754">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Вечный огонь</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_173639308">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Научно-исследовательское судно "Витязь"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11904093381">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей дизайна, моды и портновского искусства имени Н.П. Ламановой</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_342750012">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сквер на Алексеевской 24</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11634232456">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дольмен</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_571116098">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей-Бункер</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4474634991">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Арт-галерея "Форт"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4850362994">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Е. А. Боратынского</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_814619390">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Биржевой сквер</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_14096612601">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Ансамбль зданий казенных палат</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_spring_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16500.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1062067308">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Аллея туризма</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11748758238">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Beriozka</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_242939916">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сквер им. Габдуллы Тукая</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4889041320">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Alex Show</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan">
+    <rdf:type rdf:resource="https://example.org/travel-dss#Destination"/>
+    <rdfs:label xml:lang="ru">Казань</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_51161949">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Кооперативный сквер</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11202465664">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Спасской башни</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_winter_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14700.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_738220461">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей истории Сочи</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_spring_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18480.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_winter_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15960.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_1808680328">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей науки «Нижегородская радиолаборатория»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_3517314640">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Г.В. Старовойтовой</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_spring_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14784.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4178546094">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Эйнштейна</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_75839775">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Бутусовский парк</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi">
+    <rdf:type rdf:resource="https://example.org/travel-dss#Destination"/>
+    <rdfs:label xml:lang="ru">Сочи</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_winter_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11760.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_7931841085">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей истории пряника</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_winter_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17640.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_2951266146">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей А. М. Горького и Ф. И. Шаляпина</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_summer_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23814.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_51416885">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Художественный музей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9128493459">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Живой музей ремёсел</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_summer_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20250.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1562929047">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Сквер имени Румянцева</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139260">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Буй озерно-речной</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_219812601">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Вечный огонь</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4925298349">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">NameGallery</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13899156601">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом Рожкова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_4558482593">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Галерея Сергиенко</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5316345744">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей Каюма Насыри</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_75658841">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Ленинский сад</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_spring_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17556.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_summer_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20250.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_7931968886">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Шоу-макет Золотое кольцо</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sourceKind">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9222073310">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей имени Канта</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_5103927383">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Технический музей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_spring_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19404.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_summer_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21546.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_summer_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13500.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#confirmationRequired">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_summer_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12960.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_11034763023">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей истории Петропавловского собора</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_216655348">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Биржевой сквер</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_3658286110">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музыка и время</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9211139281">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Весы "Хронос"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#offeredFor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/travel-dss#Offer"/>
+    <rdfs:range rdf:resource="https://example.org/travel-dss#Destination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_1326416165">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Комсомольский сквер</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_115318448">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Казанский сквер</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#TripWindow">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Период поездки</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9799028117">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом Иванова 17в</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_13899227601">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Гостиница Бристоль 1910 г.</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_2025020791">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Мозаика "Ленин"</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_9276674225">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Интерактивный музей здоровья</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">850.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_spring_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13200.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_8446053517">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Музей имени В. И. Орлова</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_spring_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8938.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_188173831">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Выставочный корпус «Морской Кёнигсберг-Калининград»</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_winter_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9600.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment xml:lang="ru">Демонстрационная онтология СППР; цены и расписания синтетические.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_spring_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16500.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_node_3517569236">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Литературный музей</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1050.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_480314728">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Королевский сад</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl">
+    <rdf:type rdf:resource="https://example.org/travel-dss#Destination"/>
+    <rdfs:label xml:lang="ru">Ярославль</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_spring_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9240.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_51416849">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#OutdoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Площадь искусств</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_winter_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11400.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_winter_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13440.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_summer_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6750.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_summer_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14175.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_spring_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7150.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#spring">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TripWindow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_winter_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8400.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#osm_way_152110796">
+    <rdf:type rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#IndoorPOI"/>
+    <rdf:type rdf:resource="https://example.org/travel-dss#SyntheticPOI"/>
+    <rdfs:label xml:lang="ru">Дом архитектора</rdfs:label>
+    <travel:locatedIn rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:sourceKind>synthetic</travel:sourceKind>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_summer_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11340.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_winter_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12500.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_spring_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12936.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_spring_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12540.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_winter_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6500.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_spring_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20625.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#NeedsConfirmationPOI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Объект, требующий подтверждения</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/travel-dss#POI"/>
+    <rdfs:subClassOf rdf:nodeID="Na26e33fd63c0470ca39c639115dc7905"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#yaroslavl_spring_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#yaroslavl"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5500.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#Destination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Направление</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod_summer_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#nizhny_novgorod"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8775.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#sochi_summer_transport_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#sochi"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28688.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_summer_stay_1">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22680.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kazan_winter_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kazan"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10500.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#POI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="ru">Объект посещения</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#kaliningrad_winter_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#kaliningrad"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg">
+    <rdf:type rdf:resource="https://example.org/travel-dss#Destination"/>
+    <rdfs:label xml:lang="ru">Санкт-Петербург</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_summer_stay_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#StayOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16200.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#saint_petersburg_winter_transport_0">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TransportOffer"/>
+    <travel:offeredFor rdf:resource="https://example.org/travel-dss#saint_petersburg"/>
+    <travel:priceRub rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000.0</travel:priceRub>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#nizhny_novgorod">
+    <rdf:type rdf:resource="https://example.org/travel-dss#Destination"/>
+    <rdfs:label xml:lang="ru">Нижний Новгород</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/travel-dss#summer">
+    <rdf:type rdf:resource="https://example.org/travel-dss#TripWindow"/>
+  </rdf:Description>
+</rdf:RDF>

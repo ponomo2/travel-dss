@@ -1,0 +1,182 @@
+[
+  {
+    "id": "osm_way_1062067308",
+    "name": "Аллея туризма",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_75658841",
+    "name": "Ленинский сад",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_81512367",
+    "name": "Лядской сад",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_81560016",
+    "name": "Сад имени Кирова",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1319011122",
+    "name": "Сад любви",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_122359449",
+    "name": "Сквер Баки Урманче",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_99288846",
+    "name": "Сквер Лобачевского",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_242939916",
+    "name": "Сквер им. Габдуллы Тукая",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_143954521",
+    "name": "Юнусовская площадь",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_40371211",
+    "name": "парк Чёрное озеро",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_82176829",
+    "name": "сад Эрмитаж",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1453211254",
+    "name": "сквер \"Зилант\"",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1472706736",
+    "name": "сквер Зайни Султана",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_433786485",
+    "name": "сквер митрополита Андриана",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13002498714",
+    "name": "Бизон",
+    "_category": "gallery",
+    "_website": "https://bizon.gallery/"
+  },
+  {
+    "id": "osm_way_101558579",
+    "name": "Галерея современного искусства",
+    "_category": "gallery",
+    "_website": "https://izo-muzeum.ru"
+  },
+  {
+    "id": "osm_node_5487842936",
+    "name": "Галерея—мастерская Зайцева",
+    "_category": "gallery",
+    "_website": "https://xn--80aaahcnabqvr5d8d1f.xn--p1ai/"
+  },
+  {
+    "id": "osm_node_9883968512",
+    "name": "Геологический музей имени А. А. Штукенберга",
+    "_category": "museum",
+    "_website": "https://kpfu.ru/museums/geologicheskij-muzej-im-aashtukenberga"
+  },
+  {
+    "id": "osm_way_277633796",
+    "name": "Государственный музей изобразительных искусств Республики Татарстан",
+    "_category": "museum",
+    "_website": "https://izo-museum.ru/"
+  },
+  {
+    "id": "osm_node_13030181876",
+    "name": "Дом Art",
+    "_category": "museum",
+    "_website": "https://dom-art.gallery"
+  },
+  {
+    "id": "osm_node_9791272953",
+    "name": "Дом татарской книги",
+    "_category": "museum",
+    "_website": "https://kamal.tatmuseum.ru/"
+  },
+  {
+    "id": "osm_node_13142525343",
+    "name": "Клуб Шарык",
+    "_category": "museum",
+    "_website": "https://qrco.de/TGAT_AR"
+  },
+  {
+    "id": "osm_node_2951266146",
+    "name": "Музей А. М. Горького и Ф. И. Шаляпина",
+    "_category": "museum",
+    "_website": "http://gorkiy.tatmuseum.ru"
+  },
+  {
+    "id": "osm_node_4850362994",
+    "name": "Музей Е. А. Боратынского",
+    "_category": "museum",
+    "_website": "http://boratynskiy.tatmuseum.ru/"
+  },
+  {
+    "id": "osm_node_6929993786",
+    "name": "Музей Казанской Иконы",
+    "_category": "museum",
+    "_website": "https://www.kazanicons.ru/"
+  },
+  {
+    "id": "osm_node_5316345744",
+    "name": "Музей Каюма Насыри",
+    "_category": "museum",
+    "_website": "https://nasiyri.tatmuseum.ru/"
+  },
+  {
+    "id": "osm_node_11202465664",
+    "name": "Музей Спасской башни",
+    "_category": "museum",
+    "_website": "https://kazan-kremlin.ru/museum/spasstower/"
+  },
+  {
+    "id": "osm_node_11034763023",
+    "name": "Музей истории Петропавловского собора",
+    "_category": "museum",
+    "_website": "https://petropavlovsky.ru"
+  },
+  {
+    "id": "osm_node_5252474255",
+    "name": "Музей чак-чака",
+    "_category": "museum",
+    "_website": "https://chak-chak.museum/"
+  },
+  {
+    "id": "osm_node_8521190125",
+    "name": "Музей чая",
+    "_category": "museum",
+    "_website": "https://kazan-tea.ru/"
+  }
+]

@@ -1,0 +1,27 @@
+.venv/
+.superset-venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+dist/
+artifacts/recommendations/
+data/processed/*.sqlite*
+.runtime/
+
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Дополнительные кеши и временные файлы
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+*.log

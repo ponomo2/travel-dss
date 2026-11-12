@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "travel-dss"
+version = "0.2.0"
+description = "Explainable travel decision support: data, preferences and seasonal forecasts"
+requires-python = ">=3.9,<3.13"
+dependencies = ["numpy==2.0.2", "pandas==2.2.3", "scikit-learn==1.6.1", "scipy==1.13.1", "matplotlib==3.9.4", "pydantic==2.12.4", "requests==2.32.5", "urllib3==1.26.20", "ortools==9.14.6206", "streamlit==1.50.0", "PuLP==2.9.0", "networkx==3.2.1", "rdflib==7.1.4"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2", "openpyxl==3.1.5"]
+
+[project.scripts]
+travel-dss = "travel_dss.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

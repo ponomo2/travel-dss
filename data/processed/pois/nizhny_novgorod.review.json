@@ -1,0 +1,182 @@
+[
+  {
+    "id": "osm_way_918325991",
+    "name": "Губернаторский сад",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_151302742",
+    "name": "Детский парк",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_91062753",
+    "name": "Ошарская площадь",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_342750012",
+    "name": "Сквер на Алексеевской 24",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_node_1768844072",
+    "name": "Арт-галерея «Кладовка»",
+    "_category": "museum",
+    "_website": "https://kladovkajournal.livejournal.com/"
+  },
+  {
+    "id": "osm_node_2297015499",
+    "name": "Выставочный зал «Зачатская башня»",
+    "_category": "museum",
+    "_website": "https://ngiamz.ru/"
+  },
+  {
+    "id": "osm_way_152110796",
+    "name": "Дом архитектора",
+    "_category": "museum",
+    "_website": "https://uar.ru/"
+  },
+  {
+    "id": "osm_way_147599581",
+    "name": "Дом-музей Добролюбова",
+    "_category": "museum",
+    "_website": "http://www.dobrolyubov-museum.ru/"
+  },
+  {
+    "id": "osm_node_9128493459",
+    "name": "Живой музей ремёсел",
+    "_category": "museum",
+    "_website": "https://jivoeremeslo.ru"
+  },
+  {
+    "id": "osm_node_12104682901",
+    "name": "Игрушечный музей",
+    "_category": "museum",
+    "_website": "https://ngiamz.ru/igrushechnyy-muzey"
+  },
+  {
+    "id": "osm_node_11904093381",
+    "name": "Музей дизайна, моды и портновского искусства имени Н.П. Ламановой",
+    "_category": "museum",
+    "_website": "https://lamanovamuseumnn.ru/"
+  },
+  {
+    "id": "osm_node_1808680323",
+    "name": "Музей истории художественных промыслов Нижегородской области",
+    "_category": "museum",
+    "_website": "https://ngiamz.ru/"
+  },
+  {
+    "id": "osm_node_1808680328",
+    "name": "Музей науки «Нижегородская радиолаборатория»",
+    "_category": "museum",
+    "_website": "https://radiolaboratorija.ru/"
+  },
+  {
+    "id": "osm_node_1808680330",
+    "name": "Музей речного флота",
+    "_category": "museum",
+    "_website": "http://vgavt-nn.ru/museum/"
+  },
+  {
+    "id": "osm_way_151548233",
+    "name": "Музей-квартира А.М. Горького",
+    "_category": "museum",
+    "_website": "http://www.museum.nnov.ru/danco/"
+  },
+  {
+    "id": "osm_way_151302805",
+    "name": "ННГУ им. Н. И. Лобачевского. Институт международных отношений и мировой истории",
+    "_category": "attraction",
+    "_website": "https://imomi.unn.ru/"
+  },
+  {
+    "id": "osm_node_3302933087",
+    "name": "Нижегородский государственный выставочный комплекс",
+    "_category": "museum",
+    "_website": "http://ngvk.ru/"
+  },
+  {
+    "id": "osm_way_152110849",
+    "name": "Нижегородский государственный историко-архитектурный музей-заповедник",
+    "_category": "museum",
+    "_website": "https://ngiamz.ru/"
+  },
+  {
+    "id": "osm_way_151905925",
+    "name": "Нижегородский острог",
+    "_category": "attraction",
+    "_website": "https://ngiamz.ru/"
+  },
+  {
+    "id": "osm_way_151302809",
+    "name": "Нижегородский хоровой колледж",
+    "_category": "attraction",
+    "_website": "https://capella-nn.ru/"
+  },
+  {
+    "id": "osm_node_1768844092",
+    "name": "Русский музей фотографии",
+    "_category": "museum",
+    "_website": "https://www.fotomuseum.nnov.ru/"
+  },
+  {
+    "id": "osm_node_5103927383",
+    "name": "Технический музей",
+    "_category": "museum",
+    "_website": "https://ngiamz.ru/tekhnicheskiy-muzey"
+  },
+  {
+    "id": "osm_way_152110807",
+    "name": "Усадьба Рукавишниковых",
+    "_category": "museum",
+    "_website": "https://ngiamz.ru/rukavish_pages/rukavish_index.html"
+  },
+  {
+    "id": "osm_node_1768844096",
+    "name": "Филиал музея-заповедника А.С. Пушкина",
+    "_category": "museum",
+    "_website": "http://pushkinmuzey.ru/"
+  },
+  {
+    "id": "osm_node_13011467301",
+    "name": "Балкон",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_way_219812601",
+    "name": "Вечный огонь",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_5141071785",
+    "name": "Гарнизонная казарма",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_11773549425",
+    "name": "Город в шоколаде",
+    "_category": "museum",
+    "_website": null
+  },
+  {
+    "id": "osm_way_250924922",
+    "name": "Государственный центральный банк",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_5141071786",
+    "name": "Дворец вице-губернатора",
+    "_category": "attraction",
+    "_website": null
+  }
+]

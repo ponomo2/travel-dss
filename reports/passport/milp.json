@@ -1,0 +1,163 @@
+{
+  "status": "FEASIBLE",
+  "routes": [
+    [
+      1,
+      31
+    ],
+    [
+      31
+    ],
+    [
+      31
+    ],
+    [
+      31
+    ]
+  ],
+  "validated": true,
+  "score": 0.46911847211469115,
+  "criteria": {
+    "interests": 0.0375,
+    "economy": 1.0,
+    "weather": 0.5425,
+    "convenience": 0.800546308208089
+  },
+  "objective": null,
+  "nominal_cost_rub": 23540.0,
+  "planning_success_rate": 0.93,
+  "elapsed_seconds": 7.504377083000001,
+  "scenario_constraints": 0,
+  "backend": "PuLP 2.9 / CBC",
+  "n_pois": 30,
+  "days": 4,
+  "planning_scenarios": 100,
+  "plan": {
+    "id": "0deeece4e974fe5d",
+    "destination_id": "yaroslavl",
+    "destination_name": "Ярославль",
+    "mode": "demo",
+    "transport_id": "yaroslavl_spring_transport_0",
+    "stay_id": "yaroslavl_spring_stay_0",
+    "days": [
+      {
+        "day": "2027-04-16",
+        "start": "2027-04-16T14:00:00+03:00",
+        "end": "2027-04-16T15:00:00+03:00",
+        "visits": [
+          {
+            "poi_id": "osm_way_75839775",
+            "name": "Бутусовский парк",
+            "start": "2027-04-16T14:00:00+03:00",
+            "end": "2027-04-16T14:30:00+03:00",
+            "walk_before_m": 0,
+            "travel_before_minutes": 0,
+            "kind": "visit"
+          },
+          {
+            "poi_id": "__meal__",
+            "name": "Обед около базы маршрута",
+            "start": "2027-04-16T14:30:00+03:00",
+            "end": "2027-04-16T15:00:00+03:00",
+            "walk_before_m": 0,
+            "travel_before_minutes": 0,
+            "kind": "meal"
+          }
+        ],
+        "walk_m": 0,
+        "return_minutes": 0,
+        "return_walk_m": 0
+      },
+      {
+        "day": "2027-04-17",
+        "start": "2027-04-17T09:00:00+03:00",
+        "end": "2027-04-17T12:30:00+03:00",
+        "visits": [
+          {
+            "poi_id": "__meal__",
+            "name": "Обед около базы маршрута",
+            "start": "2027-04-17T12:00:00+03:00",
+            "end": "2027-04-17T12:30:00+03:00",
+            "walk_before_m": 0,
+            "travel_before_minutes": 0,
+            "kind": "meal"
+          }
+        ],
+        "walk_m": 0,
+        "return_minutes": 0,
+        "return_walk_m": 0
+      },
+      {
+        "day": "2027-04-18",
+        "start": "2027-04-18T09:00:00+03:00",
+        "end": "2027-04-18T12:30:00+03:00",
+        "visits": [
+          {
+            "poi_id": "__meal__",
+            "name": "Обед около базы маршрута",
+            "start": "2027-04-18T12:00:00+03:00",
+            "end": "2027-04-18T12:30:00+03:00",
+            "walk_before_m": 0,
+            "travel_before_minutes": 0,
+            "kind": "meal"
+          }
+        ],
+        "walk_m": 0,
+        "return_minutes": 0,
+        "return_walk_m": 0
+      },
+      {
+        "day": "2027-04-19",
+        "start": "2027-04-19T09:00:00+03:00",
+        "end": "2027-04-19T12:30:00+03:00",
+        "visits": [
+          {
+            "poi_id": "__meal__",
+            "name": "Обед около базы маршрута",
+            "start": "2027-04-19T12:00:00+03:00",
+            "end": "2027-04-19T12:30:00+03:00",
+            "walk_before_m": 0,
+            "travel_before_minutes": 0,
+            "kind": "meal"
+          }
+        ],
+        "walk_m": 0,
+        "return_minutes": 0,
+        "return_walk_m": 0
+      }
+    ],
+    "criteria": {
+      "interests": 0.0375,
+      "economy": 1.0,
+      "weather": 0.5425,
+      "convenience": 0.800546308208089
+    },
+    "score": 0.46911847211469115,
+    "nominal_cost_rub": 23540.0,
+    "expected_cost_rub": 24140.949122627437,
+    "cost_breakdown": {
+      "transport": 5500.0,
+      "stay": 9240.0,
+      "food": 7200.0,
+      "transfers": 1600.0,
+      "admissions": 0.0
+    },
+    "solver": {
+      "status": "FEASIBLE",
+      "objective": null,
+      "best_bound": null,
+      "relative_gap": null,
+      "elapsed_seconds": 7.504015041999999,
+      "time_limit_seconds": 10.0,
+      "objective_mode": "utility",
+      "scenario_constraints": 0,
+      "model_note": "PuLP MILP / CBC; полная независимая проверка сценариев"
+    },
+    "planning_success_rate": 0.93,
+    "scenario_seed": 42,
+    "risk": null,
+    "stress_tests": [],
+    "knowledge_trace": null,
+    "decision_analysis": null
+  }
+}

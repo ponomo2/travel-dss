@@ -1,0 +1,10 @@
+{
+ "departure":"2027-04-16T08:00:00+03:00",
+ "return_by":"2027-04-19T22:00:00+03:00",
+ "budget_rub":45000,
+ "good_cost_rub":25000,
+ "interests":{"culture":0.45,"history":0.30,"nature":0.15,"food":0.10},
+ "weights":{"interests":0.45,"economy":0.25,"weather":0.15,"convenience":0.15},
+ "temperature_min_c":10,
+ "temperature_max_c":25
+}

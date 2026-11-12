@@ -1,0 +1,646 @@
+[
+  {
+    "id": "osm_way_1326416165",
+    "destination_id": "sochi",
+    "name": "Комсомольский сквер",
+    "latitude": 43.585652599999996,
+    "longitude": 39.7171109,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1326416165",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_51161949",
+    "destination_id": "sochi",
+    "name": "Кооперативный сквер",
+    "latitude": 43.58131235789474,
+    "longitude": 39.72039017368422,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/51161949",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_51414271",
+    "destination_id": "sochi",
+    "name": "Лунапарк",
+    "latitude": 43.57845350571429,
+    "longitude": 39.72543901714285,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/51414271",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_26797620",
+    "destination_id": "sochi",
+    "name": "Парк культуры и отдыха «Ривьера»",
+    "latitude": 43.59010062682926,
+    "longitude": 39.71558140487804,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/26797620",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_51416849",
+    "destination_id": "sochi",
+    "name": "Площадь искусств",
+    "latitude": 43.577297746153846,
+    "longitude": 39.72695870384616,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/51416849",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1494969554",
+    "destination_id": "sochi",
+    "name": "Сад Русско-Японской дружбы",
+    "latitude": 43.57841761428572,
+    "longitude": 39.72756476428572,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1494969554",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_4474634991",
+    "destination_id": "sochi",
+    "name": "Арт-галерея \"Форт\"",
+    "latitude": 43.579756,
+    "longitude": 39.7217782,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/4474634991",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_738220461",
+    "destination_id": "sochi",
+    "name": "Музей истории Сочи",
+    "latitude": 43.5902931,
+    "longitude": 39.7234503,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 09:00-17:30",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/738220461",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_4535240490",
+    "destination_id": "sochi",
+    "name": "ООО \"ИгорьМарин\"",
+    "latitude": 43.5815609,
+    "longitude": 39.7184742,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "24/7",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/4535240490",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_11891870754",
+    "destination_id": "sochi",
+    "name": "Вечный огонь",
+    "latitude": 43.5881472,
+    "longitude": 39.7304786,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/11891870754",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_8287056717",
+    "destination_id": "sochi",
+    "name": "Дача Хлудова",
+    "latitude": 43.5900948,
+    "longitude": 39.7146375,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/8287056717",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13731754263",
+    "destination_id": "sochi",
+    "name": "Деревянная свинка",
+    "latitude": 43.5953082,
+    "longitude": 39.7334352,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13731754263",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_11634232456",
+    "destination_id": "sochi",
+    "name": "Дольмен",
+    "latitude": 43.5799358,
+    "longitude": 39.7219711,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/11634232456",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_3907120481",
+    "destination_id": "sochi",
+    "name": "Литературно-мемориальный музей Н. Островского",
+    "latitude": 43.5769998,
+    "longitude": 39.7331352,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/3907120481",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13962003301",
+    "destination_id": "sochi",
+    "name": "Мега музей СССР",
+    "latitude": 43.5866219,
+    "longitude": 39.7227837,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13962003301",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_2025020791",
+    "destination_id": "sochi",
+    "name": "Мозаика \"Ленин\"",
+    "latitude": 43.5875578,
+    "longitude": 39.7153617,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/2025020791",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_316504879",
+    "destination_id": "sochi",
+    "name": "Музей ретро автомобилей",
+    "latitude": 43.59127886,
+    "longitude": 39.71701516,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/316504879",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_51149786",
+    "destination_id": "sochi",
+    "name": "Музей спортивной славы Сочи",
+    "latitude": 43.58611537142857,
+    "longitude": 39.72292778571428,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/51149786",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13718435728",
+    "destination_id": "sochi",
+    "name": "Сочи 2014",
+    "latitude": 43.5809088,
+    "longitude": 39.721075,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13718435728",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_305706193",
+    "destination_id": "sochi",
+    "name": "Сталагмит",
+    "latitude": 43.57930505789475,
+    "longitude": 39.72502536842106,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/305706193",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13718429798",
+    "destination_id": "sochi",
+    "name": "Форт Александрия (стена)",
+    "latitude": 43.5798121,
+    "longitude": 39.7220659,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13718429798",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_51416885",
+    "destination_id": "sochi",
+    "name": "Художественный музей",
+    "latitude": 43.57629473181818,
+    "longitude": 39.728359740909085,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/51416885",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_11748874469",
+    "destination_id": "sochi",
+    "name": "вилла Вера",
+    "latitude": 43.5809072,
+    "longitude": 39.7263732,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/11748874469",
+      "observed_at": "2026-11-11T22:31:36.729005+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  }
+]

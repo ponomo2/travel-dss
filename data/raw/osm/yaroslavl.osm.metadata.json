@@ -1,0 +1,9 @@
+{
+  "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=39.8695%2C57.6161%2C39.8995%2C57.6361",
+  "observed_at": "2026-11-11T22:31:29.880345+00:00",
+  "data_kind": "osm",
+  "version": "1",
+  "license": "ODbL",
+  "attribution": "© OpenStreetMap contributors",
+  "confidence_note": "Limited city-center extract; OSM tags require official verification"
+}

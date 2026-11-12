@@ -1,0 +1,117 @@
+{
+  "$defs": {
+    "DataKind": {
+      "enum": [
+        "reanalysis",
+        "quotation",
+        "expert",
+        "osm",
+        "synthetic"
+      ],
+      "title": "DataKind",
+      "type": "string"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "pattern": "^https?://",
+          "title": "Source Url",
+          "type": "string"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "valid_from": {
+          "format": "date",
+          "title": "Valid From",
+          "type": "string"
+        },
+        "valid_to": {
+          "format": "date",
+          "title": "Valid To",
+          "type": "string"
+        },
+        "data_kind": {
+          "$ref": "#/$defs/DataKind"
+        },
+        "confidence_note": {
+          "minLength": 1,
+          "title": "Confidence Note",
+          "type": "string"
+        },
+        "version": {
+          "minLength": 1,
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_url",
+        "observed_at",
+        "valid_from",
+        "valid_to",
+        "data_kind",
+        "confidence_note",
+        "version"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "destination_id": {
+      "title": "Destination Id",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "transport",
+        "stay"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "start": {
+      "format": "date-time",
+      "title": "Start",
+      "type": "string"
+    },
+    "end": {
+      "format": "date-time",
+      "title": "End",
+      "type": "string"
+    },
+    "total_rub": {
+      "exclusiveMinimum": 0,
+      "title": "Total Rub",
+      "type": "number"
+    },
+    "available": {
+      "title": "Available",
+      "type": "boolean"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance"
+    }
+  },
+  "required": [
+    "id",
+    "destination_id",
+    "kind",
+    "start",
+    "end",
+    "total_rub",
+    "available",
+    "provenance"
+  ],
+  "title": "Quote",
+  "type": "object"
+}

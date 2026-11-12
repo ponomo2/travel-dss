@@ -1,0 +1,888 @@
+{
+  "schema_version": 1,
+  "project": "travel-dss",
+  "version": "0.2.0",
+  "distribution": "source with bundled data and trained JSON models; editable installation required",
+  "files": {
+    ".gitignore": {
+      "bytes": 141,
+      "sha256": "952321d6149963ba3a57f4709270c14938f6a43988cb4412746f52b205955f3f"
+    },
+    ".python-version": {
+      "bytes": 5,
+      "sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93"
+    },
+    ".streamlit/config.toml": {
+      "bytes": 83,
+      "sha256": "aa8081c65e99f93830fde7d5f2bf09e71fa0ea2aa2db9ce2bc1ce4606fa8a277"
+    },
+    "HANDOFF.md": {
+      "bytes": 13448,
+      "sha256": "da99f0857b1e61e3e069d2dc6aa04af228e351eeece9c7281788757fec3a0ebc"
+    },
+    "IMPLEMENTATION_PLAN.md": {
+      "bytes": 58804,
+      "sha256": "dcb163e355ac8600e82d461622d8b361203a8a070e5597798750aca3d120d26b"
+    },
+    "Makefile": {
+      "bytes": 854,
+      "sha256": "64b4b723e0001902791c468bd6c6e33e52c2861f46f68008a700ef110f9ad626"
+    },
+    "README.md": {
+      "bytes": 14620,
+      "sha256": "f0dfe60e4fc22c2df0494d67f704c9eaa964933fd0c1583cab79f85f2820086e"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 2501,
+      "sha256": "658ceef0c27722425c78562513b7c25e01d3855beceefef8e2bb3f8796e0d5f2"
+    },
+    "app.py": {
+      "bytes": 39,
+      "sha256": "f277db987464998d2d3fe88c30ffb78c08ff315f13f19118991782fa4b43e9ea"
+    },
+    "artifacts/models/kaliningrad.json": {
+      "bytes": 65308,
+      "sha256": "a67c5ba173c42e537db8a5762a4a69ac180a511a64ef2d2c522b69107ee05536"
+    },
+    "artifacts/models/kazan.json": {
+      "bytes": 65414,
+      "sha256": "7147c2fe7db355ee3834f1d1781ee344f273757bced7f13e4a86a4c69490681a"
+    },
+    "artifacts/models/nizhny_novgorod.json": {
+      "bytes": 65373,
+      "sha256": "d8184ad14e10387e64afe5451c0cfa0b39adf9286815d66e443a69906dac7809"
+    },
+    "artifacts/models/saint_petersburg.json": {
+      "bytes": 65402,
+      "sha256": "001408431b187775cb80cdcda6b10c7a1e711352b3f1af3aea7f3a49a8a3233f"
+    },
+    "artifacts/models/sochi.json": {
+      "bytes": 65432,
+      "sha256": "23c35e5c5d5190a27d3dfecc0c67fda21b054aa0884cf020369f07e08b3e4074"
+    },
+    "artifacts/models/yaroslavl.json": {
+      "bytes": 65456,
+      "sha256": "ebcd81f8b6b2509485f48ffad8045617464e9143c36ea21fb54cc8489fa62f16"
+    },
+    "bi/create_dashboard.py": {
+      "bytes": 5142,
+      "sha256": "8086246a3b8f526dd7f8d9f516cb89a3417f6b8dd1d2cd1c2ccb599e4ac6df67"
+    },
+    "bi/requirements-superset.lock": {
+      "bytes": 2577,
+      "sha256": "02aa99dba170ec6c670d99d0ad07a23664823aa684a04d378e0d926a49906a2b"
+    },
+    "bi/superset_config.py": {
+      "bytes": 563,
+      "sha256": "ffae27af92730574011ba50e37a88e790e49a71b515b51da4559413f617cd1fb"
+    },
+    "bi/verify_dashboard.py": {
+      "bytes": 3264,
+      "sha256": "8cac9378defc33e0294f9ac5e057ed0b2ac5cc597941e993ddd3133d8c8ee199"
+    },
+    "data/api/demo_catalog.json": {
+      "bytes": 1639707,
+      "sha256": "101e9bf403332bade1393c7a39b325942b5a9c0ead69611df2f6ab9856bd46bf"
+    },
+    "data/api/demo_catalog.metadata.json": {
+      "bytes": 287,
+      "sha256": "1870c836c7c0effaf5179417347ddf5287ec2f2171656dc372dbd76b51bfd8ce"
+    },
+    "data/destinations.json": {
+      "bytes": 919,
+      "sha256": "df7af802125c491eddc9903973c1f8f6fa58237ffa54a791f3075b1c3d18de28"
+    },
+    "data/knowledge/rules.json": {
+      "bytes": 2994,
+      "sha256": "15f95424cbb5a154697e5a935bdeac595a962044d1214d6c34835132778b33cd"
+    },
+    "data/knowledge/travel.owl": {
+      "bytes": 144069,
+      "sha256": "720215bc5f20a5cf9e5ee5e226fafa8fbe3f71d6b67519b1bcd19941cb102f7a"
+    },
+    "data/processed/catalog_demo.coverage.json": {
+      "bytes": 3055,
+      "sha256": "88d502b5b61d5f699aee9a316d5a27cd230d397e1f6f9f0ca01cd48e3a5d2ef5"
+    },
+    "data/processed/matrices/kaliningrad.json": {
+      "bytes": 24409,
+      "sha256": "e62e4dc434309f50abd5c61410cbeae1782317381a96cb774db02c5f9fe54474"
+    },
+    "data/processed/matrices/kazan.json": {
+      "bytes": 25004,
+      "sha256": "e2b67162ebb7d1405d2263793d850fe395e54055b37bcfd6b24718219b2b8119"
+    },
+    "data/processed/matrices/nizhny_novgorod.json": {
+      "bytes": 24544,
+      "sha256": "eb7b7627e0216cc0056b579a66455f51a97c735ac9092982dec46831e841b369"
+    },
+    "data/processed/matrices/saint_petersburg.json": {
+      "bytes": 24611,
+      "sha256": "d6a7c940188253ebdb5580f19a07154947b4a147f80d3e6345e8b5047b374be9"
+    },
+    "data/processed/matrices/sochi.json": {
+      "bytes": 15012,
+      "sha256": "d8e64b6e6110b5278a42ee360457716832199fd31d9fd24d8af62574d4cdd5eb"
+    },
+    "data/processed/matrices/yaroslavl.json": {
+      "bytes": 24515,
+      "sha256": "b4d334ce2e0270dc7b3c28698d4da6ce848f6174d7316a5a4c1fc0370b6cb89d"
+    },
+    "data/processed/osrm/kaliningrad.json": {
+      "bytes": 26040,
+      "sha256": "d92ceb138057ead93419b896584075f5abbe3c450f0965a86c403fd91e1ba2fd"
+    },
+    "data/processed/osrm/kazan.json": {
+      "bytes": 26774,
+      "sha256": "f3f2b93b41568406e44a3f0c724d6150b95e899db9c1f20b543d376aa227fbab"
+    },
+    "data/processed/osrm/nizhny_novgorod.json": {
+      "bytes": 26118,
+      "sha256": "fdba6bd8aa4193cfc6fb90fb2e62b97e570654ba81ae89398182d25383534f88"
+    },
+    "data/processed/osrm/saint_petersburg.json": {
+      "bytes": 26389,
+      "sha256": "e094eec7498e434ffa122b7112fcefc56d8abe09e30c7e4b2a24f9197a4f8c73"
+    },
+    "data/processed/osrm/sochi.json": {
+      "bytes": 16144,
+      "sha256": "201a96ec6aee771dc7fcc868ab6a08adf9eb0270ca3e3473fa5ae20c1bf9064d"
+    },
+    "data/processed/osrm/yaroslavl.json": {
+      "bytes": 26196,
+      "sha256": "da411c8290cdb6f075cef2edf51c4ee1668782c6e6e5bfdb4fb3812e6f64dcd9"
+    },
+    "data/processed/pois/kaliningrad.json": {
+      "bytes": 25091,
+      "sha256": "4eca573e3a1121dc6db8834fcbc12abef28429204351a17f1fd3ffa3c908edb8"
+    },
+    "data/processed/pois/kaliningrad.review.json": {
+      "bytes": 5041,
+      "sha256": "ec15a062fe06cc28eef0f87a43d556b38a6caed5e33efafc3908d604ac352ee8"
+    },
+    "data/processed/pois/kazan.json": {
+      "bytes": 24833,
+      "sha256": "b3aafe737819bbcb85421ad5cc2fec63ec7b8c04f43c1edf536781029f0436b4"
+    },
+    "data/processed/pois/kazan.review.json": {
+      "bytes": 4722,
+      "sha256": "7316875f890ef7bd1eae8eead9c78908d2ee8aacf1f74d440c0554b65e8513e9"
+    },
+    "data/processed/pois/nizhny_novgorod.json": {
+      "bytes": 25590,
+      "sha256": "caa924d4eec707e849d4ce1c56f2ccb3e6ba4167f883e646f9599f764cd88987"
+    },
+    "data/processed/pois/nizhny_novgorod.review.json": {
+      "bytes": 5323,
+      "sha256": "ca1e73b6b4771c56b771a716ed207dac19b8084e951d8f12069bca3bf4f83b57"
+    },
+    "data/processed/pois/saint_petersburg.json": {
+      "bytes": 24885,
+      "sha256": "3f79cd1bfab8e29ed8e2951852dfe4c1f28bbc69a56c840b7212c4f8ed76fa6b"
+    },
+    "data/processed/pois/saint_petersburg.review.json": {
+      "bytes": 4856,
+      "sha256": "3dcbe7b34409e292435dac1a83ca39a291baf61f76ce2e038682738e97edb609"
+    },
+    "data/processed/pois/sochi.json": {
+      "bytes": 18708,
+      "sha256": "6825c10d476427eb799c1c1bf91b2aa8d39eb8864879c5b8e38c3c2d6f8a34f3"
+    },
+    "data/processed/pois/sochi.review.json": {
+      "bytes": 3308,
+      "sha256": "dcf9417f1780f905c4ecc405e2743ab2c62116ebc00f992835b85fb93b1c7c01"
+    },
+    "data/processed/pois/yaroslavl.json": {
+      "bytes": 25005,
+      "sha256": "66af749b6d7301e505c70b45d0bcb12c80c00f76771663a8b807e4fff945fe71"
+    },
+    "data/processed/pois/yaroslavl.review.json": {
+      "bytes": 4865,
+      "sha256": "7fac3cb2ae54168b899af764651b49dbd814b8aec1cd20c519081552d142a0bf"
+    },
+    "data/processed/weather/kaliningrad.csv": {
+      "bytes": 98873,
+      "sha256": "50f43f80c90389f7158550b6c1ee353cbd507ee941b59cd294dc852ef29c066e"
+    },
+    "data/processed/weather/kaliningrad.metadata.json": {
+      "bytes": 742,
+      "sha256": "943cba7c89be9e325dcf48c452862e4bb551eb1d82aea04f1458197b6ebd0272"
+    },
+    "data/processed/weather/kazan.csv": {
+      "bytes": 99582,
+      "sha256": "64e8b1a96bd53560e0b3458ac4bb38f2c3bd94b3295cb15b479402af9b1aa6d2"
+    },
+    "data/processed/weather/kazan.metadata.json": {
+      "bytes": 737,
+      "sha256": "b6fdc42014422155b8425c36d6898b7db2e828be9a8d7c1941d29a02a9d3b033"
+    },
+    "data/processed/weather/nizhny_novgorod.csv": {
+      "bytes": 99310,
+      "sha256": "119e653b18697a8ce34461867043791d04f4f37f8dfe756210dff67b09e96fd3"
+    },
+    "data/processed/weather/nizhny_novgorod.metadata.json": {
+      "bytes": 737,
+      "sha256": "d9ab45efd721bdaa1c672014823d46f560aa0993c28bc9b0ad57f345679b5ecf"
+    },
+    "data/processed/weather/saint_petersburg.csv": {
+      "bytes": 99028,
+      "sha256": "a1a4f32ae9eb6e3177dca01783893684628c91ad07ad071bcffff1e0704b92d9"
+    },
+    "data/processed/weather/saint_petersburg.metadata.json": {
+      "bytes": 737,
+      "sha256": "19203bb3b716810a3dc118ff54ef2620fa3ccccc38f583d4142580489ce999e0"
+    },
+    "data/processed/weather/sochi.csv": {
+      "bytes": 99768,
+      "sha256": "2cfe8bd1dd718b6ff8b08c0300aa9923c40f83b3b1b0ab53b87a5a386bdc38b0"
+    },
+    "data/processed/weather/sochi.metadata.json": {
+      "bytes": 737,
+      "sha256": "6ebd8e34b73b92b23c67f7ae42b3433fc4b30eb2e3a9f193d44a81b223fbe60b"
+    },
+    "data/processed/weather/yaroslavl.csv": {
+      "bytes": 99223,
+      "sha256": "97942c63fe94207c6a3a5919b4da320bbbff949a99d07d0f5431a4a1141a63d2"
+    },
+    "data/processed/weather/yaroslavl.metadata.json": {
+      "bytes": 737,
+      "sha256": "53f67cee5918948f8008eeee366d72ab05f18d3c3c5d80accd53c1492fe6189b"
+    },
+    "data/raw/osm/kaliningrad.osm.gz": {
+      "bytes": 975488,
+      "sha256": "117e92ffadd59082500ae5eb0d51aab077d0587a485f46af27e017ebd6b31490"
+    },
+    "data/raw/osm/kaliningrad.osm.metadata.json": {
+      "bytes": 363,
+      "sha256": "cc6b1b91a2fe8f6943282388054de852770be70448f3f63bb83eb503b2dc060c"
+    },
+    "data/raw/osm/kazan.osm.gz": {
+      "bytes": 1275389,
+      "sha256": "16ecab1e16c4a6bf5d7e59ec16df2c65f3a8890ea47637e0e403490e92acde74"
+    },
+    "data/raw/osm/kazan.osm.metadata.json": {
+      "bytes": 374,
+      "sha256": "c3f6139d71b76f163be6410b05b8ebe4b72da541e7245fc4e221f42c35ef7517"
+    },
+    "data/raw/osm/nizhny_novgorod.osm.gz": {
+      "bytes": 1277763,
+      "sha256": "d849cf61c2970142dfdd0c760ee7e6b120c5169529a79fe195f7d273da5e96d6"
+    },
+    "data/raw/osm/nizhny_novgorod.osm.metadata.json": {
+      "bytes": 385,
+      "sha256": "e35f024432bea3f9d6334a6123aec64563176e2e5c2048464c4ad961358853fa"
+    },
+    "data/raw/osm/saint_petersburg.osm.gz": {
+      "bytes": 1676907,
+      "sha256": "b61904088d04fcfcd8e78b81919c4737aea5c7c987a0b9fba2ab82e6e0188d7c"
+    },
+    "data/raw/osm/saint_petersburg.osm.metadata.json": {
+      "bytes": 363,
+      "sha256": "a93b2407875d01289d17feab24eb4b4dedc6cb2a672b20a51b161548638d90e8"
+    },
+    "data/raw/osm/sochi.osm.gz": {
+      "bytes": 1678192,
+      "sha256": "911eb7c9231fe7cb7f94e182a29c4e60f86ad7b2f0b8408d49f6bac03dd623f0"
+    },
+    "data/raw/osm/sochi.osm.metadata.json": {
+      "bytes": 374,
+      "sha256": "300f4a44b179111e3475c018abb99ab52414b88e5a600f9778721e227bbe93f0"
+    },
+    "data/raw/osm/yaroslavl.osm.gz": {
+      "bytes": 836886,
+      "sha256": "a0bdc435005a54bc01eee5bf27aaf2fb1c7592ea165f2cf4ddec1fb3ebc92673"
+    },
+    "data/raw/osm/yaroslavl.osm.metadata.json": {
+      "bytes": 363,
+      "sha256": "c88220867d819446b2bb636d5d436e1d67aada215975aae7836effbe7a2369ee"
+    },
+    "data/raw/osrm/kaliningrad.json": {
+      "bytes": 22226,
+      "sha256": "7457b13dbd437453d38233a53e5f4191e4c30caceb220aa531c4e04aea89d17c"
+    },
+    "data/raw/osrm/kaliningrad.request.json": {
+      "bytes": 1647,
+      "sha256": "756cab5f1e5fad75401338ac0e9bfcf3638e8fd5ee4c31076043d5eeeed3d619"
+    },
+    "data/raw/osrm/kazan.json": {
+      "bytes": 23248,
+      "sha256": "0e2d08d628353f6e1409aa88553729f708d5e08421e55df4394af7348980abb6"
+    },
+    "data/raw/osrm/kazan.request.json": {
+      "bytes": 1657,
+      "sha256": "8c2d58e1bb3f845490c69dec5621930685f7822a1841bf8a1f08d6e451acfa8b"
+    },
+    "data/raw/osrm/nizhny_novgorod.json": {
+      "bytes": 22510,
+      "sha256": "e7e972090abb4cd5495042314787aedd0ffd61e8dc3d66e3ae1b5ef3325c7dea"
+    },
+    "data/raw/osrm/nizhny_novgorod.request.json": {
+      "bytes": 1661,
+      "sha256": "85c2a9ee8a5b7c96cd21818a28e4e13971ece9e28a3c4f8bfb2d0bd39d8b8b18"
+    },
+    "data/raw/osrm/saint_petersburg.json": {
+      "bytes": 22548,
+      "sha256": "a0ff569f9bfd3b6d41b39e6a256f32c267b10ce0effa12596693abcd5adbc4ea"
+    },
+    "data/raw/osrm/saint_petersburg.request.json": {
+      "bytes": 1682,
+      "sha256": "72f572aaf5c3b99bf059d715b63e13da82d5749a4a91f3aab1ae85553b9d5ef4"
+    },
+    "data/raw/osrm/sochi.json": {
+      "bytes": 15884,
+      "sha256": "b7eba39992b604cff685766e0a032fc42f15cdbbaf1a106d389e7e620e5dc1ed"
+    },
+    "data/raw/osrm/sochi.request.json": {
+      "bytes": 1339,
+      "sha256": "02fb7dc7ec0af9b77dbca3acd5b397067b1b1f0acb9a50f14444b54dc91fa26e"
+    },
+    "data/raw/osrm/yaroslavl.json": {
+      "bytes": 22582,
+      "sha256": "718b6fe9f39ae4d2f6a22e1d56fa825e399ea3bfb8abc15231f384262da1d292"
+    },
+    "data/raw/osrm/yaroslavl.request.json": {
+      "bytes": 1681,
+      "sha256": "dc5fd2c28c5a6572b5a313aea13a5826b41075d24f32ca8e36ee41a42a868a4f"
+    },
+    "data/raw/weather/kaliningrad.json": {
+      "bytes": 219869,
+      "sha256": "ddeac783eec23103e3fbe0d414fc0111437f3c9e534c8fd5c6a43db10148436f"
+    },
+    "data/raw/weather/kazan.json": {
+      "bytes": 220575,
+      "sha256": "9ef75e872e5a90ad51e91a0d281ecaa67e29a8871bbbbe430485876d2dd832ca"
+    },
+    "data/raw/weather/nizhny_novgorod.json": {
+      "bytes": 220303,
+      "sha256": "2fe5b46074a0a889577812784a07941fb78bac525e136054484b49d42204ec32"
+    },
+    "data/raw/weather/saint_petersburg.json": {
+      "bytes": 220019,
+      "sha256": "b7315d15398ac42fddfc482d07fe3e490b59660c4eed31a2f9eaffaf8e3b605a"
+    },
+    "data/raw/weather/sochi.json": {
+      "bytes": 220760,
+      "sha256": "71cf487ec4e600eabe2683ea30ab6fb555084a64e226d6cb93f755a44e14bba2"
+    },
+    "data/raw/weather/yaroslavl.json": {
+      "bytes": 220216,
+      "sha256": "4666479790ec43e45ded4524fabb4f2214f6209906015a6457676380d591af30"
+    },
+    "data/templates/catalog_api.schema.json": {
+      "bytes": 16162,
+      "sha256": "27c4fd36b901315b234bea569f55d00cf3eef73deb2bcae3b5b00beb77fee0fe"
+    },
+    "data/templates/opening_interval.schema.json": {
+      "bytes": 2107,
+      "sha256": "c2d634b51e1f7e2099e66d5b968b738dfec38bd0e36154bcbb08c8a9a37fc2db"
+    },
+    "data/templates/poi.schema.json": {
+      "bytes": 3852,
+      "sha256": "9a4c58a7841467605ea1219b35c107b77aafa451140d8f50f4a67846df594e89"
+    },
+    "data/templates/pois.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "data/templates/quote.schema.json": {
+      "bytes": 2314,
+      "sha256": "bffcd4ed21852d2a652646949e5de6d6b32f2476b6e0a4a86434449f6d576937"
+    },
+    "data/templates/quotes.csv": {
+      "bytes": 121,
+      "sha256": "62c4120f0ea4a4b77523e3dd5e01e0775bdc612d3332bc46024b38a6538f99ff"
+    },
+    "data/templates/quotes.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "data/templates/request.schema.json": {
+      "bytes": 4403,
+      "sha256": "e62033bff436a9179f5f7a0c8ae00262d0872fd0e4620161ba1cb7e1890be032"
+    },
+    "data/trip_windows.json": {
+      "bytes": 170,
+      "sha256": "fd45b62f4bd860fd3e978089d971ea6aa4f4a0b948f2fe54aee04790217855a6"
+    },
+    "docs/ACCEPTANCE.md": {
+      "bytes": 5039,
+      "sha256": "36df3477f1e8a0ed4700c6772a5f10dd754e6562f87a4e0e78f0d007abc877ee"
+    },
+    "docs/DATA_API.md": {
+      "bytes": 10978,
+      "sha256": "871a05faf0d02dbcf03845340816413cca2551df578adb6ea81c0d4e8566c6df"
+    },
+    "docs/DECISIONS.md": {
+      "bytes": 5404,
+      "sha256": "db0d0b50f60ff1a678217822f5eaaefd816028cb6ca76a3a7de129d18c295afe"
+    },
+    "docs/INTERNALS.md": {
+      "bytes": 20616,
+      "sha256": "8d0f18c347a0a8d07485ce5ec38915759492d813296b98538b0dd821dab3b13b"
+    },
+    "docs/PASSPORT_TOOLS.md": {
+      "bytes": 10149,
+      "sha256": "5c2abd08557eb991edca8b00e841c14e78c8afbda6c81e520b7e6d1861d09cea"
+    },
+    "docs/USER_GUIDE.md": {
+      "bytes": 14435,
+      "sha256": "7720f8faf3212bd0eab9301eb74d249410e8e1222947de6b68947b3bcce2b97d"
+    },
+    "examples/ahp_request.json": {
+      "bytes": 1032,
+      "sha256": "e3fa9c13cf739b06b1b8cefd88ec7431c85f1b2f0f503dbcbff77829b4393644"
+    },
+    "examples/design_demo_results.json": {
+      "bytes": 852,
+      "sha256": "3953c726a2b6164ecfaa4c03a36ca49a73ed3f7797a757385e12d0c45d6d09a5"
+    },
+    "examples/request.json": {
+      "bytes": 334,
+      "sha256": "ff4ddb06ed18f8d61ef97aa3d943486654d16313420baf42ec1d1991accf9f2b"
+    },
+    "examples/verify_design.py": {
+      "bytes": 2670,
+      "sha256": "812311dc0749b5c8ba69ac51f51a5488bf8f3f803365af9df36706fe4632909e"
+    },
+    "pyproject.toml": {
+      "bytes": 774,
+      "sha256": "136b259bd39d4653b1fd29e5c93523247f951b39a46032124d092c971b9b0ed8"
+    },
+    "reports/PASSPORT_AUDIT.md": {
+      "bytes": 7505,
+      "sha256": "03106d9b02fa959f25a7bf3dad6136b5d31152e5032be53151b8fc805a605c02"
+    },
+    "reports/STAGES_1_4.md": {
+      "bytes": 7630,
+      "sha256": "9144d3949e9b6318bce3ad619d8519a7521ee699f4bcfb67d13733b3a46e5a88"
+    },
+    "reports/STAGES_5_8.md": {
+      "bytes": 9190,
+      "sha256": "b9c48fd9cf60e8acc7a60806dd8b096edc3eb310d2bb95f5d841fc467a2a11b6"
+    },
+    "reports/criteria_demo.json": {
+      "bytes": 15743,
+      "sha256": "67f59a465bbc8ae2970e7929c4abe50ce309c048694e969132d73d07a0a2ad43"
+    },
+    "reports/criteria_sensitivity.png": {
+      "bytes": 62685,
+      "sha256": "df8039f65ac4a135d1be40f4fc917ee85fbc6fe960570431d689d3fabf7a2f6d"
+    },
+    "reports/data_coverage.json": {
+      "bytes": 3055,
+      "sha256": "88d502b5b61d5f699aee9a316d5a27cd230d397e1f6f9f0ca01cd48e3a5d2ef5"
+    },
+    "reports/data_manifest.json": {
+      "bytes": 12504,
+      "sha256": "441613c42625ae6c5b4f04b51f45441f6c06e59efa6b46ec11844913b23f2f87"
+    },
+    "reports/demo_catalog_selection.json": {
+      "bytes": 1632,
+      "sha256": "6347da8740777b9e422675be832ec5a7bb0ee77fc9099f63cc66c54623095be9"
+    },
+    "reports/demo_forecast.txt": {
+      "bytes": 577,
+      "sha256": "d7e8425bda1a0e459320ecbd73386de41a8398a47a54a19ca2b94357443748ce"
+    },
+    "reports/demo_trip_data.json": {
+      "bytes": 138613,
+      "sha256": "a2246931d6fec4ca52f2d4b3d3ca0ded7fd15f444cd1c7f716a143088e5900e6"
+    },
+    "reports/experiments/summary.json": {
+      "bytes": 462,
+      "sha256": "db554ba46eae9bfc818581a8839b632c37dff840e2229fc7fba0480f77ea6107"
+    },
+    "reports/experiments/summary.png": {
+      "bytes": 42352,
+      "sha256": "ea435660d5014eecc6a6948174c4c9ab66a6ddc3bec209bb3ca3dd514972228f"
+    },
+    "reports/experiments/system_benchmark.json": {
+      "bytes": 52994,
+      "sha256": "f225a5ead7cd1227d73dc66b40e4b501bb0661eb813b7d07ccf2bcd4077acad2"
+    },
+    "reports/forecast/MODEL_CARD.md": {
+      "bytes": 5269,
+      "sha256": "cf4b15cef607b0bc5b2647938870df0c15e8de1213f70f0500f8335d28a233d3"
+    },
+    "reports/forecast/evaluation.png": {
+      "bytes": 594073,
+      "sha256": "8a9ddc7eb9ffa1ce29ba0c15eaaba05e786d51030df06b6257862e49de68f257"
+    },
+    "reports/forecast/kaliningrad.csv": {
+      "bytes": 33045,
+      "sha256": "c5bf8292927996c0d2a96bf0f23a6cdf0a6db277eae4c3a648749b0a8b8bc5b5"
+    },
+    "reports/forecast/kazan.csv": {
+      "bytes": 33187,
+      "sha256": "55b539ce939c54649074f5ddc596a892444ba273abaab11917f4e28f07acb34d"
+    },
+    "reports/forecast/metrics.json": {
+      "bytes": 19974,
+      "sha256": "c2229600403ee79cfc71e5cffde178f77d49e16d4cd5b44d60231f4d1f841aef"
+    },
+    "reports/forecast/nizhny_novgorod.csv": {
+      "bytes": 33170,
+      "sha256": "926ed0931697766856e04823e073573f617064713d1747279c45d4a26d91fb21"
+    },
+    "reports/forecast/saint_petersburg.csv": {
+      "bytes": 33032,
+      "sha256": "8685dc8a6efc0a6fce1ad9922ea231a2409e3f1a196295a2ca80e76d7da05528"
+    },
+    "reports/forecast/sochi.csv": {
+      "bytes": 32930,
+      "sha256": "0a9c773a02aa3c2b42c1d127f88550e0187a943b8820b43f589e5823a9237477"
+    },
+    "reports/forecast/yaroslavl.csv": {
+      "bytes": 33052,
+      "sha256": "d444a067aa172a98be679b5a97d5fd4307bf32321016867e74480b0ff172e088"
+    },
+    "reports/full_demo.html": {
+      "bytes": 12157,
+      "sha256": "666b95ed3fc1967f1e324e5880b978cf3f9eea2ea4aa6a4ef0c657be31dcef21"
+    },
+    "reports/full_demo.json": {
+      "bytes": 62998,
+      "sha256": "610faf3f94ee8f3c768d632f42356016ebf03ae44d3b729c706320fb4e83949d"
+    },
+    "reports/passport/AHP.xlsx": {
+      "bytes": 11613,
+      "sha256": "9308278a3d4d72078c45efb210375de1583114aed340f895e3370304ce4e0b8a"
+    },
+    "reports/passport/ahp.json": {
+      "bytes": 4473,
+      "sha256": "e764681efd316c1e9caa9f9ced4551b73d5d2f204892b9b7a47e97b1d3bfc743"
+    },
+    "reports/passport/ahp_consistency.png": {
+      "bytes": 72957,
+      "sha256": "96adabbd95cb866e287e2c2b69fa1437a67bdea95ab011331ee59418c4cbe125"
+    },
+    "reports/passport/ahp_inputs.png": {
+      "bytes": 135155,
+      "sha256": "473b8befcfa87f04275f6347c1c85ca33dd0128a2e19f631cf1af9a53f82454c"
+    },
+    "reports/passport/ahp_summary.png": {
+      "bytes": 202594,
+      "sha256": "f83d4b443491a50be71640e12e837772d26d0ad93155a25f51759667594cf1ef"
+    },
+    "reports/passport/ahp_synthesis.png": {
+      "bytes": 127620,
+      "sha256": "35612194e847f23e44a97e70c0409f2952df50c7b65e283370952121cbd935e2"
+    },
+    "reports/passport/bi_export.json": {
+      "bytes": 89,
+      "sha256": "94062c8875f0bd48787b29583adcfe7fbe11214a6d689ee9a06cc55bab7bd3f8"
+    },
+    "reports/passport/cp_sat_recommendation.html": {
+      "bytes": 15473,
+      "sha256": "949f0e72a99d6a7626f8a8d29f89706865472f763bd8591ed51ac94273ac1077"
+    },
+    "reports/passport/cp_sat_recommendation.json": {
+      "bytes": 323072,
+      "sha256": "184017cf18d0aac1bb705fd57d1cef50cd6cb9118645726cf32e6b123e216585"
+    },
+    "reports/passport/decision_tree.png": {
+      "bytes": 62045,
+      "sha256": "26523c2ec541b675f10d512df6e1e9a6e77f297691f8a730aec62ce3bbed3b0a"
+    },
+    "reports/passport/knowledge.json": {
+      "bytes": 49764,
+      "sha256": "a2c8457dec703b5fcce9addd074676f169e3a6841cc46989f47302f3e6f57307"
+    },
+    "reports/passport/milp.json": {
+      "bytes": 4369,
+      "sha256": "ea6060ae069de1889cdbda8d76498519d288e0cb218c09ba84a55657fc4301f7"
+    },
+    "reports/passport/ontology.json": {
+      "bytes": 172,
+      "sha256": "72baec890c75af5f92308b32e00bc0115050d41fe7a363c79ed4f05eca85b059"
+    },
+    "reports/passport/protege_check.json": {
+      "bytes": 294,
+      "sha256": "eda2352accde6c131bfdf131bef69e1fa5236aa0972c43b66957f8af77223e80"
+    },
+    "reports/passport/pulp_recommendation.html": {
+      "bytes": 16791,
+      "sha256": "28b103d5761fc011c4a4ee831d7dab470a42610e96de6972cec876a11e8d6d8e"
+    },
+    "reports/passport/pulp_recommendation.json": {
+      "bytes": 329949,
+      "sha256": "5001b5a001928dc134bcc692ab8d269c7d4bbed839ee8ef594c6f14f53f24358"
+    },
+    "reports/passport/route_model.lp": {
+      "bytes": 1206683,
+      "sha256": "d474abec4e6e3b53d3d4e3700bc4aeba5d3d18af2e3afb29d29cc3246da81bf2"
+    },
+    "reports/passport/route_model.mps": {
+      "bytes": 3341746,
+      "sha256": "64db6c0082574dfdccd747d6edc2a02baab4e7311c4830cb9d71b2a092cfc8c5"
+    },
+    "reports/passport/summary.json": {
+      "bytes": 21650,
+      "sha256": "ba4d166a5ecff4d8b87806562c076b0f6e88f1e8112a9c072d76df3664b2e940"
+    },
+    "reports/passport/superset_dashboard.json": {
+      "bytes": 796,
+      "sha256": "2380319fccda9d46645b241f4f5b2481b37a9647aca24ea7cca22f2bb4a140aa"
+    },
+    "reports/passport/superset_queries.json": {
+      "bytes": 1480,
+      "sha256": "a940184562916d15cfd3d6158e218545e4247fd2bb1cfd0c61e6be777c2825e7"
+    },
+    "reports/passport/verification.json": {
+      "bytes": 3966,
+      "sha256": "b485c64aef064527c1d47aa363eb5a0e733f26476fef362726b20d9d07d753ad"
+    },
+    "reports/passport/workbook_check.json": {
+      "bytes": 586,
+      "sha256": "8887edb15dae1ef66e0f9d0f5ecfdc91ef2564ba279f19f33e2df3a279374d7d"
+    },
+    "reports/system_smoke.json": {
+      "bytes": 14313,
+      "sha256": "f9e49b14ef1d849909a85b1121a8a0939bb8e3e4fbf980b5eb644268654be519"
+    },
+    "reports/validated_request.json": {
+      "bytes": 671,
+      "sha256": "4befb1bf7248cbdf5c3980a72ae13757f1fae0693b0a822d81c3e20582a3e8b6"
+    },
+    "requirements.lock": {
+      "bytes": 1181,
+      "sha256": "b1e446c36f4dc804c78eede5b0adffd93d8cdb3c755176f4e0fe8b737e071aa4"
+    },
+    "scripts/benchmark_system.py": {
+      "bytes": 4344,
+      "sha256": "2ee1872c39e79dabcc15760976f18b2fdc8e61671dee3c971832740dbf24f47d"
+    },
+    "scripts/bootstrap.py": {
+      "bytes": 2754,
+      "sha256": "120df4457ef9981380cb22161be41ec5f6fa4c34175f0652893fa96ac58df648"
+    },
+    "scripts/bootstrap_superset.py": {
+      "bytes": 1419,
+      "sha256": "ba418bc0559421de7b95ff00e1f5c735841f9efcd1eff8d147d073dbe3492d87"
+    },
+    "scripts/build_demo_catalog.py": {
+      "bytes": 9759,
+      "sha256": "5d7dd29c1e993063d926edaeb4b7505ee8b3e8bcad04d1738d7c1fddf0667282"
+    },
+    "scripts/build_internals_doc.py": {
+      "bytes": 20129,
+      "sha256": "060b98d8438e506c7929b194c7ac12674906806e1596dcb70adbab319ad2293e"
+    },
+    "scripts/build_release.py": {
+      "bytes": 4775,
+      "sha256": "b67e22f2e7ba19d7a304ef2de42fa0dac0f7dbb190f30cccc78148b39166d616"
+    },
+    "scripts/build_reports.py": {
+      "bytes": 6165,
+      "sha256": "7576a3172c99f2557de1e8334fba2971a33d0b152f5e3a852a92574d5c8f61ac"
+    },
+    "scripts/check_superset.py": {
+      "bytes": 364,
+      "sha256": "14645c2bf24c2fb3bef3a94b4c58ac207f692ecd4ce290bcff8e5f43f1e0008f"
+    },
+    "scripts/criteria_demo.py": {
+      "bytes": 1755,
+      "sha256": "5ce8b73536cafb8e3ec42d3a00f59c089f3a53df2bcd5063d1765b41d40bdbdf"
+    },
+    "scripts/export_bi.py": {
+      "bytes": 426,
+      "sha256": "870991d35fe738daac0240b64c0b9f66a57aed10761a283b797bebf9cca46cb1"
+    },
+    "scripts/export_schemas.py": {
+      "bytes": 715,
+      "sha256": "3b26bed2a739a869475c98a8ee32584169edfa637c7e97f541cdab0388847608"
+    },
+    "scripts/fetch_osm.py": {
+      "bytes": 1688,
+      "sha256": "85206baaf2cb4f80892eed2032e0a5da8051ca5cb35bf6b5674270955e43cfed"
+    },
+    "scripts/fetch_osm_map.py": {
+      "bytes": 1238,
+      "sha256": "3ffd308761936ef045b21e19839ff548d5b16b97fcdc17860bd960116a046a31"
+    },
+    "scripts/fetch_osrm.py": {
+      "bytes": 2164,
+      "sha256": "adb3c9f6dfb6108bff38c1fce1def6f0747786f72864607acaadb9ff1e98022f"
+    },
+    "scripts/fetch_osrm_raw.py": {
+      "bytes": 1500,
+      "sha256": "751871c4e3266a4c56aea7987f7d1dc493cb8a828f2a4e9b85348bef2eac066f"
+    },
+    "scripts/fetch_weather.py": {
+      "bytes": 307,
+      "sha256": "a457869cc261cb401371d8c75b80a614d0762a7283a778fe8dbb96f9a1de24ae"
+    },
+    "scripts/passport_evidence.py": {
+      "bytes": 6354,
+      "sha256": "a3f5f13e5c5a39b87ba4a3c0b906f3225c9a453ab0cf4be7492ed651df48eef8"
+    },
+    "scripts/prepare_catalog.py": {
+      "bytes": 1002,
+      "sha256": "a47aadb652a78c8c0914151e90095cbefa61f80fe73e0074316fa6a699800ad7"
+    },
+    "scripts/run_superset.py": {
+      "bytes": 479,
+      "sha256": "220e35bd88d9c4f21ce3931cc2c2b143acb0950742af95ad1fda7e4e7f267723"
+    },
+    "scripts/setup_superset.py": {
+      "bytes": 1523,
+      "sha256": "02fd3549f9443abcb6c541b520bcc4700f794ed78dd4aadf65bfea8adc312a97"
+    },
+    "scripts/summarize_system.py": {
+      "bytes": 9506,
+      "sha256": "b326761b3082e3db727bacde5f769c84301356b50ae5a6de1c278f6b4205167d"
+    },
+    "scripts/train_forecast.py": {
+      "bytes": 1560,
+      "sha256": "13b1ccd4d8d726ba89633625e56505b7e949bb0321dbcb1eeedcc55243e3e09c"
+    },
+    "scripts/verify_protege.py": {
+      "bytes": 2880,
+      "sha256": "5b580aeb1a96f9f63930cb66d4771f003834a575cafef26d4aaa583119a6cb87"
+    },
+    "src/travel_dss/__init__.py": {
+      "bytes": 67,
+      "sha256": "8372d409c3424f2bd7309785c45ce271351919fee85e4a4feaaf24f0bfb642e0"
+    },
+    "src/travel_dss/ahp.py": {
+      "bytes": 3527,
+      "sha256": "bd79270bda7093b2080859c65606923c6ffa3b23fc70ce0efe80a062b3dbe010"
+    },
+    "src/travel_dss/baselines.py": {
+      "bytes": 2234,
+      "sha256": "8e7c3a8c20b59fec72b94d2a4cd2594a8fe777343ee7dd96263baf849e036d64"
+    },
+    "src/travel_dss/bi.py": {
+      "bytes": 2544,
+      "sha256": "49c1fbfe01afd3b78e48bb78d27777f2603e7e41fb3b1e52980343f36cab9771"
+    },
+    "src/travel_dss/catalog_api.py": {
+      "bytes": 21197,
+      "sha256": "4b1c46deebf50ee9f8fbb3a431ea44b32e01991729ca75283f2fa782c1b55ac3"
+    },
+    "src/travel_dss/cli.py": {
+      "bytes": 8810,
+      "sha256": "560d86f75511a6a21aa61fb575744e625591819d30558c56631c274136962039"
+    },
+    "src/travel_dss/data.py": {
+      "bytes": 6246,
+      "sha256": "1e51e376ff09989db488eb9148d187375fb1f792e5eb9de40a882e58567779df"
+    },
+    "src/travel_dss/decision_analysis.py": {
+      "bytes": 3839,
+      "sha256": "f02b3e75d8475298499ca61ee5c53db6a5dc7d76a46bbcd88d899f86bfc1b415"
+    },
+    "src/travel_dss/doctor.py": {
+      "bytes": 2424,
+      "sha256": "b450153a47a9b44c46ab86e6fee762b2d620e390791e71cfb18ec610c624eb32"
+    },
+    "src/travel_dss/domain.py": {
+      "bytes": 8985,
+      "sha256": "ba5fc4ae2b6e072c72fbee46bdf58a969589669b972c170f68e2e5662663e2a2"
+    },
+    "src/travel_dss/forecast.py": {
+      "bytes": 9927,
+      "sha256": "bfc57b40d5fda2c808a6c58f552abc21ea713a0a5d636413ebc6df616248c7b0"
+    },
+    "src/travel_dss/integrity.py": {
+      "bytes": 1383,
+      "sha256": "f5b40317fa963f9f66be7927019202850766a5bc2efbfa49a902bdceedf9b4c2"
+    },
+    "src/travel_dss/knowledge.py": {
+      "bytes": 3915,
+      "sha256": "bae5b4761cbf5bb8270a00fde4af511eb29280e114e6d8846c489adac9d4b451"
+    },
+    "src/travel_dss/ontology.py": {
+      "bytes": 4320,
+      "sha256": "a2154f7da46d7150a9540e69dd1f75a0af3bd14010af78a02c2b0e8b1dd2fb72"
+    },
+    "src/travel_dss/optimization.py": {
+      "bytes": 12924,
+      "sha256": "2f0b4b2f56f3f28d729448cedeea63fb3f57c95184f19ab3dd5e5f82aa5de1e9"
+    },
+    "src/travel_dss/optimization_pulp.py": {
+      "bytes": 8940,
+      "sha256": "0cc87ef255c35bbd56df3a8b258106a55b00b0c883e80c1835358148eab0383d"
+    },
+    "src/travel_dss/osm.py": {
+      "bytes": 6264,
+      "sha256": "5dac503beb2a1ed65008fde62bbd22d4d548ddda8e4cb8cf41ade00ed88e2b17"
+    },
+    "src/travel_dss/preferences.py": {
+      "bytes": 4107,
+      "sha256": "202185cd9d27c785e521cabffc0fb694a41b249cb1594b2f8d574d687c471ca6"
+    },
+    "src/travel_dss/presentation.py": {
+      "bytes": 4693,
+      "sha256": "88e290c696aebfce1a3cdcaac3c533fd3ae43fedf0f807728b690fed92ac372d"
+    },
+    "src/travel_dss/recommendation.py": {
+      "bytes": 15173,
+      "sha256": "22f3e4fc9559fb7903579217b98639e6e533c93fdbfa46d6f6492241aed0a55f"
+    },
+    "src/travel_dss/risk.py": {
+      "bytes": 1971,
+      "sha256": "2bea8e9128de1075d83613380b9339b01a0775e1ba0dcb072db2a391c6dd81ae"
+    },
+    "src/travel_dss/routing.py": {
+      "bytes": 14527,
+      "sha256": "fc87c3874bf58be6a0ea1a4719389251f1830bbbe04a7df6c59b983d7560a04d"
+    },
+    "src/travel_dss/scenarios.py": {
+      "bytes": 2779,
+      "sha256": "ed3e7cfcf90008d6abe59fbe2dd9c797226c9125223fe431e156ac0638f93e4b"
+    },
+    "src/travel_dss/ui.py": {
+      "bytes": 17520,
+      "sha256": "d086bdc625a3ededc93db703930588600250c220ab58047032c37ea29fac4511"
+    },
+    "src/travel_dss/validation.py": {
+      "bytes": 1532,
+      "sha256": "72d70665994614126848b642b52a6a9c239e38f839f51ad4827c1590ab919e40"
+    },
+    "tests/conftest.py": {
+      "bytes": 2536,
+      "sha256": "f23efb798bec7c4604ce9cdacdf0fcdcceff63b4649713772ea59c391ee69cb3"
+    },
+    "tests/test_catalog_api.py": {
+      "bytes": 10341,
+      "sha256": "fc9c8268d41da019fbc778cef8b98d0e2cf526c3de70bdea17d702af1f6886b5"
+    },
+    "tests/test_data.py": {
+      "bytes": 2350,
+      "sha256": "cbdc28add645332b51a4b4091ea51672b21be58733a6267133e7fb8c7ee2b5cb"
+    },
+    "tests/test_domain.py": {
+      "bytes": 2935,
+      "sha256": "d9dfa61dbf19e1ce4bc450d7b398fb937dfd10ac8c6d6768c63a2da09963e66e"
+    },
+    "tests/test_forecast.py": {
+      "bytes": 3288,
+      "sha256": "18619693eae719c66e8b37176f2c506ef509189a41368be17adf25a6a77d527e"
+    },
+    "tests/test_handoff.py": {
+      "bytes": 2282,
+      "sha256": "81458a111d0e2288cc7582208c97d758695e239b7ddff9655c00dabab444494a"
+    },
+    "tests/test_optimization.py": {
+      "bytes": 3706,
+      "sha256": "2fa88fb5e43c761d3eba02dee3a1765f2a19b2053b3044c9a14f4a27b16648be"
+    },
+    "tests/test_passport.py": {
+      "bytes": 5430,
+      "sha256": "3b25c3622c94fed994d685bce46d2205ad659e560ad43b1e6f18a1e5cc00789a"
+    },
+    "tests/test_preferences.py": {
+      "bytes": 2686,
+      "sha256": "21136884062df9e17a7fd51bb5fc389f814f81bab84e3a29373f1146ca332f2c"
+    },
+    "tests/test_system.py": {
+      "bytes": 4092,
+      "sha256": "4722905886ce1b69081d5b4f7c80eb2d82f2218cc87701acf2278c3ed6b4e333"
+    },
+    "Паспорт СППР.md": {
+      "bytes": 59161,
+      "sha256": "563867b3411f86533f78d62210877778be641f8c91d894db07a2d15204bb1388"
+    }
+  }
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "osm_way_1062067308",
+    "destination_id": "kazan",
+    "name": "Аллея туризма",
+    "latitude": 55.78376574444444,
+    "longitude": 49.12842431111111,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1062067308",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_75658841",
+    "destination_id": "kazan",
+    "name": "Ленинский сад",
+    "latitude": 55.79370592307692,
+    "longitude": 49.12344752307693,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/75658841",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_81512367",
+    "destination_id": "kazan",
+    "name": "Лядской сад",
+    "latitude": 55.79328436666666,
+    "longitude": 49.133624960000006,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/81512367",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_81560016",
+    "destination_id": "kazan",
+    "name": "Сад имени Кирова",
+    "latitude": 55.78583299999999,
+    "longitude": 49.112724728571436,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/81560016",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1319011122",
+    "destination_id": "kazan",
+    "name": "Сад любви",
+    "latitude": 55.77849691428572,
+    "longitude": 49.115250957142855,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1319011122",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_122359449",
+    "destination_id": "kazan",
+    "name": "Сквер Баки Урманче",
+    "latitude": 55.796687877777785,
+    "longitude": 49.13630488888889,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/122359449",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_99288846",
+    "destination_id": "kazan",
+    "name": "Сквер Лобачевского",
+    "latitude": 55.7920963125,
+    "longitude": 49.120363250000004,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/99288846",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_242939916",
+    "destination_id": "kazan",
+    "name": "Сквер им. Габдуллы Тукая",
+    "latitude": 55.785180159999996,
+    "longitude": 49.120181280000004,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/242939916",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_143954521",
+    "destination_id": "kazan",
+    "name": "Юнусовская площадь",
+    "latitude": 55.77818027142856,
+    "longitude": 49.11514941428572,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/143954521",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_40371211",
+    "destination_id": "kazan",
+    "name": "парк Чёрное озеро",
+    "latitude": 55.79484663888887,
+    "longitude": 49.11796583333333,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/40371211",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_82176829",
+    "destination_id": "kazan",
+    "name": "сад Эрмитаж",
+    "latitude": 55.7899754521739,
+    "longitude": 49.12838734347826,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/82176829",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1453211254",
+    "destination_id": "kazan",
+    "name": "сквер \"Зилант\"",
+    "latitude": 55.795871340000005,
+    "longitude": 49.1113577,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1453211254",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1472706736",
+    "destination_id": "kazan",
+    "name": "сквер Зайни Султана",
+    "latitude": 55.780357216666665,
+    "longitude": 49.117689283333334,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1472706736",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_433786485",
+    "destination_id": "kazan",
+    "name": "сквер митрополита Андриана",
+    "latitude": 55.7828773,
+    "longitude": 49.130885533333334,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/433786485",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13002498714",
+    "destination_id": "kazan",
+    "name": "Бизон",
+    "latitude": 55.7902258,
+    "longitude": 49.12493,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 12:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13002498714",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_101558579",
+    "destination_id": "kazan",
+    "name": "Галерея современного искусства",
+    "latitude": 55.79552771428571,
+    "longitude": 49.13595044285715,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 11:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/101558579",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_5487842936",
+    "destination_id": "kazan",
+    "name": "Галерея—мастерская Зайцева",
+    "latitude": 55.7901857,
+    "longitude": 49.1133275,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/5487842936",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9883968512",
+    "destination_id": "kazan",
+    "name": "Геологический музей имени А. А. Штукенберга",
+    "latitude": 55.7938485,
+    "longitude": 49.1144434,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9883968512",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_277633796",
+    "destination_id": "kazan",
+    "name": "Государственный музей изобразительных искусств Республики Татарстан",
+    "latitude": 55.7949678375,
+    "longitude": 49.13483792499999,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Fr 10:00-17:00; Sa-Su 10:00-16:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/277633796",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13030181876",
+    "destination_id": "kazan",
+    "name": "Дом Art",
+    "latitude": 55.7890138,
+    "longitude": 49.131174,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13030181876",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9791272953",
+    "destination_id": "kazan",
+    "name": "Дом татарской книги",
+    "latitude": 55.7892285,
+    "longitude": 49.1144359,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Th,Sa-Su 10:00-18:00; Fr 10:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9791272953",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13142525343",
+    "destination_id": "kazan",
+    "name": "Клуб Шарык",
+    "latitude": 55.7836267,
+    "longitude": 49.1167071,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13142525343",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_2951266146",
+    "destination_id": "kazan",
+    "name": "Музей А. М. Горького и Ф. И. Шаляпина",
+    "latitude": 55.7935621,
+    "longitude": 49.1296637,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-We,Sa-Su 10:00-17:00; Th 12:00-20:00; Fr 10:00-16:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/2951266146",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_4850362994",
+    "destination_id": "kazan",
+    "name": "Музей Е. А. Боратынского",
+    "latitude": 55.7938037,
+    "longitude": 49.1356495,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-We,Sa-Su 10:00-18:00; Th 12:00-20:00; Fr 10:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/4850362994",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_6929993786",
+    "destination_id": "kazan",
+    "name": "Музей Казанской Иконы",
+    "latitude": 55.7985792,
+    "longitude": 49.1116079,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 09:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/6929993786",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_5316345744",
+    "destination_id": "kazan",
+    "name": "Музей Каюма Насыри",
+    "latitude": 55.7802224,
+    "longitude": 49.1107044,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/5316345744",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_11202465664",
+    "destination_id": "kazan",
+    "name": "Музей Спасской башни",
+    "latitude": 55.7965813,
+    "longitude": 49.1079311,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Th 10:00-18:00; Fr 11:00-20:00; Sa-Su 10:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/11202465664",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_11034763023",
+    "destination_id": "kazan",
+    "name": "Музей истории Петропавловского собора",
+    "latitude": 55.7935811,
+    "longitude": 49.1132972,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/11034763023",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_5252474255",
+    "destination_id": "kazan",
+    "name": "Музей чак-чака",
+    "latitude": 55.7820629,
+    "longitude": 49.1125533,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/5252474255",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_8521190125",
+    "destination_id": "kazan",
+    "name": "Музей чая",
+    "latitude": 55.7809354,
+    "longitude": 49.115729,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/8521190125",
+      "observed_at": "2026-11-11T22:31:21.477708+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  }
+]

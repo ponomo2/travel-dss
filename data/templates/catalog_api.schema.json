@@ -1,0 +1,744 @@
+{
+  "$defs": {
+    "DailyCosts": {
+      "additionalProperties": false,
+      "properties": {
+        "destination_id": {
+          "title": "Destination Id",
+          "type": "string"
+        },
+        "food_per_person_day_rub": {
+          "$ref": "#/$defs/PriceRange"
+        },
+        "transfer_one_way_rub": {
+          "$ref": "#/$defs/PriceRange"
+        },
+        "transfer_one_way_minutes": {
+          "$ref": "#/$defs/PriceRange"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        }
+      },
+      "required": [
+        "destination_id",
+        "food_per_person_day_rub",
+        "transfer_one_way_rub",
+        "transfer_one_way_minutes",
+        "provenance"
+      ],
+      "title": "DailyCosts",
+      "type": "object"
+    },
+    "DataKind": {
+      "enum": [
+        "reanalysis",
+        "quotation",
+        "expert",
+        "osm",
+        "synthetic"
+      ],
+      "title": "DataKind",
+      "type": "string"
+    },
+    "Destination": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "latitude": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Latitude",
+          "type": "number"
+        },
+        "longitude": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Longitude",
+          "type": "number"
+        },
+        "timezone": {
+          "title": "Timezone",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "latitude",
+        "longitude",
+        "timezone"
+      ],
+      "title": "Destination",
+      "type": "object"
+    },
+    "Distribution": {
+      "additionalProperties": false,
+      "properties": {
+        "culture": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Culture",
+          "type": "number"
+        },
+        "history": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "History",
+          "type": "number"
+        },
+        "nature": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Nature",
+          "type": "number"
+        },
+        "food": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Food",
+          "type": "number"
+        }
+      },
+      "title": "Distribution",
+      "type": "object"
+    },
+    "Location": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "latitude": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Latitude",
+          "type": "number"
+        },
+        "longitude": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Longitude",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "latitude",
+        "longitude"
+      ],
+      "title": "Location",
+      "type": "object"
+    },
+    "OpeningInterval": {
+      "additionalProperties": false,
+      "properties": {
+        "poi_id": {
+          "title": "Poi Id",
+          "type": "string"
+        },
+        "start": {
+          "format": "date-time",
+          "title": "Start",
+          "type": "string"
+        },
+        "end": {
+          "format": "date-time",
+          "title": "End",
+          "type": "string"
+        },
+        "last_admission": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Admission"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        }
+      },
+      "required": [
+        "poi_id",
+        "start",
+        "end",
+        "provenance"
+      ],
+      "title": "OpeningInterval",
+      "type": "object"
+    },
+    "POI": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "destination_id": {
+          "title": "Destination Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "latitude": {
+          "maximum": 90,
+          "minimum": -90,
+          "title": "Latitude",
+          "type": "number"
+        },
+        "longitude": {
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Longitude",
+          "type": "number"
+        },
+        "themes": {
+          "$ref": "#/$defs/Distribution"
+        },
+        "duration_min": {
+          "exclusiveMinimum": 0,
+          "title": "Duration Min",
+          "type": "integer"
+        },
+        "duration_max": {
+          "exclusiveMinimum": 0,
+          "title": "Duration Max",
+          "type": "integer"
+        },
+        "indoor": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Indoor"
+        },
+        "admission_rub": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Admission Rub"
+        },
+        "opening_hours": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Opening Hours"
+        },
+        "verified": {
+          "default": false,
+          "title": "Verified",
+          "type": "boolean"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        }
+      },
+      "required": [
+        "id",
+        "destination_id",
+        "name",
+        "latitude",
+        "longitude",
+        "themes",
+        "duration_min",
+        "duration_max",
+        "provenance"
+      ],
+      "title": "POI",
+      "type": "object"
+    },
+    "PriceRange": {
+      "additionalProperties": false,
+      "properties": {
+        "minimum": {
+          "minimum": 0,
+          "title": "Minimum",
+          "type": "number"
+        },
+        "typical": {
+          "minimum": 0,
+          "title": "Typical",
+          "type": "number"
+        },
+        "maximum": {
+          "minimum": 0,
+          "title": "Maximum",
+          "type": "number"
+        }
+      },
+      "required": [
+        "minimum",
+        "typical",
+        "maximum"
+      ],
+      "title": "PriceRange",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "pattern": "^https?://",
+          "title": "Source Url",
+          "type": "string"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "valid_from": {
+          "format": "date",
+          "title": "Valid From",
+          "type": "string"
+        },
+        "valid_to": {
+          "format": "date",
+          "title": "Valid To",
+          "type": "string"
+        },
+        "data_kind": {
+          "$ref": "#/$defs/DataKind"
+        },
+        "confidence_note": {
+          "minLength": 1,
+          "title": "Confidence Note",
+          "type": "string"
+        },
+        "version": {
+          "minLength": 1,
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_url",
+        "observed_at",
+        "valid_from",
+        "valid_to",
+        "data_kind",
+        "confidence_note",
+        "version"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    },
+    "Quote": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "destination_id": {
+          "title": "Destination Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "transport",
+            "stay"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "start": {
+          "format": "date-time",
+          "title": "Start",
+          "type": "string"
+        },
+        "end": {
+          "format": "date-time",
+          "title": "End",
+          "type": "string"
+        },
+        "total_rub": {
+          "exclusiveMinimum": 0,
+          "title": "Total Rub",
+          "type": "number"
+        },
+        "available": {
+          "title": "Available",
+          "type": "boolean"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        }
+      },
+      "required": [
+        "id",
+        "destination_id",
+        "kind",
+        "start",
+        "end",
+        "total_rub",
+        "available",
+        "provenance"
+      ],
+      "title": "Quote",
+      "type": "object"
+    },
+    "StayOffer": {
+      "additionalProperties": false,
+      "properties": {
+        "quote": {
+          "$ref": "#/$defs/Quote"
+        },
+        "window_id": {
+          "title": "Window Id",
+          "type": "string"
+        },
+        "location": {
+          "$ref": "#/$defs/Location"
+        },
+        "nights": {
+          "exclusiveMinimum": 0,
+          "title": "Nights",
+          "type": "integer"
+        },
+        "nightly_rub": {
+          "exclusiveMinimum": 0,
+          "title": "Nightly Rub",
+          "type": "number"
+        },
+        "price_rub": {
+          "$ref": "#/$defs/PriceRange"
+        },
+        "conditions": {
+          "minLength": 1,
+          "title": "Conditions",
+          "type": "string"
+        }
+      },
+      "required": [
+        "quote",
+        "window_id",
+        "location",
+        "nights",
+        "nightly_rub",
+        "price_rub",
+        "conditions"
+      ],
+      "title": "StayOffer",
+      "type": "object"
+    },
+    "TransportOffer": {
+      "additionalProperties": false,
+      "properties": {
+        "quote": {
+          "$ref": "#/$defs/Quote"
+        },
+        "window_id": {
+          "title": "Window Id",
+          "type": "string"
+        },
+        "mode": {
+          "enum": [
+            "flight",
+            "train"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "destination_arrival": {
+          "format": "date-time",
+          "title": "Destination Arrival",
+          "type": "string"
+        },
+        "return_departure": {
+          "format": "date-time",
+          "title": "Return Departure",
+          "type": "string"
+        },
+        "terminal": {
+          "$ref": "#/$defs/Location"
+        },
+        "price_rub": {
+          "$ref": "#/$defs/PriceRange"
+        },
+        "conditions": {
+          "minLength": 1,
+          "title": "Conditions",
+          "type": "string"
+        }
+      },
+      "required": [
+        "quote",
+        "window_id",
+        "mode",
+        "destination_arrival",
+        "return_departure",
+        "terminal",
+        "price_rub",
+        "conditions"
+      ],
+      "title": "TransportOffer",
+      "type": "object"
+    },
+    "TravelMatrix": {
+      "additionalProperties": false,
+      "properties": {
+        "destination_id": {
+          "title": "Destination Id",
+          "type": "string"
+        },
+        "point_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Point Ids",
+          "type": "array"
+        },
+        "distances_m": {
+          "items": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "type": "array"
+          },
+          "title": "Distances M",
+          "type": "array"
+        },
+        "durations_seconds": {
+          "items": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "type": "array"
+          },
+          "title": "Durations Seconds",
+          "type": "array"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "method": {
+          "title": "Method",
+          "type": "string"
+        }
+      },
+      "required": [
+        "destination_id",
+        "point_ids",
+        "distances_m",
+        "durations_seconds",
+        "provenance",
+        "method"
+      ],
+      "title": "TravelMatrix",
+      "type": "object"
+    },
+    "TripWindow": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "start": {
+          "format": "date",
+          "title": "Start",
+          "type": "string"
+        },
+        "end": {
+          "format": "date",
+          "title": "End",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "start",
+        "end"
+      ],
+      "title": "TripWindow",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "demo",
+        "live"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "provider": {
+      "minLength": 1,
+      "title": "Provider",
+      "type": "string"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "currency": {
+      "const": "RUB",
+      "title": "Currency",
+      "type": "string"
+    },
+    "notice": {
+      "minLength": 1,
+      "title": "Notice",
+      "type": "string"
+    },
+    "destinations": {
+      "items": {
+        "$ref": "#/$defs/Destination"
+      },
+      "minItems": 1,
+      "title": "Destinations",
+      "type": "array"
+    },
+    "trip_windows": {
+      "items": {
+        "$ref": "#/$defs/TripWindow"
+      },
+      "minItems": 1,
+      "title": "Trip Windows",
+      "type": "array"
+    },
+    "pois": {
+      "items": {
+        "$ref": "#/$defs/POI"
+      },
+      "minItems": 1,
+      "title": "Pois",
+      "type": "array"
+    },
+    "opening_intervals": {
+      "items": {
+        "$ref": "#/$defs/OpeningInterval"
+      },
+      "title": "Opening Intervals",
+      "type": "array"
+    },
+    "poi_prices_rub": {
+      "additionalProperties": {
+        "$ref": "#/$defs/PriceRange"
+      },
+      "title": "Poi Prices Rub",
+      "type": "object"
+    },
+    "transport_offers": {
+      "items": {
+        "$ref": "#/$defs/TransportOffer"
+      },
+      "title": "Transport Offers",
+      "type": "array"
+    },
+    "stay_offers": {
+      "items": {
+        "$ref": "#/$defs/StayOffer"
+      },
+      "title": "Stay Offers",
+      "type": "array"
+    },
+    "daily_costs": {
+      "items": {
+        "$ref": "#/$defs/DailyCosts"
+      },
+      "title": "Daily Costs",
+      "type": "array"
+    },
+    "matrices": {
+      "items": {
+        "$ref": "#/$defs/TravelMatrix"
+      },
+      "title": "Matrices",
+      "type": "array"
+    },
+    "original_poi_sources": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Original Poi Sources",
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "mode",
+    "provider",
+    "generated_at",
+    "currency",
+    "notice",
+    "destinations",
+    "trip_windows",
+    "pois",
+    "opening_intervals",
+    "poi_prices_rub",
+    "transport_offers",
+    "stay_offers",
+    "daily_costs",
+    "matrices",
+    "original_poi_sources"
+  ],
+  "title": "CatalogSnapshot",
+  "type": "object"
+}

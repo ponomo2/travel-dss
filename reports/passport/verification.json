@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "test_summary": "120 passed, 14 warnings in 12.10s",
+  "doctor": {
+    "ok": true,
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "architecture": "arm64",
+    "project_root": "/Users/srakhmanov/home/rsppr",
+    "versions": {
+      "numpy": "2.0.2",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.13.1",
+      "matplotlib": "3.9.4",
+      "pydantic": "2.12.4",
+      "requests": "2.32.5",
+      "ortools": "9.14.6206",
+      "streamlit": "1.50.0",
+      "PuLP": "2.9.0",
+      "networkx": "3.2.1",
+      "rdflib": "7.1.4",
+      "pytest": "8.4.2",
+      "openpyxl": "3.1.5"
+    },
+    "demo_data_ready": true,
+    "checks": [
+      {
+        "city": "saint_petersburg",
+        "pois": 30,
+        "weather_rows": 4018,
+        "forecast_days": 4,
+        "matrix_points": 33
+      },
+      {
+        "city": "kazan",
+        "pois": 30,
+        "weather_rows": 4018,
+        "forecast_days": 4,
+        "matrix_points": 33
+      },
+      {
+        "city": "nizhny_novgorod",
+        "pois": 30,
+        "weather_rows": 4018,
+        "forecast_days": 4,
+        "matrix_points": 33
+      },
+      {
+        "city": "yaroslavl",
+        "pois": 30,
+        "weather_rows": 4018,
+        "forecast_days": 4,
+        "matrix_points": 33
+      },
+      {
+        "city": "kaliningrad",
+        "pois": 30,
+        "weather_rows": 4018,
+        "forecast_days": 4,
+        "matrix_points": 33
+      },
+      {
+        "city": "sochi",
+        "pois": 23,
+        "weather_rows": 4018,
+        "forecast_days": 4,
+        "matrix_points": 26
+      }
+    ],
+    "errors": [],
+    "note": "Проверка среды и снимков не заменяет pytest и полный расчет маршрута"
+  },
+  "pulp_exact_cases": 20,
+  "cp_sat_exact_cases": 20,
+  "excel_check": "formulas and cached values matched Python; native Excel not run",
+  "superset_queries": {
+    "superset_version": "4.1.4",
+    "verification": "real Flask REST API, authenticated; not a mocked database query",
+    "charts": [
+      {
+        "chart_id": 1,
+        "chart": "Направления: полезность, расходы и риск",
+        "http_status": 200,
+        "rows": 3,
+        "columns": [
+          "city",
+          "score",
+          "nominal_cost_rub",
+          "cost_c90_rub",
+          "success_rate",
+          "solver_status"
+        ],
+        "status": "success"
+      },
+      {
+        "chart_id": 2,
+        "chart": "Качество прогноза на независимом 2025 году",
+        "http_status": 200,
+        "rows": 6,
+        "columns": [
+          "city",
+          "mae_c",
+          "coverage_80",
+          "interval_width_c",
+          "model"
+        ],
+        "status": "success"
+      },
+      {
+        "chart_id": 3,
+        "chart": "Температура: факт и сезонный прогноз, Ярославль",
+        "http_status": 200,
+        "rows": 365,
+        "columns": [
+          "__timestamp",
+          "ERA5, факт",
+          "Сезонный прогноз"
+        ],
+        "status": "success"
+      },
+      {
+        "chart_id": 4,
+        "chart": "Расписание посещений",
+        "http_status": 200,
+        "rows": 40,
+        "columns": [
+          "city",
+          "date",
+          "name",
+          "start",
+          "end",
+          "walk_before_m"
+        ],
+        "status": "success"
+      }
+    ],
+    "dashboard_export_http_status": 200
+  },
+  "protege_check": {
+    "protege_version": "5.6.9",
+    "engine": "OWL API 4.5.29 + HermiT 1.4.3.456 from Protégé",
+    "verification": "headless inference; ontology also loaded in desktop Protégé",
+    "consistent": true,
+    "inferred_needs_confirmation": 173,
+    "asserted_needs_confirmation": 0,
+    "axioms": 1483
+  },
+  "ui_acceptance": "owner follows docs/USER_GUIDE.md; no fabricated user study"
+}

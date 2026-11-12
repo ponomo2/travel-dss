@@ -1,0 +1,842 @@
+[
+  {
+    "id": "osm_node_13975353632",
+    "destination_id": "kaliningrad",
+    "name": "Квестап",
+    "latitude": 54.7104888,
+    "longitude": 20.5170464,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-22:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13975353632",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_814619390",
+    "destination_id": "kaliningrad",
+    "name": "Биржевой сквер",
+    "latitude": 54.70460747999999,
+    "longitude": 20.507386860000004,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/814619390",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_480314728",
+    "destination_id": "kaliningrad",
+    "name": "Королевский сад",
+    "latitude": 54.713096959999994,
+    "longitude": 20.50979592,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/480314728",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_60732869",
+    "destination_id": "kaliningrad",
+    "name": "Парк Маринеско",
+    "latitude": 54.7121323,
+    "longitude": 20.515648736842106,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/60732869",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1564547670",
+    "destination_id": "kaliningrad",
+    "name": "Парк Юных Натуралистов",
+    "latitude": 54.712320952631586,
+    "longitude": 20.496298826315783,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1564547670",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1560588471",
+    "destination_id": "kaliningrad",
+    "name": "Сквер Мать-Россия",
+    "latitude": 54.71695572380953,
+    "longitude": 20.501781080952384,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1560588471",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1562929047",
+    "destination_id": "kaliningrad",
+    "name": "Сквер имени Румянцева",
+    "latitude": 54.712646115384615,
+    "longitude": 20.5071012,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1562929047",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_132325340",
+    "destination_id": "kaliningrad",
+    "name": "Сквер энергетиков",
+    "latitude": 54.71981866,
+    "longitude": 20.49613606,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/132325340",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_188173831",
+    "destination_id": "kaliningrad",
+    "name": "Выставочный корпус «Морской Кёнигсберг-Калининград»",
+    "latitude": 54.7068725,
+    "longitude": 20.497458836363634,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/188173831",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_188173825",
+    "destination_id": "kaliningrad",
+    "name": "Выставочный корпус «Пакгауз»",
+    "latitude": 54.70668402857142,
+    "longitude": 20.497727,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo,We-Sa 10:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/188173825",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_60734809",
+    "destination_id": "kaliningrad",
+    "name": "Историко-художественный музей",
+    "latitude": 54.71377694666666,
+    "longitude": 20.517956746666666,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/60734809",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_188173828",
+    "destination_id": "kaliningrad",
+    "name": "Музей Мирового океана – экспозиционный корпус Глубина",
+    "latitude": 54.70663208999999,
+    "longitude": 20.49994695,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/188173828",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_90681702",
+    "destination_id": "kaliningrad",
+    "name": "Музей изобразительных искусств",
+    "latitude": 54.7051303375,
+    "longitude": 20.507256587500002,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo off; Tu,We,Fr-Su 10:00-19:00; Th 10:00-21:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/90681702",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9222073310",
+    "destination_id": "kaliningrad",
+    "name": "Музей имени Канта",
+    "latitude": 54.706504,
+    "longitude": 20.5115053,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9222073310",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_853053301",
+    "destination_id": "kaliningrad",
+    "name": "Музей мирового океана «Планета Океан»",
+    "latitude": 54.706508135,
+    "longitude": 20.502268875000002,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/853053301",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_571116098",
+    "destination_id": "kaliningrad",
+    "name": "Музей-Бункер",
+    "latitude": 54.71309824,
+    "longitude": 20.509701220000004,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/571116098",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_173639308",
+    "destination_id": "kaliningrad",
+    "name": "Научно-исследовательское судно \"Витязь\"",
+    "latitude": 54.70615309999999,
+    "longitude": 20.49994354666667,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "We-Su 10:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/173639308",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_173638032",
+    "destination_id": "kaliningrad",
+    "name": "Научно-исследовательское судно \"Космонавт Виктор Пацаев\"",
+    "latitude": 54.70630719047619,
+    "longitude": 20.497573738095234,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/173638032",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_997577042",
+    "destination_id": "kaliningrad",
+    "name": "Плавучий маяк «Ирбенский»",
+    "latitude": 54.706081566666676,
+    "longitude": 20.503458600000002,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/997577042",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_173642988",
+    "destination_id": "kaliningrad",
+    "name": "СРТ-129",
+    "latitude": 54.70609285,
+    "longitude": 20.504313875,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/173642988",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139309",
+    "destination_id": "kaliningrad",
+    "name": "Альтернативная энергетическая химическая установка гоа \"Мир\"",
+    "latitude": 54.7064425,
+    "longitude": 20.5003971,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139309",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139262",
+    "destination_id": "kaliningrad",
+    "name": "Буй АБС ГМ-4000",
+    "latitude": 54.7066987,
+    "longitude": 20.4962972,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139262",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139220",
+    "destination_id": "kaliningrad",
+    "name": "Буй автономной буйковой станции АБС ГМ-2000",
+    "latitude": 54.7065265,
+    "longitude": 20.497237,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139220",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139263",
+    "destination_id": "kaliningrad",
+    "name": "Буй навигационный светащий",
+    "latitude": 54.7066952,
+    "longitude": 20.4963542,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139263",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139260",
+    "destination_id": "kaliningrad",
+    "name": "Буй озерно-речной",
+    "latitude": 54.7067057,
+    "longitude": 20.4961833,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139260",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139281",
+    "destination_id": "kaliningrad",
+    "name": "Весы \"Хронос\"",
+    "latitude": 54.7066858,
+    "longitude": 20.4971798,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139281",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_997577017",
+    "destination_id": "kaliningrad",
+    "name": "Галерея якорей",
+    "latitude": 54.70646765,
+    "longitude": 20.49818835,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/997577017",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_997577027",
+    "destination_id": "kaliningrad",
+    "name": "Гидрофон",
+    "latitude": 54.706641344444435,
+    "longitude": 20.498920844444445,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/997577027",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139270",
+    "destination_id": "kaliningrad",
+    "name": "Закрытая спасательная шлюпка",
+    "latitude": 54.7066816,
+    "longitude": 20.4966129,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139270",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9211139290",
+    "destination_id": "kaliningrad",
+    "name": "Звездный зонтик",
+    "latitude": 54.7066118,
+    "longitude": 20.4984029,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9211139290",
+      "observed_at": "2026-11-11T22:38:49.265084+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "osm_way_75839775",
+    "name": "Бутусовский парк",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1068267335",
+    "name": "Рождественский сад",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_181714144",
+    "name": "Сад Дружбы",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_31106566",
+    "name": "о. Даманский",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_node_14096683501",
+    "name": "Алёшино подворье",
+    "_category": "museum",
+    "_website": "https://ap-dvor.ru/"
+  },
+  {
+    "id": "osm_node_9276674225",
+    "name": "Интерактивный музей здоровья",
+    "_category": "museum",
+    "_website": "https://muzeizdorov.ru/"
+  },
+  {
+    "id": "osm_node_8639804184",
+    "name": "Мемориальный Дом-музей Л.В. Собинова",
+    "_category": "museum",
+    "_website": "http://www.museum.ru/M2130"
+  },
+  {
+    "id": "osm_node_4178546094",
+    "name": "Музей Эйнштейна",
+    "_category": "museum",
+    "_website": "https://muzeinauki.ru/"
+  },
+  {
+    "id": "osm_node_3691243291",
+    "name": "Музей зарубежного искусства",
+    "_category": "museum",
+    "_website": "http://yarartmuseum.ru"
+  },
+  {
+    "id": "osm_node_8446053517",
+    "name": "Музей имени В. И. Орлова",
+    "_category": "museum",
+    "_website": "https://www.orlovmuseum.ru"
+  },
+  {
+    "id": "osm_way_44898055",
+    "name": "Музей истории города Ярославля",
+    "_category": "museum",
+    "_website": "http://mukmig.yaroslavl.ru/"
+  },
+  {
+    "id": "osm_node_7931841085",
+    "name": "Музей истории пряника",
+    "_category": "museum",
+    "_website": "https://наш-пряник.рф"
+  },
+  {
+    "id": "osm_node_3658286110",
+    "name": "Музыка и время",
+    "_category": "museum",
+    "_website": "https://музыкаивремя.рф/"
+  },
+  {
+    "id": "osm_node_4618193425",
+    "name": "Резиденция Государыни Главной Масленицы Страны",
+    "_category": "museum",
+    "_website": "https://maslenica.info/"
+  },
+  {
+    "id": "osm_node_7931968886",
+    "name": "Шоу-макет Золотое кольцо",
+    "_category": "museum",
+    "_website": "https://showmaket.ru/"
+  },
+  {
+    "id": "osm_node_9273835617",
+    "name": "Ярославский музей фотографии",
+    "_category": "museum",
+    "_website": "https://yarmp.com/"
+  },
+  {
+    "id": "osm_node_1234995463",
+    "name": "Ярославский музей-заповедник",
+    "_category": "museum",
+    "_website": "https://yarkremlin.ru/"
+  },
+  {
+    "id": "osm_node_964688408",
+    "name": "Ярославский художественный музей (Губернаторский дом)",
+    "_category": "museum",
+    "_website": "http://yarartmuseum.ru/"
+  },
+  {
+    "id": "osm_node_8491526949",
+    "name": "кутюр-шоу \"Медвежий угол\"",
+    "_category": "museum",
+    "_website": "https://bearshow.ru/"
+  },
+  {
+    "id": "osm_node_14096612601",
+    "name": "Ансамбль зданий казенных палат",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_14096632601",
+    "name": "Галерея актёрской славы Леонида Куравлёва",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13899227601",
+    "name": "Гостиница Бристоль 1910 г.",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_14096622701",
+    "name": "Гостиница Царьград",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13899075402",
+    "name": "Дом Донцовых-Лопатиных",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9799028117",
+    "name": "Дом Иванова 17в",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9797469218",
+    "name": "Дом Кудасова",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13899156601",
+    "name": "Дом Рожкова",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9797469217",
+    "name": "Дом Салтыкова",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_13899150801",
+    "name": "Дом винного пристава",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9797461818",
+    "name": "Дом вице-губернатора",
+    "_category": "attraction",
+    "_website": null
+  }
+]

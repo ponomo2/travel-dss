@@ -1,0 +1,842 @@
+[
+  {
+    "id": "osm_way_918325991",
+    "destination_id": "nizhny_novgorod",
+    "name": "Губернаторский сад",
+    "latitude": 56.3299956,
+    "longitude": 44.004884181250006,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/918325991",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_151302742",
+    "destination_id": "nizhny_novgorod",
+    "name": "Детский парк",
+    "latitude": 56.32674423478261,
+    "longitude": 44.01255356956522,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/151302742",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_91062753",
+    "destination_id": "nizhny_novgorod",
+    "name": "Ошарская площадь",
+    "latitude": 56.31952292000001,
+    "longitude": 44.010391979999994,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/91062753",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_342750012",
+    "destination_id": "nizhny_novgorod",
+    "name": "Сквер на Алексеевской 24",
+    "latitude": 56.3200034,
+    "longitude": 44.003791379999996,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/342750012",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_1768844072",
+    "destination_id": "nizhny_novgorod",
+    "name": "Арт-галерея «Кладовка»",
+    "latitude": 56.324226,
+    "longitude": 44.0032205,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 12:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/1768844072",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_2297015499",
+    "destination_id": "nizhny_novgorod",
+    "name": "Выставочный зал «Зачатская башня»",
+    "latitude": 56.3307397,
+    "longitude": 44.0036258,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/2297015499",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_152110796",
+    "destination_id": "nizhny_novgorod",
+    "name": "Дом архитектора",
+    "latitude": 56.32952642727273,
+    "longitude": 44.009971854545455,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/152110796",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_147599581",
+    "destination_id": "nizhny_novgorod",
+    "name": "Дом-музей Добролюбова",
+    "latitude": 56.32272985,
+    "longitude": 43.998345416666666,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/147599581",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9128493459",
+    "destination_id": "nizhny_novgorod",
+    "name": "Живой музей ремёсел",
+    "latitude": 56.3310006,
+    "longitude": 44.0006001,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9128493459",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_12104682901",
+    "destination_id": "nizhny_novgorod",
+    "name": "Игрушечный музей",
+    "latitude": 56.3243452,
+    "longitude": 44.0031493,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 11:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/12104682901",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_11904093381",
+    "destination_id": "nizhny_novgorod",
+    "name": "Музей дизайна, моды и портновского искусства имени Н.П. Ламановой",
+    "latitude": 56.3234304,
+    "longitude": 43.9939857,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 11:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/11904093381",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_1808680323",
+    "destination_id": "nizhny_novgorod",
+    "name": "Музей истории художественных промыслов Нижегородской области",
+    "latitude": 56.3182672,
+    "longitude": 43.9953569,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/1808680323",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_1808680328",
+    "destination_id": "nizhny_novgorod",
+    "name": "Музей науки «Нижегородская радиолаборатория»",
+    "latitude": 56.3294098,
+    "longitude": 44.0138828,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Fr 10:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/1808680328",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_1808680330",
+    "destination_id": "nizhny_novgorod",
+    "name": "Музей речного флота",
+    "latitude": 56.3278763,
+    "longitude": 44.0168416,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 09:00-16:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/1808680330",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_151548233",
+    "destination_id": "nizhny_novgorod",
+    "name": "Музей-квартира А.М. Горького",
+    "latitude": 56.32278973333334,
+    "longitude": 44.01849591111112,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 09:00-13:00,14:00-17:00; Th off",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/151548233",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_151302805",
+    "destination_id": "nizhny_novgorod",
+    "name": "ННГУ им. Н. И. Лобачевского. Институт международных отношений и мировой истории",
+    "latitude": 56.326806191666655,
+    "longitude": 44.00850836666666,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/151302805",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_3302933087",
+    "destination_id": "nizhny_novgorod",
+    "name": "Нижегородский государственный выставочный комплекс",
+    "latitude": 56.3257245,
+    "longitude": 44.0052153,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Su 11:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/3302933087",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_152110849",
+    "destination_id": "nizhny_novgorod",
+    "name": "Нижегородский государственный историко-архитектурный музей-заповедник",
+    "latitude": 56.329029133333314,
+    "longitude": 44.015995283333325,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Sa 12:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/152110849",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_151905925",
+    "destination_id": "nizhny_novgorod",
+    "name": "Нижегородский острог",
+    "latitude": 56.317178091379304,
+    "longitude": 44.01705073103449,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/151905925",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_151302809",
+    "destination_id": "nizhny_novgorod",
+    "name": "Нижегородский хоровой колледж",
+    "latitude": 56.327069266666676,
+    "longitude": 44.00811494999999,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/151302809",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_1768844092",
+    "destination_id": "nizhny_novgorod",
+    "name": "Русский музей фотографии",
+    "latitude": 56.3238899,
+    "longitude": 44.0032998,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Th 10:00-18:00; Fr,Sa 10:00-17:00; Su 10:00-16:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/1768844092",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_5103927383",
+    "destination_id": "nizhny_novgorod",
+    "name": "Технический музей",
+    "latitude": 56.3181834,
+    "longitude": 43.9952981,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/5103927383",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_152110807",
+    "destination_id": "nizhny_novgorod",
+    "name": "Усадьба Рукавишниковых",
+    "latitude": 56.32930679999999,
+    "longitude": 44.01601768571428,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Fr 10:00-17:00; Sa-Su 12:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/152110807",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_1768844096",
+    "destination_id": "nizhny_novgorod",
+    "name": "Филиал музея-заповедника А.С. Пушкина",
+    "latitude": 56.327184,
+    "longitude": 44.0078071,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/1768844096",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13011467301",
+    "destination_id": "nizhny_novgorod",
+    "name": "Балкон",
+    "latitude": 56.3225189,
+    "longitude": 43.9983422,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13011467301",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_219812601",
+    "destination_id": "nizhny_novgorod",
+    "name": "Вечный огонь",
+    "latitude": 56.328820300000004,
+    "longitude": 44.001193279999995,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/219812601",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_5141071785",
+    "destination_id": "nizhny_novgorod",
+    "name": "Гарнизонная казарма",
+    "latitude": 56.3276157,
+    "longitude": 44.0042975,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/5141071785",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_11773549425",
+    "destination_id": "nizhny_novgorod",
+    "name": "Город в шоколаде",
+    "latitude": 56.3248181,
+    "longitude": 44.0027867,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/11773549425",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_250924922",
+    "destination_id": "nizhny_novgorod",
+    "name": "Государственный центральный банк",
+    "latitude": 56.319757833333334,
+    "longitude": 43.998286533333335,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/250924922",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_5141071786",
+    "destination_id": "nizhny_novgorod",
+    "name": "Дворец вице-губернатора",
+    "latitude": 56.3272157,
+    "longitude": 44.0031468,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/5141071786",
+      "observed_at": "2026-11-11T22:31:26.318031+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  }
+]

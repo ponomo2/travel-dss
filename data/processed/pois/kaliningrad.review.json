@@ -1,0 +1,182 @@
+[
+  {
+    "id": "osm_node_13975353632",
+    "name": "Квестап",
+    "_category": "park",
+    "_website": "http://квестап.рф"
+  },
+  {
+    "id": "osm_way_814619390",
+    "name": "Биржевой сквер",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_480314728",
+    "name": "Королевский сад",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_60732869",
+    "name": "Парк Маринеско",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1564547670",
+    "name": "Парк Юных Натуралистов",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1560588471",
+    "name": "Сквер Мать-Россия",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_1562929047",
+    "name": "Сквер имени Румянцева",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_132325340",
+    "name": "Сквер энергетиков",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_188173831",
+    "name": "Выставочный корпус «Морской Кёнигсберг-Калининград»",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/ru/morskoj-kenigsberg-kliningrad"
+  },
+  {
+    "id": "osm_way_188173825",
+    "name": "Выставочный корпус «Пакгауз»",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/ru/morskoj-kenigsberg-kliningrad"
+  },
+  {
+    "id": "osm_way_60734809",
+    "name": "Историко-художественный музей",
+    "_category": "museum",
+    "_website": "https://westrussia.org/"
+  },
+  {
+    "id": "osm_way_188173828",
+    "name": "Музей Мирового океана – экспозиционный корпус Глубина",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/ru/mir-okeana-prikosnovenie"
+  },
+  {
+    "id": "osm_way_90681702",
+    "name": "Музей изобразительных искусств",
+    "_category": "attraction",
+    "_website": "https://www.kaliningradartmuseum.ru/"
+  },
+  {
+    "id": "osm_node_9222073310",
+    "name": "Музей имени Канта",
+    "_category": "museum",
+    "_website": "https://sobor39.ru"
+  },
+  {
+    "id": "osm_way_853053301",
+    "name": "Музей мирового океана «Планета Океан»",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/ru/planeta-okean"
+  },
+  {
+    "id": "osm_way_571116098",
+    "name": "Музей-Бункер",
+    "_category": "museum",
+    "_website": "https://westrussia.org/"
+  },
+  {
+    "id": "osm_way_173639308",
+    "name": "Научно-исследовательское судно \"Витязь\"",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/vityaz"
+  },
+  {
+    "id": "osm_way_173638032",
+    "name": "Научно-исследовательское судно \"Космонавт Виктор Пацаев\"",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/ru/kosmonavt-viktor-patsaev"
+  },
+  {
+    "id": "osm_way_997577042",
+    "name": "Плавучий маяк «Ирбенский»",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/ru/irbenskij"
+  },
+  {
+    "id": "osm_way_173642988",
+    "name": "СРТ-129",
+    "_category": "museum",
+    "_website": "https://world-ocean.ru/ru/srt-129"
+  },
+  {
+    "id": "osm_node_9211139309",
+    "name": "Альтернативная энергетическая химическая установка гоа \"Мир\"",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9211139262",
+    "name": "Буй АБС ГМ-4000",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9211139220",
+    "name": "Буй автономной буйковой станции АБС ГМ-2000",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9211139263",
+    "name": "Буй навигационный светащий",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9211139260",
+    "name": "Буй озерно-речной",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9211139281",
+    "name": "Весы \"Хронос\"",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_way_997577017",
+    "name": "Галерея якорей",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_way_997577027",
+    "name": "Гидрофон",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9211139270",
+    "name": "Закрытая спасательная шлюпка",
+    "_category": "attraction",
+    "_website": null
+  },
+  {
+    "id": "osm_node_9211139290",
+    "name": "Звездный зонтик",
+    "_category": "attraction",
+    "_website": null
+  }
+]

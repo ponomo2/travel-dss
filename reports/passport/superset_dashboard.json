@@ -1,0 +1,30 @@
+{
+  "dashboard_id": 1,
+  "path": "/superset/dashboard/travel-dss/",
+  "charts": [
+    {
+      "id": 1,
+      "title": "Направления: полезность, расходы и риск",
+      "viz_type": "table",
+      "table": "recommendations"
+    },
+    {
+      "id": 2,
+      "title": "Качество прогноза на независимом 2025 году",
+      "viz_type": "table",
+      "table": "forecast_quality"
+    },
+    {
+      "id": 3,
+      "title": "Температура: факт и сезонный прогноз, Ярославль",
+      "viz_type": "echarts_timeseries_line",
+      "table": "forecast_test"
+    },
+    {
+      "id": 4,
+      "title": "Расписание посещений",
+      "viz_type": "table",
+      "table": "visits"
+    }
+  ]
+}

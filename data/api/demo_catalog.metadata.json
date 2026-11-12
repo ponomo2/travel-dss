@@ -1,0 +1,10 @@
+{
+  "sha256": "101e9bf403332bade1393c7a39b325942b5a9c0ead69611df2f6ab9856bd46bf",
+  "generated_at": "2026-11-12T00:00:00+03:00",
+  "mode": "demo",
+  "generator": "scripts/build_demo_catalog.py",
+  "pois": 173,
+  "opening_intervals": 1797,
+  "transport_offers": 36,
+  "stay_offers": 36
+}

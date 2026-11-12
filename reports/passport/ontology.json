@@ -1,0 +1,7 @@
+{
+  "triples": 1488,
+  "classes": 10,
+  "pois": 173,
+  "offers": 72,
+  "reasoner_check": "SyntheticPOI subclass NeedsConfirmationPOI; confirmationRequired hasValue true"
+}

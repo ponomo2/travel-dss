@@ -1,0 +1,182 @@
+[
+  {
+    "id": "osm_way_216655348",
+    "name": "Биржевой сквер",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_23076273",
+    "name": "Исаакиевский сквер",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_115318448",
+    "name": "Казанский сквер",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_way_108952921",
+    "name": "сад дворца Юсуповых",
+    "_category": "park",
+    "_website": null
+  },
+  {
+    "id": "osm_node_4889041320",
+    "name": "Alex Show",
+    "_category": "museum",
+    "_website": "http://www.wax.ru"
+  },
+  {
+    "id": "osm_node_5259677323",
+    "name": "Art of Foto",
+    "_category": "gallery",
+    "_website": "https://www.artoffoto.com/"
+  },
+  {
+    "id": "osm_node_11748758238",
+    "name": "Beriozka",
+    "_category": "gallery",
+    "_website": "https://beriozkagallery.ru/"
+  },
+  {
+    "id": "osm_node_7794915044",
+    "name": "Movie Art",
+    "_category": "museum",
+    "_website": "https://smile-park.ru/v-sankt-peterburge/movie-art"
+  },
+  {
+    "id": "osm_node_4925298349",
+    "name": "NameGallery",
+    "_category": "gallery",
+    "_website": "http://namegallery.ru/"
+  },
+  {
+    "id": "osm_node_5649720576",
+    "name": "Route 66",
+    "_category": "museum",
+    "_website": "http://museumroute66.ru/"
+  },
+  {
+    "id": "osm_node_4605191782",
+    "name": "Vnutri",
+    "_category": "gallery",
+    "_website": "https://www.vnutri.gallery/"
+  },
+  {
+    "id": "osm_node_10283929801",
+    "name": "Woo-hoo!",
+    "_category": "museum",
+    "_website": "https://smile-park.ru/woo-hoo"
+  },
+  {
+    "id": "osm_node_4924914493",
+    "name": "Внутри человека",
+    "_category": "museum",
+    "_website": "https://smile-park.ru/v-sankt-peterburge/vnutri-cheloveka"
+  },
+  {
+    "id": "osm_way_309796655",
+    "name": "Восточное крыло Главного штаба",
+    "_category": "museum",
+    "_website": "https://www.hermitagemuseum.org/wps/portal/hermitage/visitus/general-staff/"
+  },
+  {
+    "id": "osm_node_4558482593",
+    "name": "Галерея Сергиенко",
+    "_category": "gallery",
+    "_website": "http://www.sergienko.ru/"
+  },
+  {
+    "id": "osm_node_10000167221",
+    "name": "Гильдия парфюмеров",
+    "_category": "museum",
+    "_website": "https://perfumers-guild.com/"
+  },
+  {
+    "id": "osm_node_11397782853",
+    "name": "Дверь в Хогвартс",
+    "_category": "museum",
+    "_website": "https://dver-v-hogvarts.ru/"
+  },
+  {
+    "id": "osm_node_4437884663",
+    "name": "Дом Великана",
+    "_category": "museum",
+    "_website": "https://smile-park.ru/sankt-peterburg/dom-velikana"
+  },
+  {
+    "id": "osm_node_4915750773",
+    "name": "Дом вверх дном",
+    "_category": "museum",
+    "_website": "https://smile-park.ru/v-sankt-peterburge/dom-vverh-dnom"
+  },
+  {
+    "id": "osm_node_4889041322",
+    "name": "Дом наоборот",
+    "_category": "museum",
+    "_website": "https://domnaoborot.ru"
+  },
+  {
+    "id": "osm_node_4953958351",
+    "name": "Зимний дворец Петра I",
+    "_category": "museum",
+    "_website": "https://www.hermitagemuseum.org/wps/portal/hermitage/explore/buildings/locations/complex/BC3"
+  },
+  {
+    "id": "osm_node_12153910621",
+    "name": "Зоологический музей",
+    "_category": "museum",
+    "_website": "https://www.zin.ru/museum"
+  },
+  {
+    "id": "osm_node_12863078763",
+    "name": "Игра",
+    "_category": "museum",
+    "_website": "https://igramuseum.ru/"
+  },
+  {
+    "id": "osm_node_3517569236",
+    "name": "Литературный музей",
+    "_category": "museum",
+    "_website": "https://www.pushkinskijdom.ru/Default.aspx?tabid=64"
+  },
+  {
+    "id": "osm_node_10112046571",
+    "name": "Минералогический музей СПбГУ",
+    "_category": "museum",
+    "_website": "https://spbu.ru/universitet/muzei-i-kollekcii-spbgu/mineralogicheskiy-muzey"
+  },
+  {
+    "id": "osm_node_6456229789",
+    "name": "Мольберт",
+    "_category": "gallery",
+    "_website": "https://www.molbertgallery.ru"
+  },
+  {
+    "id": "osm_node_1515211295",
+    "name": "Музей В. В. Набокова",
+    "_category": "museum",
+    "_website": "https://nabokov.museums.spbu.ru/"
+  },
+  {
+    "id": "osm_node_3517314640",
+    "name": "Музей Г.В. Старовойтовой",
+    "_category": "museum",
+    "_website": "http://starovoitova.ru/?p=149"
+  },
+  {
+    "id": "osm_node_6403146958",
+    "name": "Музей Теней",
+    "_category": "museum",
+    "_website": "https://shadowmuseum.ru/"
+  },
+  {
+    "id": "osm_node_4590740289",
+    "name": "Музей Эмоций",
+    "_category": "museum",
+    "_website": "https://museumofemotions.ru/"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "osm_way_75839775",
+    "destination_id": "yaroslavl",
+    "name": "Бутусовский парк",
+    "latitude": 57.629512912,
+    "longitude": 39.87107186,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/75839775",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_1068267335",
+    "destination_id": "yaroslavl",
+    "name": "Рождественский сад",
+    "latitude": 57.629967313333346,
+    "longitude": 39.893895293333344,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/1068267335",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_181714144",
+    "destination_id": "yaroslavl",
+    "name": "Сад Дружбы",
+    "latitude": 57.63177047272727,
+    "longitude": 39.89195517272727,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/181714144",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_31106566",
+    "destination_id": "yaroslavl",
+    "name": "о. Даманский",
+    "latitude": 57.61823700499999,
+    "longitude": 39.89962673999999,
+    "themes": {
+      "culture": 0,
+      "history": 0,
+      "nature": 1,
+      "food": 0
+    },
+    "duration_min": 30,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/31106566",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_14096683501",
+    "destination_id": "yaroslavl",
+    "name": "Алёшино подворье",
+    "latitude": 57.6230617,
+    "longitude": 39.8904614,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "We-Su 10:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/14096683501",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9276674225",
+    "destination_id": "yaroslavl",
+    "name": "Интерактивный музей здоровья",
+    "latitude": 57.6245683,
+    "longitude": 39.8954065,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9276674225",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_8639804184",
+    "destination_id": "yaroslavl",
+    "name": "Мемориальный Дом-музей Л.В. Собинова",
+    "latitude": 57.6284817,
+    "longitude": 39.8826429,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "We-Su 10:00-17:45",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/8639804184",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_4178546094",
+    "destination_id": "yaroslavl",
+    "name": "Музей Эйнштейна",
+    "latitude": 57.6228156,
+    "longitude": 39.8819393,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/4178546094",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_3691243291",
+    "destination_id": "yaroslavl",
+    "name": "Музей зарубежного искусства",
+    "latitude": 57.6271021,
+    "longitude": 39.8957899,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Tu-Th,Su 10:00-20:00; Fr-Sa 11:00-21:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/3691243291",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_8446053517",
+    "destination_id": "yaroslavl",
+    "name": "Музей имени В. И. Орлова",
+    "latitude": 57.626427,
+    "longitude": 39.899385,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "We-Mo 10:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/8446053517",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_way_44898055",
+    "destination_id": "yaroslavl",
+    "name": "Музей истории города Ярославля",
+    "latitude": 57.6270816625,
+    "longitude": 39.8985786625,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "We-Mo 10:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/way/44898055",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_7931841085",
+    "destination_id": "yaroslavl",
+    "name": "Музей истории пряника",
+    "latitude": 57.6253532,
+    "longitude": 39.8929799,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 11:00-17:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/7931841085",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_3658286110",
+    "destination_id": "yaroslavl",
+    "name": "Музыка и время",
+    "latitude": 57.6301257,
+    "longitude": 39.89523,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/3658286110",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_4618193425",
+    "destination_id": "yaroslavl",
+    "name": "Резиденция Государыни Главной Масленицы Страны",
+    "latitude": 57.6229336,
+    "longitude": 39.8908224,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-18:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/4618193425",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_7931968886",
+    "destination_id": "yaroslavl",
+    "name": "Шоу-макет Золотое кольцо",
+    "latitude": 57.6270773,
+    "longitude": 39.8973785,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "10:00-20:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/7931968886",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9273835617",
+    "destination_id": "yaroslavl",
+    "name": "Ярославский музей фотографии",
+    "latitude": 57.6298465,
+    "longitude": 39.8902924,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9273835617",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_1234995463",
+    "destination_id": "yaroslavl",
+    "name": "Ярославский музей-заповедник",
+    "latitude": 57.6208757,
+    "longitude": 39.8900318,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/1234995463",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_964688408",
+    "destination_id": "yaroslavl",
+    "name": "Ярославский художественный музей (Губернаторский дом)",
+    "latitude": 57.6283744,
+    "longitude": 39.8972736,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "Mo off; Tu-Th,Su 10:00-20:00; Fr-Sa 11:00-21:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/964688408",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_8491526949",
+    "destination_id": "yaroslavl",
+    "name": "кутюр-шоу \"Медвежий угол\"",
+    "latitude": 57.6228825,
+    "longitude": 39.8906912,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": "11:00-19:00",
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/8491526949",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_14096612601",
+    "destination_id": "yaroslavl",
+    "name": "Ансамбль зданий казенных палат",
+    "latitude": 57.6257829,
+    "longitude": 39.8943401,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/14096612601",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_14096632601",
+    "destination_id": "yaroslavl",
+    "name": "Галерея актёрской славы Леонида Куравлёва",
+    "latitude": 57.6235361,
+    "longitude": 39.8908472,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/14096632601",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13899227601",
+    "destination_id": "yaroslavl",
+    "name": "Гостиница Бристоль 1910 г.",
+    "latitude": 57.626195,
+    "longitude": 39.8894621,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13899227601",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_14096622701",
+    "destination_id": "yaroslavl",
+    "name": "Гостиница Царьград",
+    "latitude": 57.623859,
+    "longitude": 39.8925414,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/14096622701",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13899075402",
+    "destination_id": "yaroslavl",
+    "name": "Дом Донцовых-Лопатиных",
+    "latitude": 57.6223647,
+    "longitude": 39.8814421,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13899075402",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9799028117",
+    "destination_id": "yaroslavl",
+    "name": "Дом Иванова 17в",
+    "latitude": 57.6210943,
+    "longitude": 39.8713039,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9799028117",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9797469218",
+    "destination_id": "yaroslavl",
+    "name": "Дом Кудасова",
+    "latitude": 57.6329864,
+    "longitude": 39.8910142,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9797469218",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13899156601",
+    "destination_id": "yaroslavl",
+    "name": "Дом Рожкова",
+    "latitude": 57.6333251,
+    "longitude": 39.8801225,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13899156601",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9797469217",
+    "destination_id": "yaroslavl",
+    "name": "Дом Салтыкова",
+    "latitude": 57.6250586,
+    "longitude": 39.8848507,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9797469217",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_13899150801",
+    "destination_id": "yaroslavl",
+    "name": "Дом винного пристава",
+    "latitude": 57.6254383,
+    "longitude": 39.8931268,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/13899150801",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  },
+  {
+    "id": "osm_node_9797461818",
+    "destination_id": "yaroslavl",
+    "name": "Дом вице-губернатора",
+    "latitude": 57.6244458,
+    "longitude": 39.89258,
+    "themes": {
+      "culture": 0.6,
+      "history": 0.4,
+      "nature": 0,
+      "food": 0
+    },
+    "duration_min": 60,
+    "duration_max": 120,
+    "indoor": null,
+    "admission_rub": null,
+    "opening_hours": null,
+    "verified": false,
+    "provenance": {
+      "source_url": "https://www.openstreetmap.org/node/9797461818",
+      "observed_at": "2026-11-11T22:31:29.880345+00:00",
+      "valid_from": "2026-11-11",
+      "valid_to": "2026-11-11",
+      "data_kind": "osm",
+      "version": "1",
+      "confidence_note": "OSM candidate; themes/duration are expert defaults; official price and hours unverified"
+    }
+  }
+]

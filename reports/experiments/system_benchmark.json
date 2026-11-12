@@ -1,0 +1,1509 @@
+{
+  "hardware": "macOS-26.6.2-arm64-arm-64bit",
+  "rows": [
+    {
+      "city": "saint_petersburg",
+      "profile": "culture",
+      "query_seconds": 5.288395208,
+      "plan_count": 3,
+      "diagnostics": [
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6064565419999999
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.604094125
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6052884999999999
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 3.3678040000000005
+        }
+      ],
+      "score": 0.6358815163867673,
+      "expected_cost_rub": 38782.38107953411,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 0.997,
+      "robust_by_model": true,
+      "utility_score": 0.6358815163867673,
+      "utility_success_rate": 0.997,
+      "nearest_score": 0.6765952551309924,
+      "nearest_success_rate": 1.0,
+      "without_risk_score": 0.6645380731364662,
+      "without_risk_success_rate": 0.21,
+      "without_personalization_score": 0.46057058706211773,
+      "without_personalization_success_rate": 1.0
+    },
+    {
+      "city": "saint_petersburg",
+      "profile": "nature",
+      "query_seconds": 1.0125917920000003,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0857384579999998,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07658958299999963,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.08364233400000032,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07635424999999962,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": 0.5649600298809437,
+      "without_risk_success_rate": 0.188,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "saint_petersburg",
+      "profile": "food",
+      "query_seconds": 2.5111475840000006,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.604612167
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6051465830000016
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6049599580000002
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6046952500000007
+        }
+      ],
+      "score": 0.3840214489098424,
+      "expected_cost_rub": 37415.67059711013,
+      "solver_status": "FEASIBLE",
+      "gap": 0.08843029406517915,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.3643374690856026,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.3675984600809827,
+      "nearest_success_rate": 1.0,
+      "without_risk_score": 0.3417508394853618,
+      "without_risk_success_rate": 0.213,
+      "without_personalization_score": 0.3520492256258829,
+      "without_personalization_success_rate": 1.0
+    },
+    {
+      "city": "saint_petersburg",
+      "profile": "tight",
+      "query_seconds": 0.999115208000001,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07766600000000068,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07612504199999925,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0745684579999999,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07418654199999963,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": null,
+      "without_risk_success_rate": null,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "saint_petersburg",
+      "profile": "comfort",
+      "query_seconds": 2.527284,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6049033749999992
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_0",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6051546250000008
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6051361659999994
+        },
+        {
+          "city": "saint_petersburg",
+          "transport": "saint_petersburg_spring_transport_1",
+          "stay": "saint_petersburg_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6053835410000001
+        }
+      ],
+      "score": 0.5718973328921563,
+      "expected_cost_rub": 38307.050160533254,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.5718973328921563,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.6253928703290572,
+      "nearest_success_rate": 1.0,
+      "without_risk_score": 0.4986268247676633,
+      "without_risk_success_rate": 0.213,
+      "without_personalization_score": 0.5594097145086572,
+      "without_personalization_success_rate": 1.0
+    },
+    {
+      "city": "kazan",
+      "profile": "culture",
+      "query_seconds": 2.499820916999999,
+      "plan_count": 2,
+      "diagnostics": [
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6045790000000011
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6020234169999998
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6038640420000014
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6023313750000021,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.6521249776670441,
+      "expected_cost_rub": 38910.364219070776,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 0.989,
+      "robust_by_model": true,
+      "utility_score": 0.6521249776670441,
+      "utility_success_rate": 0.989,
+      "nearest_score": 0.5753024670127022,
+      "nearest_success_rate": 0.997,
+      "without_risk_score": 0.6722005078951993,
+      "without_risk_success_rate": 0.062,
+      "without_personalization_score": 0.6097663989471197,
+      "without_personalization_success_rate": 1.0
+    },
+    {
+      "city": "kazan",
+      "profile": "nature",
+      "query_seconds": 1.0250930420000017,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.08979608299999953,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07584566599999931,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.09273675000000026,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07565024999999892,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": 0.5717070304054288,
+      "without_risk_success_rate": 0.391,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "kazan",
+      "profile": "food",
+      "query_seconds": 2.5104432080000016,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6055489170000001
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6051728340000011
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6052944579999995
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6041413750000011
+        }
+      ],
+      "score": 0.49496241338618346,
+      "expected_cost_rub": 38907.774201924534,
+      "solver_status": "FEASIBLE",
+      "gap": 0.059141438946011426,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.48287053838618343,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.4684945046912476,
+      "nearest_success_rate": 1.0,
+      "without_risk_score": 0.48074803838618346,
+      "without_risk_success_rate": 0.93,
+      "without_personalization_score": 0.3798865252387816,
+      "without_personalization_success_rate": 1.0
+    },
+    {
+      "city": "kazan",
+      "profile": "tight",
+      "query_seconds": 1.0124176670000011,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07935175000000072,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0829662500000019,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0778747089999996,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07777629199999936,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": null,
+      "without_risk_success_rate": null,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "kazan",
+      "profile": "comfort",
+      "query_seconds": 2.5076529160000014,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6043297500000016
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_0",
+          "stay": "kazan_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6041157910000017
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6041070000000026
+        },
+        {
+          "city": "kazan",
+          "transport": "kazan_spring_transport_1",
+          "stay": "kazan_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6041999579999988
+        }
+      ],
+      "score": 0.5666665760841679,
+      "expected_cost_rub": 38910.364219070776,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.5666665760841679,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.49142346407075455,
+      "nearest_success_rate": 1.0,
+      "without_risk_score": 0.4995694970456104,
+      "without_risk_success_rate": 0.228,
+      "without_personalization_score": 0.48368456381311253,
+      "without_personalization_success_rate": 1.0
+    },
+    {
+      "city": "nizhny_novgorod",
+      "profile": "culture",
+      "query_seconds": 2.506853833000001,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6053280000000001
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.606868875
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6021962500000022,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6028613749999998,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.7464762934646187,
+      "expected_cost_rub": 32412.894506957884,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.7464762934646187,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.791508679208217,
+      "nearest_success_rate": 0.934,
+      "without_risk_score": 0.7877450434646187,
+      "without_risk_success_rate": 0.231,
+      "without_personalization_score": 0.8185196626199019,
+      "without_personalization_success_rate": 0.934
+    },
+    {
+      "city": "nizhny_novgorod",
+      "profile": "nature",
+      "query_seconds": 1.9854044160000015,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6059300000000007
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6050461249999977
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6026650410000016,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.08329716699999778,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "score": 0.7520543504382119,
+      "expected_cost_rub": 30317.224974535216,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 0.928,
+      "robust_by_model": true,
+      "utility_score": 0.7520543504382119,
+      "utility_success_rate": 0.928,
+      "nearest_score": 0.4794130442319968,
+      "nearest_success_rate": 0.912,
+      "without_risk_score": 0.7300310008780792,
+      "without_risk_success_rate": 0.795,
+      "without_personalization_score": 0.7520543504382119,
+      "without_personalization_success_rate": 0.928
+    },
+    {
+      "city": "nizhny_novgorod",
+      "profile": "food",
+      "query_seconds": 2.504530667000001,
+      "plan_count": 2,
+      "diagnostics": [
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6056124169999997
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6053250830000003
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6021784170000046,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6020252080000006,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.5149242996667464,
+      "expected_cost_rub": 32563.50501348459,
+      "solver_status": "FEASIBLE",
+      "gap": 0.03841311898049388,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.51346202900314,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.5035236883268921,
+      "nearest_success_rate": 0.934,
+      "without_risk_score": 0.51152140400314,
+      "without_risk_success_rate": 0.21,
+      "without_personalization_score": 0.47181272505624006,
+      "without_personalization_success_rate": 0.934
+    },
+    {
+      "city": "nizhny_novgorod",
+      "profile": "tight",
+      "query_seconds": 1.0340064580000004,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.08041837500000071,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0792533750000004,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07655579200000062,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.09879399999999805,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": null,
+      "without_risk_success_rate": null,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "nizhny_novgorod",
+      "profile": "comfort",
+      "query_seconds": 2.505788041999999,
+      "plan_count": 2,
+      "diagnostics": [
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6061530830000024
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_0",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6051773750000038
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6021470000000022,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "nizhny_novgorod",
+          "transport": "nizhny_novgorod_spring_transport_1",
+          "stay": "nizhny_novgorod_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.602140250000005,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.6732275142760457,
+      "expected_cost_rub": 33354.698612806584,
+      "solver_status": "FEASIBLE",
+      "gap": 0.11153748317226712,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.5416990662918938,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.5995955410987996,
+      "nearest_success_rate": 1.0,
+      "without_risk_score": 0.5238871806916392,
+      "without_risk_success_rate": 0.23,
+      "without_personalization_score": 0.5318143899182206,
+      "without_personalization_success_rate": 0.934
+    },
+    {
+      "city": "yaroslavl",
+      "profile": "culture",
+      "query_seconds": 2.5033614170000007,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6058775830000016
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6059994999999958
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6021718329999999,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6025069169999995,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.8196761278854509,
+      "expected_cost_rub": 28613.468192981523,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 0.934,
+      "robust_by_model": true,
+      "utility_score": 0.8196761278854509,
+      "utility_success_rate": 0.934,
+      "nearest_score": 0.7965214932954572,
+      "nearest_success_rate": 0.932,
+      "without_risk_score": 0.8196761278854509,
+      "without_risk_success_rate": 0.934,
+      "without_personalization_score": 0.8257553568057386,
+      "without_personalization_success_rate": 0.932
+    },
+    {
+      "city": "yaroslavl",
+      "profile": "nature",
+      "query_seconds": 2.4969139170000005,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6023369580000022
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6021537079999959
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6027886669999987,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6027731669999952,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.7864862333137572,
+      "expected_cost_rub": 28141.52987935851,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 0.932,
+      "robust_by_model": true,
+      "utility_score": 0.7864862333137572,
+      "utility_success_rate": 0.932,
+      "nearest_score": 0.6536672562931944,
+      "nearest_success_rate": 0.921,
+      "without_risk_score": 0.7864862333137572,
+      "without_risk_success_rate": 0.932,
+      "without_personalization_score": 0.7864862333137572,
+      "without_personalization_success_rate": 0.932
+    },
+    {
+      "city": "yaroslavl",
+      "profile": "food",
+      "query_seconds": 2.5066865000000007,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6022425829999989
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6061194170000022
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6030790419999974,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6029511670000005,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.5260588421176678,
+      "expected_cost_rub": 28822.501318005216,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.5260588421176678,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.5145923406959098,
+      "nearest_success_rate": 0.932,
+      "without_risk_score": 0.5135994589814378,
+      "without_risk_success_rate": 0.485,
+      "without_personalization_score": 0.47360918150413484,
+      "without_personalization_success_rate": 0.932
+    },
+    {
+      "city": "yaroslavl",
+      "profile": "tight",
+      "query_seconds": 1.040022999999998,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0915111249999967,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0781437500000024,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.09681337499999643,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0748777909999987,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": 0.5420682302977199,
+      "without_risk_success_rate": 0.086,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "yaroslavl",
+      "profile": "comfort",
+      "query_seconds": 2.5045847499999994,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6059081670000026
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_0",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6054454579999984
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6026079580000001,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "yaroslavl",
+          "transport": "yaroslavl_spring_transport_1",
+          "stay": "yaroslavl_spring_stay_1",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.6023747079999993,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        }
+      ],
+      "score": 0.52678943098205,
+      "expected_cost_rub": 27922.45453654523,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.52678943098205,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.5353846733585386,
+      "nearest_success_rate": 0.932,
+      "without_risk_score": 0.52678943098205,
+      "without_risk_success_rate": 1.0,
+      "without_personalization_score": 0.5288664133098003,
+      "without_personalization_success_rate": 0.932
+    },
+    {
+      "city": "kaliningrad",
+      "profile": "culture",
+      "query_seconds": 0.9455391249999963,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6019677090000002
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0919187920000013,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.09210766599999687,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07593679200000025,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "score": 0.6389740803540374,
+      "expected_cost_rub": 40836.08438252041,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 0.901,
+      "robust_by_model": false,
+      "utility_score": 0.6389740803540374,
+      "utility_success_rate": 0.901,
+      "nearest_score": 0.39752013466991976,
+      "nearest_success_rate": 0.886,
+      "without_risk_score": 0.6414427782947062,
+      "without_risk_success_rate": 0.116,
+      "without_personalization_score": 0.6750265803540373,
+      "without_personalization_success_rate": 0.901
+    },
+    {
+      "city": "kaliningrad",
+      "profile": "nature",
+      "query_seconds": 1.0035763750000015,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07897370799999948,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07970833299999924,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07856679200000372,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07755574999999482,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": null,
+      "without_risk_success_rate": null,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "kaliningrad",
+      "profile": "food",
+      "query_seconds": 1.9922521669999966,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6049652500000064
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6019894579999985
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6020973749999996
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.09206337499999506,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "score": 0.3635642913103384,
+      "expected_cost_rub": 40836.08438252041,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.3635642913103384,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.3089885681521989,
+      "nearest_success_rate": 0.92,
+      "without_risk_score": 0.3274508746628735,
+      "without_risk_success_rate": 0.15,
+      "without_personalization_score": 0.343969721415658,
+      "without_personalization_success_rate": 0.991
+    },
+    {
+      "city": "kaliningrad",
+      "profile": "tight",
+      "query_seconds": 1.0084679589999936,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.09253758299999504,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07515637500000594,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07522312500000083,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.07524429200000071,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": null,
+      "without_risk_success_rate": null,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "kaliningrad",
+      "profile": "comfort",
+      "query_seconds": 2.5065640419999937,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6049914580000006
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_0",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.602178374999994
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6031148329999994
+        },
+        {
+          "city": "kaliningrad",
+          "transport": "kaliningrad_spring_transport_1",
+          "stay": "kaliningrad_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.602602417
+        }
+      ],
+      "score": 0.4831986297849101,
+      "expected_cost_rub": 40836.08438252041,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.4831986297849101,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.45902452693596446,
+      "nearest_success_rate": 1.0,
+      "without_risk_score": 0.4627354274149303,
+      "without_risk_success_rate": 0.172,
+      "without_personalization_score": 0.4638470788731909,
+      "without_personalization_success_rate": 1.0
+    },
+    {
+      "city": "sochi",
+      "profile": "culture",
+      "query_seconds": 0.8980692499999989,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.0592841249999978,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04768091700000099,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04502999999999702,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.06230629200000237,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": 0.6478743718407274,
+      "without_risk_success_rate": 0.073,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "sochi",
+      "profile": "nature",
+      "query_seconds": 1.3159012909999959,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.05081079200000005,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.05063912500000356,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.047055124999999975,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.047702583000003074,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": null,
+      "without_risk_success_rate": null,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "sochi",
+      "profile": "food",
+      "query_seconds": 0.8330542080000001,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6026975420000014
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.05809716699999967,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.048148208000000636,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04527516699999978,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "score": 0.37332890050455914,
+      "expected_cost_rub": 44177.98463361683,
+      "solver_status": "FEASIBLE",
+      "gap": 0.00799214832421801,
+      "success_rate": 0.975,
+      "robust_by_model": true,
+      "utility_score": 0.3573614005045591,
+      "utility_success_rate": 0.975,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": 0.2938002149682146,
+      "without_risk_success_rate": 0.126,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "sochi",
+      "profile": "tight",
+      "query_seconds": 0.872398957999998,
+      "plan_count": 0,
+      "diagnostics": [
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04865183300000098,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04811079099999915,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_0",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04607033300000296,
+          "reason": "Ограничения несовместимы"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04474129199999766,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "utility_score": null,
+      "utility_success_rate": null,
+      "nearest_score": null,
+      "nearest_success_rate": null,
+      "without_risk_score": null,
+      "without_risk_success_rate": null,
+      "without_personalization_score": null,
+      "without_personalization_success_rate": null
+    },
+    {
+      "city": "sochi",
+      "profile": "comfort",
+      "query_seconds": 2.352487249999996,
+      "plan_count": 1,
+      "diagnostics": [
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_0",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 1.0191054170000058
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_0",
+          "stay": "sochi_spring_stay_1",
+          "status": "FEASIBLE",
+          "elapsed_seconds": 0.6034095830000012
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_0",
+          "status": "UNKNOWN",
+          "elapsed_seconds": 0.601445874999996,
+          "reason": "За лимит не найден маршрут, прошедший все проверки"
+        },
+        {
+          "city": "sochi",
+          "transport": "sochi_spring_transport_1",
+          "stay": "sochi_spring_stay_1",
+          "status": "INFEASIBLE",
+          "elapsed_seconds": 0.04842595800000993,
+          "reason": "Ограничения несовместимы"
+        }
+      ],
+      "score": 0.5111316291414802,
+      "expected_cost_rub": 46289.55643875013,
+      "solver_status": "FEASIBLE",
+      "gap": null,
+      "success_rate": 1.0,
+      "robust_by_model": true,
+      "utility_score": 0.5111316291414802,
+      "utility_success_rate": 1.0,
+      "nearest_score": 0.537511772575849,
+      "nearest_success_rate": 0.946,
+      "without_risk_score": 0.4775806412558191,
+      "without_risk_success_rate": 0.767,
+      "without_personalization_score": 0.41630480425502325,
+      "without_personalization_success_rate": 0.984
+    }
+  ]
+}

@@ -1,0 +1,1469 @@
+{
+  "poi_knowledge": {
+    "version": "1.0",
+    "sha256": "15f95424cbb5a154697e5a935bdeac595a962044d1214d6c34835132778b33cd",
+    "entities": {
+      "osm_way_75839775": {
+        "facts": {
+          "subject": "osm_way_75839775",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_way_1068267335": {
+        "facts": {
+          "subject": "osm_way_1068267335",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_way_181714144": {
+        "facts": {
+          "subject": "osm_way_181714144",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_way_31106566": {
+        "facts": {
+          "subject": "osm_way_31106566",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_14096683501": {
+        "facts": {
+          "subject": "osm_node_14096683501",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_9276674225": {
+        "facts": {
+          "subject": "osm_node_9276674225",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_8639804184": {
+        "facts": {
+          "subject": "osm_node_8639804184",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_4178546094": {
+        "facts": {
+          "subject": "osm_node_4178546094",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_3691243291": {
+        "facts": {
+          "subject": "osm_node_3691243291",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_8446053517": {
+        "facts": {
+          "subject": "osm_node_8446053517",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_way_44898055": {
+        "facts": {
+          "subject": "osm_way_44898055",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_7931841085": {
+        "facts": {
+          "subject": "osm_node_7931841085",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_3658286110": {
+        "facts": {
+          "subject": "osm_node_3658286110",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_4618193425": {
+        "facts": {
+          "subject": "osm_node_4618193425",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_7931968886": {
+        "facts": {
+          "subject": "osm_node_7931968886",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_9273835617": {
+        "facts": {
+          "subject": "osm_node_9273835617",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_1234995463": {
+        "facts": {
+          "subject": "osm_node_1234995463",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_964688408": {
+        "facts": {
+          "subject": "osm_node_964688408",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_8491526949": {
+        "facts": {
+          "subject": "osm_node_8491526949",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": false,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_14096612601": {
+        "facts": {
+          "subject": "osm_node_14096612601",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_14096632601": {
+        "facts": {
+          "subject": "osm_node_14096632601",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_13899227601": {
+        "facts": {
+          "subject": "osm_node_13899227601",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_14096622701": {
+        "facts": {
+          "subject": "osm_node_14096622701",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_13899075402": {
+        "facts": {
+          "subject": "osm_node_13899075402",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_9799028117": {
+        "facts": {
+          "subject": "osm_node_9799028117",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_9797469218": {
+        "facts": {
+          "subject": "osm_node_9797469218",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_13899156601": {
+        "facts": {
+          "subject": "osm_node_13899156601",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_9797469217": {
+        "facts": {
+          "subject": "osm_node_9797469217",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_13899150801": {
+        "facts": {
+          "subject": "osm_node_13899150801",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      },
+      "osm_node_9797461818": {
+        "facts": {
+          "subject": "osm_node_9797461818",
+          "synthetic": true,
+          "data_usable": true,
+          "open_during_trip": true,
+          "excluded": false,
+          "required": false,
+          "outdoor": true,
+          "rainy_day_share": 0.6,
+          "confirmation_required": true,
+          "eligible": true,
+          "rain_backup_required": true
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R05",
+            "premises": {
+              "data_usable": true,
+              "open_during_trip": true,
+              "excluded": false
+            },
+            "conclusion": {
+              "predicate": "eligible",
+              "value": true
+            },
+            "explanation": "Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"
+          },
+          {
+            "rule_id": "R06",
+            "premises": {
+              "outdoor": true,
+              "rainy_day_share": 0.6
+            },
+            "conclusion": {
+              "predicate": "rain_backup_required",
+              "value": true
+            },
+            "explanation": "Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"
+          }
+        ],
+        "knowledge_version": "1.0"
+      }
+    }
+  },
+  "closure_conflict": {
+    "facts": {
+      "subject": "example-required-closed",
+      "open_during_trip": false,
+      "required": true,
+      "eligible": false,
+      "request_conflict": true
+    },
+    "trace": [
+      {
+        "rule_id": "R02",
+        "premises": {
+          "open_during_trip": false
+        },
+        "conclusion": {
+          "predicate": "eligible",
+          "value": false
+        },
+        "explanation": "На даты поездки нет окон посещения"
+      },
+      {
+        "rule_id": "R07",
+        "premises": {
+          "eligible": false,
+          "required": true
+        },
+        "conclusion": {
+          "predicate": "request_conflict",
+          "value": true
+        },
+        "explanation": "Недоступный объект обязателен: без изменения требования решение невозможно"
+      }
+    ],
+    "knowledge_version": "1.0"
+  },
+  "weather_note": "rainy_day_share=.6 — сценарное предположение только для иллюстрации R06"
+}

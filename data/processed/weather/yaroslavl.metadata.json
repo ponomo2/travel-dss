@@ -1,0 +1,17 @@
+{
+  "source_url": "https://archive-api.open-meteo.com/v1/archive?latitude=57.6261&longitude=39.8845&start_date=2015-01-01&end_date=2025-12-31&models=era5&timezone=Europe%2FMoscow&daily=temperature_2m_max%2Cprecipitation_sum%2Cwind_speed_10m_max&wind_speed_unit=kmh",
+  "observed_at": "2026-11-11T22:25:59.408248+00:00",
+  "valid_from": "2015-01-01",
+  "valid_to": "2025-12-31",
+  "data_kind": "reanalysis",
+  "model": "era5",
+  "version": "1",
+  "confidence_note": "ERA5: реанализ, не измерение городской станции",
+  "units": {
+    "temperature_c": "°C",
+    "rain_mm": "mm",
+    "wind_kmh": "km/h"
+  },
+  "sha256": "97942c63fe94207c6a3a5919b4da320bbbff949a99d07d0f5431a4a1141a63d2",
+  "rows": 4018
+}

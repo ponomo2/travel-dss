@@ -1,0 +1,16 @@
+{
+  "version":"1.0",
+  "semantics":"Monotonic forward chaining; missing facts are unknown, not false",
+  "rules":[
+    {"id":"R01","all":[{"predicate":"synthetic","operator":"eq","value":true}],"then":{"predicate":"confirmation_required","value":true},"explanation":"Демонстрационные сведения требуют реальной проверки перед покупкой"},
+    {"id":"R02","all":[{"predicate":"open_during_trip","operator":"eq","value":false}],"then":{"predicate":"eligible","value":false},"explanation":"На даты поездки нет окон посещения"},
+    {"id":"R03","all":[{"predicate":"data_usable","operator":"eq","value":false}],"then":{"predicate":"eligible","value":false},"explanation":"Данные недоступны или не разрешены в выбранном режиме"},
+    {"id":"R04","all":[{"predicate":"excluded","operator":"eq","value":true}],"then":{"predicate":"eligible","value":false},"explanation":"ЛПР исключил объект"},
+    {"id":"R05","all":[{"predicate":"data_usable","operator":"eq","value":true},{"predicate":"open_during_trip","operator":"eq","value":true},{"predicate":"excluded","operator":"eq","value":false}],"then":{"predicate":"eligible","value":true},"explanation":"Объект допускается к оптимизации; выполнимость всего маршрута проверяется отдельно"},
+    {"id":"R06","all":[{"predicate":"outdoor","operator":"eq","value":true},{"predicate":"rainy_day_share","operator":"gt","value":0.5}],"then":{"predicate":"rain_backup_required","value":true},"explanation":"Для открытого объекта нужен крытый резерв при высокой доле дождливых сценариев"},
+    {"id":"R07","all":[{"predicate":"eligible","operator":"eq","value":false},{"predicate":"required","operator":"eq","value":true}],"then":{"predicate":"request_conflict","value":true},"explanation":"Недоступный объект обязателен: без изменения требования решение невозможно"},
+    {"id":"R08","all":[{"predicate":"budget_exceeded","operator":"eq","value":true}],"then":{"predicate":"package_feasible","value":false},"explanation":"Минимальная номинальная смета уже превышает бюджет"},
+    {"id":"R09","all":[{"predicate":"risk_threshold_met","operator":"eq","value":false}],"then":{"predicate":"risk_status","value":"above_threshold"},"explanation":"Нижняя граница интервала успешности меньше заданного порога"},
+    {"id":"R10","all":[{"predicate":"risk_threshold_met","operator":"eq","value":true}],"then":{"predicate":"risk_status","value":"within_threshold"},"explanation":"Нижняя граница интервала успешности достигает порога в рамках модели"}
+  ]
+}

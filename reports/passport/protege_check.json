@@ -1,0 +1,9 @@
+{
+  "protege_version": "5.6.9",
+  "engine": "OWL API 4.5.29 + HermiT 1.4.3.456 from Protégé",
+  "verification": "headless inference; ontology also loaded in desktop Protégé",
+  "consistent": true,
+  "inferred_needs_confirmation": 173,
+  "asserted_needs_confirmation": 0,
+  "axioms": 1483
+}

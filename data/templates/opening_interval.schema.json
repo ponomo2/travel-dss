@@ -1,0 +1,105 @@
+{
+  "$defs": {
+    "DataKind": {
+      "enum": [
+        "reanalysis",
+        "quotation",
+        "expert",
+        "osm",
+        "synthetic"
+      ],
+      "title": "DataKind",
+      "type": "string"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "pattern": "^https?://",
+          "title": "Source Url",
+          "type": "string"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "valid_from": {
+          "format": "date",
+          "title": "Valid From",
+          "type": "string"
+        },
+        "valid_to": {
+          "format": "date",
+          "title": "Valid To",
+          "type": "string"
+        },
+        "data_kind": {
+          "$ref": "#/$defs/DataKind"
+        },
+        "confidence_note": {
+          "minLength": 1,
+          "title": "Confidence Note",
+          "type": "string"
+        },
+        "version": {
+          "minLength": 1,
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_url",
+        "observed_at",
+        "valid_from",
+        "valid_to",
+        "data_kind",
+        "confidence_note",
+        "version"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "poi_id": {
+      "title": "Poi Id",
+      "type": "string"
+    },
+    "start": {
+      "format": "date-time",
+      "title": "Start",
+      "type": "string"
+    },
+    "end": {
+      "format": "date-time",
+      "title": "End",
+      "type": "string"
+    },
+    "last_admission": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Last Admission"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance"
+    }
+  },
+  "required": [
+    "poi_id",
+    "start",
+    "end",
+    "provenance"
+  ],
+  "title": "OpeningInterval",
+  "type": "object"
+}

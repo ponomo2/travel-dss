@@ -1,0 +1,587 @@
+{
+  "plans": [
+    {
+      "city": "Ярославль",
+      "score": 0.836992144559495,
+      "criteria": {
+        "interests": 0.9,
+        "economy": 1.0,
+        "weather": 0.5625,
+        "convenience": 0.6036882019847998
+      },
+      "nominal_cost_rub": 24490.0,
+      "c90_rub": 28010.243419344122,
+      "success_rate": 1.0,
+      "wilson_lower": 0.996173241514445,
+      "poi_count": 14,
+      "solver": {
+        "status": "FEASIBLE",
+        "objective": 0.83698779,
+        "best_bound": 0.86100119,
+        "relative_gap": 0.028690263211605466,
+        "elapsed_seconds": 1.8353587909999973,
+        "time_limit_seconds": 1.8273065,
+        "objective_mode": "utility",
+        "scenario_constraints": 0,
+        "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+      },
+      "decision_analysis": {
+        "status": "evaluated",
+        "closed_poi_id": "osm_node_13899227601",
+        "failure_utility_assumption": -0.2,
+        "preparation_penalty_assumption": 0.01,
+        "main_expected_utility_without_closure": 0.836992144559495,
+        "backup_expected_utility_when_closed": 0.8333352216963248,
+        "break_even_probability": 0.009677401669889838,
+        "sensitivity": [
+          {
+            "closure_probability_assumption": 0,
+            "fixed_expected_utility": 0.836992144559495,
+            "reserve_expected_utility": 0.826992144559495,
+            "preferred": "fixed"
+          },
+          {
+            "closure_probability_assumption": 0.01,
+            "fixed_expected_utility": 0.8266222231139,
+            "reserve_expected_utility": 0.8269555753308633,
+            "preferred": "reserve"
+          },
+          {
+            "closure_probability_assumption": 0.05,
+            "fixed_expected_utility": 0.7851425373315202,
+            "reserve_expected_utility": 0.8268092984163364,
+            "preferred": "reserve"
+          },
+          {
+            "closure_probability_assumption": 0.1,
+            "fixed_expected_utility": 0.7332929301035455,
+            "reserve_expected_utility": 0.826626452273178,
+            "preferred": "reserve"
+          },
+          {
+            "closure_probability_assumption": 0.2,
+            "fixed_expected_utility": 0.629593715647596,
+            "reserve_expected_utility": 0.826260759986861,
+            "preferred": "reserve"
+          }
+        ],
+        "closure_probability_source": "not estimated; user/scenario assumption",
+        "tree": {
+          "nodes": [
+            {
+              "id": "decision",
+              "kind": "decision",
+              "label": "Подготовка резерва"
+            },
+            {
+              "id": "fixed",
+              "kind": "chance",
+              "label": "Закрытие выбранного объекта"
+            },
+            {
+              "id": "fixed_open",
+              "kind": "terminal",
+              "expected_utility": 0.836992144559495,
+              "scenario_success_rate": 1.0
+            },
+            {
+              "id": "fixed_closed",
+              "kind": "terminal",
+              "expected_utility": -0.2,
+              "scenario_success_rate": 0
+            },
+            {
+              "id": "reserve",
+              "kind": "chance",
+              "label": "Закрытие выбранного объекта"
+            },
+            {
+              "id": "reserve_open",
+              "kind": "terminal",
+              "expected_utility": 0.826992144559495,
+              "scenario_success_rate": 1.0
+            },
+            {
+              "id": "reserve_closed",
+              "kind": "terminal",
+              "expected_utility": 0.8233352216963248,
+              "scenario_success_rate": 1.0
+            }
+          ],
+          "edges": [
+            {
+              "source": "decision",
+              "target": "fixed",
+              "choice": "Сохранить исходный план"
+            },
+            {
+              "source": "decision",
+              "target": "reserve",
+              "choice": "Подготовить резерв"
+            },
+            {
+              "source": "fixed",
+              "target": "fixed_open",
+              "state": "open",
+              "probability": "1-p"
+            },
+            {
+              "source": "fixed",
+              "target": "fixed_closed",
+              "state": "closed",
+              "probability": "p"
+            },
+            {
+              "source": "reserve",
+              "target": "reserve_open",
+              "state": "open",
+              "probability": "1-p"
+            },
+            {
+              "source": "reserve",
+              "target": "reserve_closed",
+              "state": "closed",
+              "probability": "p"
+            }
+          ]
+        },
+        "interpretation": "Порог показывает, при какой субъективной вероятности закрытия подготовка проверенного резерва окупает заданную потерю полезности; частота закрытий не измерена"
+      },
+      "knowledge_trace": {
+        "facts": {
+          "subject": "50a706ad91058906",
+          "synthetic": true,
+          "risk_threshold_met": true,
+          "confirmation_required": true,
+          "risk_status": "within_threshold"
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R10",
+            "premises": {
+              "risk_threshold_met": true
+            },
+            "conclusion": {
+              "predicate": "risk_status",
+              "value": "within_threshold"
+            },
+            "explanation": "Нижняя граница интервала успешности достигает порога в рамках модели"
+          }
+        ],
+        "knowledge_version": "1.0"
+      }
+    },
+    {
+      "city": "Санкт-Петербург",
+      "score": 0.2646267746490831,
+      "criteria": {
+        "interests": 0.0975,
+        "economy": 0.19330232524346247,
+        "weather": 0.3525,
+        "convenience": 0.8500751992062914
+      },
+      "nominal_cost_rub": 39980.0,
+      "c90_rub": 45225.6518930774,
+      "success_rate": 0.883,
+      "wilson_lower": 0.8615970906192936,
+      "poi_count": 1,
+      "solver": {
+        "status": "FEASIBLE",
+        "objective": 0.2646267746490831,
+        "best_bound": null,
+        "relative_gap": null,
+        "elapsed_seconds": 4.872851959000002,
+        "time_limit_seconds": 1.9934415436666666,
+        "objective_mode": "utility",
+        "scenario_constraints": 67,
+        "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+      },
+      "decision_analysis": {
+        "status": "evaluated",
+        "closed_poi_id": "osm_node_4889041320",
+        "failure_utility_assumption": -0.2,
+        "preparation_penalty_assumption": 0.01,
+        "main_expected_utility_without_closure": 0.21026544201514036,
+        "backup_expected_utility_when_closed": 0.23458690909316107,
+        "break_even_probability": 0.02301035717082847,
+        "sensitivity": [
+          {
+            "closure_probability_assumption": 0,
+            "fixed_expected_utility": 0.21026544201514036,
+            "reserve_expected_utility": 0.20026544201514035,
+            "preferred": "fixed"
+          },
+          {
+            "closure_probability_assumption": 0.01,
+            "fixed_expected_utility": 0.20616278759498896,
+            "reserve_expected_utility": 0.20050865668592058,
+            "preferred": "fixed"
+          },
+          {
+            "closure_probability_assumption": 0.05,
+            "fixed_expected_utility": 0.18975216991438332,
+            "reserve_expected_utility": 0.20148151536904138,
+            "preferred": "reserve"
+          },
+          {
+            "closure_probability_assumption": 0.1,
+            "fixed_expected_utility": 0.16923889781362633,
+            "reserve_expected_utility": 0.2026975887229424,
+            "preferred": "reserve"
+          },
+          {
+            "closure_probability_assumption": 0.2,
+            "fixed_expected_utility": 0.12821235361211228,
+            "reserve_expected_utility": 0.2051297354307445,
+            "preferred": "reserve"
+          }
+        ],
+        "closure_probability_source": "not estimated; user/scenario assumption",
+        "tree": {
+          "nodes": [
+            {
+              "id": "decision",
+              "kind": "decision",
+              "label": "Подготовка резерва"
+            },
+            {
+              "id": "fixed",
+              "kind": "chance",
+              "label": "Закрытие выбранного объекта"
+            },
+            {
+              "id": "fixed_open",
+              "kind": "terminal",
+              "expected_utility": 0.21026544201514036,
+              "scenario_success_rate": 0.883
+            },
+            {
+              "id": "fixed_closed",
+              "kind": "terminal",
+              "expected_utility": -0.2,
+              "scenario_success_rate": 0
+            },
+            {
+              "id": "reserve",
+              "kind": "chance",
+              "label": "Закрытие выбранного объекта"
+            },
+            {
+              "id": "reserve_open",
+              "kind": "terminal",
+              "expected_utility": 0.20026544201514035,
+              "scenario_success_rate": 0.883
+            },
+            {
+              "id": "reserve_closed",
+              "kind": "terminal",
+              "expected_utility": 0.22458690909316106,
+              "scenario_success_rate": 0.908
+            }
+          ],
+          "edges": [
+            {
+              "source": "decision",
+              "target": "fixed",
+              "choice": "Сохранить исходный план"
+            },
+            {
+              "source": "decision",
+              "target": "reserve",
+              "choice": "Подготовить резерв"
+            },
+            {
+              "source": "fixed",
+              "target": "fixed_open",
+              "state": "open",
+              "probability": "1-p"
+            },
+            {
+              "source": "fixed",
+              "target": "fixed_closed",
+              "state": "closed",
+              "probability": "p"
+            },
+            {
+              "source": "reserve",
+              "target": "reserve_open",
+              "state": "open",
+              "probability": "1-p"
+            },
+            {
+              "source": "reserve",
+              "target": "reserve_closed",
+              "state": "closed",
+              "probability": "p"
+            }
+          ]
+        },
+        "interpretation": "Порог показывает, при какой субъективной вероятности закрытия подготовка проверенного резерва окупает заданную потерю полезности; частота закрытий не измерена"
+      },
+      "knowledge_trace": {
+        "facts": {
+          "subject": "8e803dcbe8c019de",
+          "synthetic": true,
+          "risk_threshold_met": false,
+          "confirmation_required": true,
+          "risk_status": "above_threshold"
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R09",
+            "premises": {
+              "risk_threshold_met": false
+            },
+            "conclusion": {
+              "predicate": "risk_status",
+              "value": "above_threshold"
+            },
+            "explanation": "Нижняя граница интервала успешности меньше заданного порога"
+          }
+        ],
+        "knowledge_version": "1.0"
+      }
+    },
+    {
+      "city": "Нижний Новгород",
+      "score": 0.8011085550870711,
+      "criteria": {
+        "interests": 0.8625,
+        "economy": 0.8809489294490761,
+        "weather": 0.61,
+        "convenience": 0.6448081653439482
+      },
+      "nominal_cost_rub": 26710.0,
+      "c90_rub": 30381.982502819315,
+      "success_rate": 0.968,
+      "wilson_lower": 0.9551752619162314,
+      "poi_count": 13,
+      "solver": {
+        "status": "FEASIBLE",
+        "objective": 0.80108972,
+        "best_bound": 0.83018158,
+        "relative_gap": 0.036315358035052515,
+        "elapsed_seconds": 1.8502095000000018,
+        "time_limit_seconds": 1.8371390182499998,
+        "objective_mode": "utility",
+        "scenario_constraints": 0,
+        "model_note": "Целочисленная полезность; полный каталог; сценарные временные ограничения добавляются по нарушениям"
+      },
+      "decision_analysis": {
+        "status": "evaluated",
+        "closed_poi_id": "osm_way_151905925",
+        "failure_utility_assumption": -0.2,
+        "preparation_penalty_assumption": 0.01,
+        "main_expected_utility_without_closure": 0.7690730813242849,
+        "backup_expected_utility_when_closed": 0.6819114745453871,
+        "break_even_probability": 0.011339006565432045,
+        "sensitivity": [
+          {
+            "closure_probability_assumption": 0,
+            "fixed_expected_utility": 0.7690730813242849,
+            "reserve_expected_utility": 0.7590730813242849,
+            "preferred": "fixed"
+          },
+          {
+            "closure_probability_assumption": 0.01,
+            "fixed_expected_utility": 0.759382350511042,
+            "reserve_expected_utility": 0.7582014652564958,
+            "preferred": "fixed"
+          },
+          {
+            "closure_probability_assumption": 0.05,
+            "fixed_expected_utility": 0.7206194272580706,
+            "reserve_expected_utility": 0.75471500098534,
+            "preferred": "reserve"
+          },
+          {
+            "closure_probability_assumption": 0.1,
+            "fixed_expected_utility": 0.6721657731918563,
+            "reserve_expected_utility": 0.750356920646395,
+            "preferred": "reserve"
+          },
+          {
+            "closure_probability_assumption": 0.2,
+            "fixed_expected_utility": 0.5752584650594279,
+            "reserve_expected_utility": 0.7416407599685053,
+            "preferred": "reserve"
+          }
+        ],
+        "closure_probability_source": "not estimated; user/scenario assumption",
+        "tree": {
+          "nodes": [
+            {
+              "id": "decision",
+              "kind": "decision",
+              "label": "Подготовка резерва"
+            },
+            {
+              "id": "fixed",
+              "kind": "chance",
+              "label": "Закрытие выбранного объекта"
+            },
+            {
+              "id": "fixed_open",
+              "kind": "terminal",
+              "expected_utility": 0.7690730813242849,
+              "scenario_success_rate": 0.968
+            },
+            {
+              "id": "fixed_closed",
+              "kind": "terminal",
+              "expected_utility": -0.2,
+              "scenario_success_rate": 0
+            },
+            {
+              "id": "reserve",
+              "kind": "chance",
+              "label": "Закрытие выбранного объекта"
+            },
+            {
+              "id": "reserve_open",
+              "kind": "terminal",
+              "expected_utility": 0.7590730813242849,
+              "scenario_success_rate": 0.968
+            },
+            {
+              "id": "reserve_closed",
+              "kind": "terminal",
+              "expected_utility": 0.6719114745453871,
+              "scenario_success_rate": 0.924
+            }
+          ],
+          "edges": [
+            {
+              "source": "decision",
+              "target": "fixed",
+              "choice": "Сохранить исходный план"
+            },
+            {
+              "source": "decision",
+              "target": "reserve",
+              "choice": "Подготовить резерв"
+            },
+            {
+              "source": "fixed",
+              "target": "fixed_open",
+              "state": "open",
+              "probability": "1-p"
+            },
+            {
+              "source": "fixed",
+              "target": "fixed_closed",
+              "state": "closed",
+              "probability": "p"
+            },
+            {
+              "source": "reserve",
+              "target": "reserve_open",
+              "state": "open",
+              "probability": "1-p"
+            },
+            {
+              "source": "reserve",
+              "target": "reserve_closed",
+              "state": "closed",
+              "probability": "p"
+            }
+          ]
+        },
+        "interpretation": "Порог показывает, при какой субъективной вероятности закрытия подготовка проверенного резерва окупает заданную потерю полезности; частота закрытий не измерена"
+      },
+      "knowledge_trace": {
+        "facts": {
+          "subject": "6ef5e5a8d1a1c3ca",
+          "synthetic": true,
+          "risk_threshold_met": true,
+          "confirmation_required": true,
+          "risk_status": "within_threshold"
+        },
+        "trace": [
+          {
+            "rule_id": "R01",
+            "premises": {
+              "synthetic": true
+            },
+            "conclusion": {
+              "predicate": "confirmation_required",
+              "value": true
+            },
+            "explanation": "Демонстрационные сведения требуют реальной проверки перед покупкой"
+          },
+          {
+            "rule_id": "R10",
+            "premises": {
+              "risk_threshold_met": true
+            },
+            "conclusion": {
+              "predicate": "risk_status",
+              "value": "within_threshold"
+            },
+            "explanation": "Нижняя граница интервала успешности достигает порога в рамках модели"
+          }
+        ],
+        "knowledge_version": "1.0"
+      }
+    }
+  ],
+  "metadata": {
+    "mode": "demo",
+    "notice": "Демонстрационный API: цены, доступность, расписания и предложения смоделированы. Названия и координаты объектов взяты из OSM. Данные не являются предложением бронирования.",
+    "as_of": "2026-11-12T00:00:00+03:00",
+    "created_at": "2026-11-12T09:02:44.157990+00:00",
+    "elapsed_seconds": 52.679486875,
+    "cache_hit": false,
+    "knowledge_sha256": "15f95424cbb5a154697e5a935bdeac595a962044d1214d6c34835132778b33cd",
+    "catalog_sha256": "101e9bf403332bade1393c7a39b325942b5a9c0ead69611df2f6ab9856bd46bf",
+    "code_sha256": "52b452d4c30ef3129890d0ef5c715a5d341aa55990fcca59780e717a4a9ad6f8",
+    "model_sha256": {
+      "saint_petersburg": "001408431b187775cb80cdcda6b10c7a1e711352b3f1af3aea7f3a49a8a3233f",
+      "kazan": "7147c2fe7db355ee3834f1d1781ee344f273757bced7f13e4a86a4c69490681a",
+      "nizhny_novgorod": "d8184ad14e10387e64afe5451c0cfa0b39adf9286815d66e443a69906dac7809",
+      "yaroslavl": "ebcd81f8b6b2509485f48ffad8045617464e9143c36ea21fb54cc8489fa62f16",
+      "kaliningrad": "a67c5ba173c42e537db8a5762a4a69ac180a511a64ef2d2c522b69107ee05536",
+      "sochi": "23c35e5c5d5190a27d3dfecc0c67fda21b054aa0884cf020369f07e08b3e4074"
+    },
+    "settings": {
+      "backend": "cp_sat",
+      "pair_seconds": 2,
+      "total_seconds": 60,
+      "planning_scenarios": 100,
+      "evaluation_scenarios": 1000,
+      "seed": 42,
+      "utility_tolerance": 0.05,
+      "alternatives": true,
+      "closure_stress": true
+    },
+    "city_count": 6,
+    "combinations_total": 24,
+    "candidate_count": 13,
+    "fewer_than_three": false,
+    "scope": "Лучшие найденные решения; Парето-отбор только среди построенных вариантов",
+    "daily_policy": "Начало не раньше 09:00, обед 12:00–15:00 около базы; ожидание входит в дневной лимит",
+    "luggage_policy": "В последний день выезд из номера перед прогулкой; багаж у путешественника, трансфер забирает у базы"
+  }
+}

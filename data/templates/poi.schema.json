@@ -1,0 +1,193 @@
+{
+  "$defs": {
+    "DataKind": {
+      "enum": [
+        "reanalysis",
+        "quotation",
+        "expert",
+        "osm",
+        "synthetic"
+      ],
+      "title": "DataKind",
+      "type": "string"
+    },
+    "Distribution": {
+      "additionalProperties": false,
+      "properties": {
+        "culture": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Culture",
+          "type": "number"
+        },
+        "history": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "History",
+          "type": "number"
+        },
+        "nature": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Nature",
+          "type": "number"
+        },
+        "food": {
+          "default": 0.25,
+          "minimum": 0,
+          "title": "Food",
+          "type": "number"
+        }
+      },
+      "title": "Distribution",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "pattern": "^https?://",
+          "title": "Source Url",
+          "type": "string"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "valid_from": {
+          "format": "date",
+          "title": "Valid From",
+          "type": "string"
+        },
+        "valid_to": {
+          "format": "date",
+          "title": "Valid To",
+          "type": "string"
+        },
+        "data_kind": {
+          "$ref": "#/$defs/DataKind"
+        },
+        "confidence_note": {
+          "minLength": 1,
+          "title": "Confidence Note",
+          "type": "string"
+        },
+        "version": {
+          "minLength": 1,
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_url",
+        "observed_at",
+        "valid_from",
+        "valid_to",
+        "data_kind",
+        "confidence_note",
+        "version"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "destination_id": {
+      "title": "Destination Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "latitude": {
+      "maximum": 90,
+      "minimum": -90,
+      "title": "Latitude",
+      "type": "number"
+    },
+    "longitude": {
+      "maximum": 180,
+      "minimum": -180,
+      "title": "Longitude",
+      "type": "number"
+    },
+    "themes": {
+      "$ref": "#/$defs/Distribution"
+    },
+    "duration_min": {
+      "exclusiveMinimum": 0,
+      "title": "Duration Min",
+      "type": "integer"
+    },
+    "duration_max": {
+      "exclusiveMinimum": 0,
+      "title": "Duration Max",
+      "type": "integer"
+    },
+    "indoor": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Indoor"
+    },
+    "admission_rub": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Admission Rub"
+    },
+    "opening_hours": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Opening Hours"
+    },
+    "verified": {
+      "default": false,
+      "title": "Verified",
+      "type": "boolean"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance"
+    }
+  },
+  "required": [
+    "id",
+    "destination_id",
+    "name",
+    "latitude",
+    "longitude",
+    "themes",
+    "duration_min",
+    "duration_max",
+    "provenance"
+  ],
+  "title": "POI",
+  "type": "object"
+}
